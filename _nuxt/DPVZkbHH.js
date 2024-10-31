@@ -1,1 +1,0 @@
-const t={author:"Cody Bontecou"},e={latest:"Latest",minuteRead:"minute read",keepReading:"Keep reading →"},n={topics:"Topics"},s={writing:"Writing"},i={whatsNew:"What's new",justShipped:"Just shipped",hero:"Cody Bontecou",description:"is enjoying life 💭",cta:"Articles",learnMore:"Learn more"},o={constants:t,latest:e,topics:n,writing:s,landing:i};export{o as e};
