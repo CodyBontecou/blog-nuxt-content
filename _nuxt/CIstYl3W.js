@@ -1,0 +1,1 @@
+const n=t=>new Date(t).toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"});function i(t){const e=t.trim().split(/\s+/).length;return Math.ceil(e/225)}function a(t){if(!t)return"";if(t.type==="text"&&t.value)return t.value+" ";let r="";return t.children&&Array.isArray(t.children)&&t.children.forEach(e=>{r+=a(e)}),r}export{i as c,n as f,a as g};
