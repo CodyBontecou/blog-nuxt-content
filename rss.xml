@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Cody Bontecou]]></title>
+        <description><![CDATA[Cody Bontecou]]></description>
+        <link>https://codybontecou.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 22 Nov 2024 14:18:13 GMT</lastBuildDate>
+        <atom:link href="https://codybontecou.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Out of the rain]]></title>
+            <description><![CDATA[What my dad calls the "Wall of Water" just hit his town. It's a yearly flip in the weather where the rain begins and doesn't stops until spring. Nearly 4.25" of rain landed on them today.]]></description>
+            <link>https://codybontecou.com/out-of-the-rain</link>
+            <guid isPermaLink="true">https://codybontecou.com/out-of-the-rain</guid>
+            <pubDate>Wed, 20 Nov 2024 20:13:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Coffee Consistency Trap]]></title>
+            <description><![CDATA[Having a cup of coffee is like flicking the flow switch to the on position. One sip and I'm in. My fingers feel lighter and every problem that comes to my mind is quickly solved and the solution typed out.]]></description>
+            <link>https://codybontecou.com/the-coffee-consistency-trap</link>
+            <guid isPermaLink="true">https://codybontecou.com/the-coffee-consistency-trap</guid>
+            <pubDate>Thu, 14 Nov 2024 22:15:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gustav Klimt's constant creation]]></title>
+            <description><![CDATA[I was exposed to Gustav Klimt's artwork today and it was fascinating. I can clearly see how some of his work has inspired many of the video games and shows that have entertained me.]]></description>
+            <link>https://codybontecou.com/gustav-klimt-constant-creation</link>
+            <guid isPermaLink="true">https://codybontecou.com/gustav-klimt-constant-creation</guid>
+            <pubDate>Wed, 13 Nov 2024 22:45:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hidden files for a cleaner Obsidian]]></title>
+            <description><![CDATA[In this guide, I'll show you how I achieved a cleaner, more focused writing environment without sacrificing any of Obsidian's powerful functionality]]></description>
+            <link>https://codybontecou.com/hidden-files-for-a-cleaner-obsidian</link>
+            <guid isPermaLink="true">https://codybontecou.com/hidden-files-for-a-cleaner-obsidian</guid>
+            <pubDate>Wed, 13 Nov 2024 12:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Simple Obsidian CSS Adjustments]]></title>
+            <link>https://codybontecou.com/simple-obsidian-css-adjustments</link>
+            <guid isPermaLink="true">https://codybontecou.com/simple-obsidian-css-adjustments</guid>
+            <pubDate>Sun, 10 Nov 2024 22:06:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Obsidian Git on iOS]]></title>
+            <description><![CDATA[A step-by-step guide on how to connect your obsidian vault that is stored on Github to your iOS device.]]></description>
+            <link>https://codybontecou.com/obsidian-git-on-ios</link>
+            <guid isPermaLink="true">https://codybontecou.com/obsidian-git-on-ios</guid>
+            <pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
