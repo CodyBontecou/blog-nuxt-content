@@ -4,8 +4,15 @@
         <description><![CDATA[Cody Bontecou]]></description>
         <link>https://codybontecou.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 Nov 2024 14:47:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Dec 2024 19:48:48 GMT</lastBuildDate>
         <atom:link href="https://codybontecou.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Scraping business data from Google Maps using AI and AgentQL]]></title>
+            <description><![CDATA[Writing web scraping scripts by hand typically follows a development pattern like:]]></description>
+            <link>https://codybontecou.com/scraping-business-data-from-google-maps-using-ai-and-agentql</link>
+            <guid isPermaLink="true">https://codybontecou.com/scraping-business-data-from-google-maps-using-ai-and-agentql</guid>
+            <pubDate>Thu, 05 Dec 2024 16:04:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Fresh vanilla is the best flavor of wow]]></title>
             <description><![CDATA[Stepping back into a living world that has had a lasting impact on our lives brings a feeling of nostalgia that is very pleasant. Like watching your favorite movie/show for the nth time, we find enjoyment in playing our favorite games again. It brings us back to a time when things may have been simpler, or more chaotic, and this game brought peace to our lives.]]></description>
