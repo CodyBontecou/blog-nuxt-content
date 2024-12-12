@@ -1,0 +1,1 @@
+import{a1 as r,a2 as t}from"./Ua_twNAf.js";const n=r(a=>{if(a.path!=="/"&&a.path.endsWith("/")){const e=a.path.slice(0,-1);return t(e+(a.query?`?${new URLSearchParams(a.query).toString()}`:""))}});export{n as default};
