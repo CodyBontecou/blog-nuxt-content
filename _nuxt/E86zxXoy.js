@@ -1,0 +1,1 @@
+import{a1 as h}from"./jj65Hz9V.js";function c({route:t,redirect:i}){if(t.path!=="/"&&t.path.endsWith("/")){const{path:e,query:a,hash:n}=t,r={path:e.replace(/\/+$/,"")||"/",query:a,hash:n};return h(r,{redirectCode:301})}}export{c as default};
