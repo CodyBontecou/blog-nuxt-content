@@ -40,14 +40,18 @@ export default defineNuxtConfig({
         },
     },
     i18n: {
-        strategy: 'no_prefix',
+        lazy: true,
+        strategy: 'prefix_except_default',
+        langDir: 'locales',
         detectBrowserLanguage: {
             useCookie: true,
             cookieKey: 'nuxt_i18n',
         },
-        defaultLocale: 'eng_Latn',
-        locales: [{ code: 'eng_Latn', title: 'English' }],
-        vueI18n: './i18n.config.ts',
+        defaultLocale: 'en',
+        locales: [
+            { code: 'en', iso: 'en', name: 'English', file: 'en.yml' },
+            { code: 'es', iso: 'es', name: 'Español', file: 'es.yml' },
+        ],
     },
     shadcn: {
         /**
