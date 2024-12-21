@@ -8,7 +8,8 @@ topics:
   - shortcut
 date: 2024-12-08T12:45
 created_at: 2024-12-08T12:45
-last_modified: 2024-12-12T16:30
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 [Anki](https://apps.ankiweb.net/) is a modern approach to the classic flash cards. Where it excels is in the use of [spaced repitition](https://en.wikipedia.org/wiki/Spaced_repetition).

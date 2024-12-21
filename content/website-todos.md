@@ -1,8 +1,10 @@
 ---
 ignore: true
+draft: true
 todo: true
 created_at: 2024-11-05T20:08
-last_modified: 2024-11-09T23:21
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 Pre-launch:

@@ -28,7 +28,8 @@ topics:
   - testing
   - mocking
 created_at: 2024-10-31T14:26
-last_modified: 2024-11-09T21:19
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 I just came across this error while attempting to mock the response of a 3rd party api:
 

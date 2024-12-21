@@ -8,7 +8,8 @@ readingTime: 0
 draft: false
 backgroundColor: 
 created_at: 2024-10-27T18:22
-last_modified: 2024-11-09T21:19
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 ![macos obsidian view](https://cln.sh/vsWyCGr5+)

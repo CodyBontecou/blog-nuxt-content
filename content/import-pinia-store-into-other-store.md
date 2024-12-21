@@ -28,7 +28,8 @@ topics:
   - State
   - Pinia
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-12T11:09
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 > Pinia makes state management within Vue apps a breeze to work with.

@@ -2,10 +2,11 @@
 draft: true
 ignore: true
 created_at: 2024-11-02T13:40
-last_modified: 2024-12-08T13:46
+last_modified: 2024-12-19T11:29
 title: Garage Squad Application
 topics:
   - cars
+lang: en
 ---
 
 Year, make, model

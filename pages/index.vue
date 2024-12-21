@@ -6,17 +6,22 @@ import { getLatestPost } from '~/lib/utils/getLatestPost'
 import { getPostBody } from '~/lib/utils/getPostBody'
 import { getTopics } from '~/lib/utils/getTopics'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+
 defineOgImageComponent('Frame', {
     title: 'Cody Bontecou',
-    description: 'is enjoying life.',
+    description: t('landing.description'),
 })
 
 // Fetch all posts sorted by date and ignoring where draft is true
 const { data: articles } = await useAsyncData('articles', () =>
     queryContent('/')
         .sort({ date: -1 })
-        .where({ draft: { $ne: true }, ignore: { $ne: true } })
+        .where({
+            draft: { $ne: true },
+            ignore: { $ne: true },
+            lang: { $eq: locale.value },
+        })
         .find()
 )
 // Extract unique topics from all posts
@@ -26,24 +31,24 @@ const latestArticle = getLatestPost(articles.value)
 const postBody = computed(() => getPostBody(latestArticle?.body))
 
 const formattedDateWithMonth = formatDateWithMonth(
-    latestArticle.date || latestArticle.created_at,
+    latestArticle?.date || latestArticle?.created_at,
     calculateReadingTime(postBody.value),
     t
 )
 
 useSeoMeta({
-    description: 'is enjoying life',
+    description: t('landing.description'),
     ogTitle: 'Cody Bontecou | Blog',
-    ogDescription: 'is enjoying life',
+    ogDescription: t('landing.description'),
     twitterTitle: 'Cody Bontecou | Blog',
-    twitterDescription: 'is enjoying life',
+    twitterDescription: t('landing.description'),
     twitterCard: 'summary',
 })
 
 useHead({
     title: 'Cody Bontecou | Blog',
     htmlAttrs: {
-        lang: 'en',
+        lang: locale.value,
     },
     link: [
         {
@@ -110,12 +115,12 @@ definePageMeta({
                             </div>
                             <p class="text-gray-600">
                                 {{ getFirstParagraphText(latestArticle.body) }}
-                                <NuxtLink
+                                <NuxtLinkLocale
                                     :to="latestArticle._path"
                                     class="text-gray-900 hover:opacity-75"
                                 >
                                     {{ $t('latest.keepReading') }}
-                                </NuxtLink>
+                                </NuxtLinkLocale>
                             </p>
                         </article>
                     </section>
@@ -132,14 +137,14 @@ definePageMeta({
                         <div
                             class="mt-6 flex flex-wrap gap-2 md:max-h-64 overflow-y-auto"
                         >
-                            <NuxtLink
+                            <NuxtLinkLocale
                                 v-for="topic in topics"
                                 :key="topic"
                                 :to="`/topics/${topic}`"
                                 class="underline hover:opacity-75 break-keep"
                             >
                                 {{ topic }}
-                            </NuxtLink>
+                            </NuxtLinkLocale>
                         </div>
                     </section>
                 </div>

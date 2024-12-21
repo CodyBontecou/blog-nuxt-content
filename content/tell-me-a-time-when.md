@@ -7,8 +7,13 @@ topics:
 draft: true
 ignore: true
 created_at: 2024-11-12T22:54
-last_modified: 2024-11-18T08:49
+last_modified: 2024-12-20T12:53
+lang: en
 ---
+
+"We is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only I. Amazon is interviewing me, not my team."
+
+Committed to giving a response within 5 business days of the interview.
 ## Customer Obsession
 
 1. When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?

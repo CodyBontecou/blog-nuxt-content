@@ -8,7 +8,8 @@ topics:
   - consistency
 date: 2024-11-14T22:15
 created_at: 2024-11-14T22:15
-last_modified: 2024-11-14T22:32
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 Having a cup of coffee is like flicking the flow switch to the on position. One sip and I'm in. My fingers feel lighter and every problem that comes to my mind is quickly solved and the solution typed out.

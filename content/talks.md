@@ -32,7 +32,8 @@ canonicalUrl: https://codybontecou.com/talks.html
 topics:
   - talks
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-12T11:10
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 > A list of conferences I've talked at

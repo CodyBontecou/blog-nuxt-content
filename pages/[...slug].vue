@@ -5,10 +5,10 @@ import { getFirstParagraphText } from '~/lib/utils/getFirstParagraphText'
 
 // Get the current route params
 const { path } = useRoute()
+const localePath = useLocalePath()
 
-// Fetch the post data
 const { data: post } = await useAsyncData(`post-${path}`, () =>
-    queryContent(path).findOne()
+    queryContent(localePath(path)).findOne()
 )
 
 defineOgImageComponent('BlogPost', {

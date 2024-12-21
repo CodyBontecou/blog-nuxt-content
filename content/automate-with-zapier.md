@@ -15,7 +15,8 @@ topics:
   - zapier
 canonicalUrl: https://codybontecou.com/automate-with-zapier.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-11-09T21:19
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 <h1 class="text-4xl font-semibold">Automate Social Media Content With Zapier</h1>

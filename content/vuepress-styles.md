@@ -21,7 +21,8 @@ topics:
   - css
   - stylus
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-12T11:10
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 <span class="text-4xl font-semibold">Overriding VuePress CSS Styles</span>

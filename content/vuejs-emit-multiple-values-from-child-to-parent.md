@@ -36,7 +36,8 @@ topics:
   - components
   - composition
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-12T11:10
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 > VueJS custom events are a great way to communicate between child and parent components.

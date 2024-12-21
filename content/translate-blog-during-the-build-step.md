@@ -8,7 +8,8 @@ topics:
 draft: true
 ignore: false
 created_at: 2024-11-09T23:39
-last_modified: 2024-11-10T22:06
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 I should be able to utilize the same tooling for [i18nlocale](https://i18nlocale.com) to iterate over my blogposts and translate them.

@@ -8,7 +8,8 @@ topics:
   - blogging
 date: 2024-12-13T13:38
 created_at: 2024-12-13T13:38
-last_modified: 2024-12-13T16:45
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 This blog is managed using Obsidian, giving me the ability to link between files using the double bracket syntax. 

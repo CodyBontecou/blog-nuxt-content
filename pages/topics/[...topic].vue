@@ -2,6 +2,7 @@
 import { capitalizeFirstLetter } from '~/lib/utils/capitalizeFirstLetter'
 
 const route = useRoute()
+const { locale } = useI18n()
 const topic = route.params.topic[0]
 
 const { data: articles } = await useAsyncData(`post-${route.path}`, () =>
@@ -14,6 +15,9 @@ const { data: articles } = await useAsyncData(`post-${route.path}`, () =>
                     topic,
                 ],
             },
+            draft: { $ne: true },
+            ignore: { $ne: true },
+            lang: { $eq: locale.value },
         })
         .sort({ date: -1 })
         .find()

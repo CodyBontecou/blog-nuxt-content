@@ -29,7 +29,8 @@ meta:
     content: Lets setup Nuxt 3 with Cypress
 canonicalUrl: https://codybontecou.com/lets-setup-nuxt-3-with-cypress.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-11-09T21:19
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 > This is a quick guide on setting up Cypress End-to-End Testing with Nuxt 3.

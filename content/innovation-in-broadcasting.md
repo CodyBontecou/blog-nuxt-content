@@ -8,7 +8,8 @@ readingTime: 1
 draft: false
 backgroundColor: 
 created_at: 2024-10-31T13:54
-last_modified: 2024-11-09T23:38
+last_modified: 2024-12-19T11:29
+lang: en
 ---
 
 Those with the greatest ability to communicate their intentions tend to get the greatest number of followers.
