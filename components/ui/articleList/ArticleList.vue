@@ -19,12 +19,12 @@ defineProps<Props>()
             <div class="flex-shrink-0 text-gray-600 text-md pr-6 font-mono">
                 {{ formatPostDate(article.date) }}
             </div>
-            <NuxtLink
+            <NuxtLinkLocale
                 :to="article._path"
                 class="opacity-90 hover:opacity-50 hover:underline text-lg truncate"
             >
                 {{ article.title }}
-            </NuxtLink>
+            </NuxtLinkLocale>
         </li>
     </ul>
 </template>
