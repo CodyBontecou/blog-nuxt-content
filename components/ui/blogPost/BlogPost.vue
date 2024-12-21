@@ -7,10 +7,11 @@ import type { ParsedContent } from '@nuxt/content'
 
 // Get the current route params
 const { path } = useRoute()
+const localePath = useLocalePath()
 
 // Fetch the post data
 const { data: post } = await useAsyncData(`post-${path}`, () =>
-    queryContent(path).findOne()
+    queryContent(localePath(path)).findOne()
 )
 
 // Extract topics and create an array of queries
@@ -149,7 +150,7 @@ watch(isMobileMenuOpen, newValue => {
         <!-- Table of Contents -->
         <aside
             v-if="headings.length"
-            class="hidden lg:block fixed right-8 top-32 w-64 max-h-[calc(100vh-200px)] overflow-y-auto"
+            class="hidden xl:block fixed right-8 top-32 w-64 max-h-[calc(100vh-200px)] overflow-y-auto"
         >
             <Suspense>
                 <template #default>
@@ -285,7 +286,7 @@ watch(isMobileMenuOpen, newValue => {
             <!-- Main content -->
             <template #default>
                 <main class="flex flex-col justify-center max-w-3xl mx-auto">
-                    <ContentDoc v-slot="{ doc }">
+                    <ContentDoc :path="localePath(path)">
                         <article class="prose lg:prose-lg">
                             <h1 class="text-4xl font-normal mb-4">
                                 {{ post?.title }}
