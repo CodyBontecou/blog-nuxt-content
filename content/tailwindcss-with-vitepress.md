@@ -7,18 +7,12 @@ topics:
   - tailwind
   - vitepress
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
+last_modified: 2024-12-22T15:59
 lang: en
 ---
+# Configuring TailwindCSS to work with Vitepress
 
-<div class="text-4xl font-semibold">Configuring TailwindCSS to work with Vitepress</div>
-
-<div class="flex flex-col items-center mt-10 sm:flex-row">
-  <img src="https://codybontecou.com/images/vite-logo.svg" alt="Vite package logo" width="200" height="200" style="float: left; margin-right: 12px;" />
-  <p class="italic text-gray-500">
-    I've found myself feeling limited by the styles provided by the framework so I looked into what it takes to use a stylesheet.
-  </p>
-</div>
+I've found myself feeling limited by the styles provided by the framework so I looked into what it takes to use a stylesheet.
 
 A bit of searching around ended up pointing me towards [this Github issue](https://github.com/vuejs/vitepress/issues/62) which helps a user integrate [Tailwindcss](https://tailwindcss.com/), a framework I've been using professionally and in personal projects for awhile now.
 

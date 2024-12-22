@@ -7,13 +7,20 @@ topics:
 draft: true
 ignore: true
 created_at: 2024-11-12T22:54
-last_modified: 2024-12-20T12:53
+last_modified: 2024-12-21T13:11
 lang: en
 ---
 
 "We is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only I. Amazon is interviewing me, not my team."
 
 Committed to giving a response within 5 business days of the interview.
+
+**Tell me about yourself / Something Interesting not in CV:**
+
+I'm a strong believer in the "Learning in Public" philosophy. Combining values, practices, and a mindset aimed at fostering transparency, accountability, and collaboration in the learning process.
+
+Every time I learn something that requires a decent amount of effort, I make an attempt to share what I learned so that others may be able to find the solution quicker. I believe that sharing my journey creates value both for myself and others. It reflects the idea that learning is a collective, rather than solitary, activity.
+
 ## Customer Obsession
 
 1. When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
