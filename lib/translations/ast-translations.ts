@@ -11,7 +11,7 @@ export class ASTMarkdownTranslator {
     private hf: HfInference
     private model: string
     private endpoint: string
-    private translatableFrontmatterFields = ['title', 'topics', 'description']
+    private translatableFrontmatterFields = ['title', 'description']
 
     constructor(
         apiKey: string,
@@ -25,8 +25,8 @@ export class ASTMarkdownTranslator {
 
     private async translateText(
         text: string,
-        sourceLang = 'eng',
-        targetLang = 'spa'
+        sourceLang: string,
+        targetLang: string
     ): Promise<string> {
         try {
             const response = await this.hf.endpoint(this.endpoint).translation({
@@ -38,9 +38,11 @@ export class ASTMarkdownTranslator {
                 },
             })
 
-            return typeof response === 'object' && response !== null
-                ? response.translation_text || String(response)
-                : String(response)
+            if (Array.isArray(response)) {
+                return response[0]?.translation_text || String(response[0])
+            }
+
+            return response?.translation_text || String(response)
         } catch (error) {
             console.error('Translation error:', error)
             throw error
@@ -53,6 +55,9 @@ export class ASTMarkdownTranslator {
         targetLang: string
     ): Promise<Record<string, any>> {
         const translatedFrontmatter = { ...frontmatter }
+
+        // Set the lang property to the target language
+        translatedFrontmatter.lang = targetLang
 
         for (const field of this.translatableFrontmatterFields) {
             const value = frontmatter[field]
@@ -159,6 +164,11 @@ export class ASTMarkdownTranslator {
                     '---\n' + yaml.stringify(translatedFrontmatter) + '---\n\n'
             }
 
+            // Add translation notice to be translated
+            const originalSlug = sluggify(frontmatter?.title ?? 'error')
+            const translationNotice = `This article has been translated by AI. [View the original article written in English here](/${originalSlug})\n\n`
+            const contentWithNotice = translationNotice + markdownContent
+
             const processor = unified()
                 .use(remarkParse)
                 .use(addSpacesAroundLinks)
@@ -170,10 +180,11 @@ export class ASTMarkdownTranslator {
                     incrementListMarker: true,
                 })
 
-            const tree = processor.parse(markdownContent)
+            const tree = processor.parse(contentWithNotice)
             await this.translateMarkdownAST(tree, sourceLang, targetLang)
             translatedContent += processor.stringify(tree)
             translatedContent = fixSpacingAfterParentheses(translatedContent)
+            translatedContent = fixSpacingBeforeLinks(translatedContent)
 
             const filePath = `content/es/${sluggify(translatedFrontmatter?.title) ?? 'error'}.md`
             await fs.writeFile(filePath, translatedContent, 'utf-8')
@@ -192,18 +203,33 @@ function fixSpacingAfterParentheses(text: string) {
     return text
 }
 
+function fixSpacingBeforeLinks(text: string) {
+    // Fix missing spaces between punctuation and markdown links, but exclude image markdown
+    text = text.replace(/([.,?])(\[)/g, '$1 $2')
+
+    // Remove any spaces between ! and [ for images
+    text = text.replace(/!\s+\[/g, '![')
+
+    return text
+}
+
 function addSpacesAroundLinks() {
     return tree => {
         visit(tree, 'text', node => {
-            // Ensure space after a link if it is followed by non-space characters
+            // Handle markdown-style links
             node.value = node.value.replace(
                 /(\[([^\]]+)\]\(([^)]+)\))([^\s])/g,
                 '$1 $4'
             )
-            // Ensure space before a link if it is preceded by non-space characters
             node.value = node.value.replace(
                 /([^\s])(\[([^\]]+)\]\(([^)]+)\))/g,
                 '$1 $2'
+            )
+
+            // Fix malformed URLs with a single, comprehensive replacement
+            node.value = node.value.replace(
+                /https:\s*(?:https:\s*)?(?:\/\/)?\s*(www\.|[a-zA-Z0-9])/gi,
+                'https://$1'
             )
         })
     }
