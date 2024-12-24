@@ -3,16 +3,18 @@ title: Creación de tarjetas Anki con el atajo de iOS
 draft: false
 ignore: false
 topics:
-  - También
-  - el sistema ios
-  - Acceso directo
+  - anki
+  - ios
+  - shortcut
 date: 2024-12-08T12:45
 created_at: 2024-12-08T12:45
-last_modified: 2024-12-23T21:20
-lang: es
+last_modified: 2024-12-24T10:55
+lang: spa
 ---
 
-[Anki, ¿qué es esto?](https://apps.ankiweb.net/) es un enfoque moderno de las tarjetas flash clásicas.[repetición espaciada](https://en.wikipedia.org/wiki/Spaced_repetition) No lo sé.
+Este artículo ha sido traducido por AI. [Vea el artículo original escrito en inglés aquí](/creating-anki-cards-using-ios-shortcut)
+
+[Anki, ¿qué es esto?](https://apps.ankiweb.net/) es un enfoque moderno de las tarjetas flash clásicas. [repetición espaciada](https://en.wikipedia.org/wiki/Spaced_repetition) No lo sé.
 
 En lugar de tomar una baraja de cartas y estudiarla de arriba a abajo, Anki proporciona una manera de sacar a la superficie las cartas son el momento correcto justo cuando está a punto de dejar su banco de memoria.
 
@@ -37,15 +39,15 @@ Así que decidí que simplemente tendría que limpiar el texto "Experto ..." que
 
 ### Limpieza del texto de la aplicación Libro
 
-He dividido la limpieza de texto en su propio atajo. Aquí hay un enlace si desea instalarlo: https: https: www.icloud.com/shortcuts/9f9cfa9c71e24dee901590d185951323
+He dividido la limpieza de texto en su propio atajo. [el enlace](https://www.icloud.com/shortcuts/9f9cfa9c71e24dee901590d185951323) Si desea instalarlo.
 
-Consiste en recibir la entrada de texto, separando la cadena "Excerto"... usando una`Split`acción, y luego limpiar piezas adicionales del texto como`\n`, el`" "`, el`"`, y`“`No lo sé.
+Consiste en recibir la entrada de texto, separando la cadena "Excerpt"... usando una`Split`acción, y luego limpiar piezas adicionales del texto como`\n`, el`" "`, el`"`, y`“`No lo sé.
 
 Luego la URL codifica el texto debido a la naturaleza de nuestra solución Anki.
 
 ### La creación de la tarjeta Anki
 
-Hay un enlace a este atajo si desea instalarlo: aquí: www.icloud.comacortos (29bb096aaed54e0ca4236f8c1008d9d9)
+Aquí hay una[el enlace](https://www.icloud.com/shortcuts/29bb096aaed54e0ca4236f8c1008d9d9) a este atajo si desea instalarlo.
 
 Dado la limitación de la hoja de intercambio, decidí usar el portapapeles para la entrada.
 
@@ -55,7 +57,7 @@ La acción volverá a abrir la aplicación Libros. La próxima vez que abra su a
 
 Así que, en este caso, recomiendo copiar un nuevo valor del libro que está leyendo y regresar a la aplicación de atajos.
 
-En este punto, se limpiará un ambos`Front`y`Back`cadenas, y añadiendo estos valores al siguiente valor de texto:
+En este punto, se limpiará a ambos`Front`y`Back`cadenas, y añadiendo estos valores al siguiente valor de texto:
 
 ```
 anki://x-callback-url/addnote?profile=bonteq&type=Basic&deck=shortcut&fldFront=CleanedFront&fldBack=CleanedBack
@@ -63,7 +65,7 @@ anki://x-callback-url/addnote?profile=bonteq&type=Basic&deck=shortcut&fldFront=C
 
 La acción abrirá esta URL, que abrirá a Anki, añadiendo la carta a la baraja.
 
-En este caso, mi nombre de perfil es`bonteq`Tengo una cubierta llamada.`shortcut`No lo sé.**Usted querrá adaptar esta cadena a sus configuraciones personales.**
+En este caso, mi nombre de perfil es`bonteq`y tengo una cubierta llamada`shortcut`No lo sé.**Usted querrá adaptar esta cadena a sus configuraciones personales.**
 
 Todavía no me he encontrado necesitando algo más que un`Basic`tipo de tarjeta, así que eso también está establecido dentro de esta URL.
 
