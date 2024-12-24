@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
         'nuxt-og-image',
         'nuxt-gtag',
+        '@nuxt/test-utils/module',
     ],
     routeRules: {
         '/': { prerender: true },
@@ -49,19 +50,13 @@ export default defineNuxtConfig({
         },
         defaultLocale: 'en',
         locales: [
-            { code: 'en', iso: 'en', name: 'English', file: 'en.yml' },
-            { code: 'es', iso: 'es', name: 'Español', file: 'es.yml' },
+            { code: 'en', language: 'en', name: 'English', file: 'en.yml' },
+            { code: 'es', language: 'es', name: 'Español', file: 'es.yml' },
+            { code: 'fr', language: 'fr', name: 'Français', file: 'fr.yml' },
         ],
     },
     shadcn: {
-        /**
-         * Prefix for all the imported component
-         */
         prefix: '',
-        /**
-         * Directory that the component lives in.
-         * @default "./components/ui"
-         */
         componentDir: './components/ui',
     },
     nitro: {
@@ -73,6 +68,9 @@ export default defineNuxtConfig({
         MAILCHIMP_SECRET_KEY: process.env.MAILCHIMP_SECRET_KEY,
         MAILCHIMP_API_SERVER: process.env.MAILCHIMP_API_SERVER,
         MAILCHIMP_AUDIENCE_ID: process.env.MAILCHIMP_AUDIENCE_ID,
+        HUGGING_FACE_INFERENCE_ENDPOINT:
+            process.env.HUGGING_FACE_INFERENCE_ENDPOINT,
+        HUGGINGFACE_API_KEY: process.env.HUGGINGFACE_API_KEY,
     },
     site: {
         url: 'https://codybontecou.com',
