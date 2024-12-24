@@ -8,7 +8,7 @@ topics:
   - shortcut
 date: 2024-12-08T12:45
 created_at: 2024-12-08T12:45
-last_modified: 2024-12-22T21:09
+last_modified: 2024-12-24T10:31
 lang: en
 ---
 
@@ -37,7 +37,7 @@ I had hoped to use a share sheet with this shortcut. It makes sending input to a
 
 ### Cleaning Book app's text
 
-I split the text cleaning into it's own shortcut.  Here's a link to it if you wish to install it: https://www.icloud.com/shortcuts/9f9cfa9c71e24dee901590d185951323
+I split the text cleaning into it's own shortcut.  Here's a [link](https://www.icloud.com/shortcuts/9f9cfa9c71e24dee901590d185951323) to it if you wish to install it.
 
 It consists of receiving the text input, splitting away the "Excerpt..." string using a `Split` action, and then cleaning additional pieces of the text such as `\n`, `" "`, `"`, and `“`.
 
@@ -45,7 +45,7 @@ It then URL encodes the text due to the nature of our Anki solution.
 
 ### Creating the Anki Card
 
-Here's a link to this Shortcut if you wish to install it: https://www.icloud.com/shortcuts/29bb096aaed54e0ca4236f8c1008d9d9
+Here's a [link](https://www.icloud.com/shortcuts/29bb096aaed54e0ca4236f8c1008d9d9) to this Shortcut if you wish to install it.
 
 Given the share sheet limitation, I decided to use the clipboard for input.
 
