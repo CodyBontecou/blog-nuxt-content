@@ -1,0 +1,43 @@
+constants:
+  author: Cody Bontecou
+
+latest:
+  latest: Dernier
+  minuteRead: minute de lecture
+  keepReading: Continuer à lire →
+
+topics:
+  topics: Sujets
+
+writing:
+  writing: Écriture
+
+landing:
+  whatsNew: Quoi de neuf
+  justShipped: Vient d'être publié
+  hero: Cody Bontecou
+  description: profite de la vie 💭
+  cta: Écriture
+  learnMore: À propos
+
+slug:
+  alsoEnjoy: Vous pourriez aussi apprécier
+
+newsletter:
+  cardTitle: Newsletter
+  cardDescription: Abonnez-vous pour recevoir mon contenu le plus récent. Pas de spam.
+  email: E-mail
+  submit: Envoyer
+  successTitle: Succès
+  successDescription: Merci de vous être inscrit ! Je promets d'envoyer uniquement du contenu intéressant.
+  signupError: Erreur
+  signupErrorDescription: "Il y a eu une erreur lors de l'abonnement à la newsletter. Contactez-moi à codybontecou{at}gmail{dot}com et je vous ajouterai à l'ancienne."
+
+work:
+  title: Disponible pour travailler
+  contactMePrefix: "Contactez-moi à "
+  contactMeSuffix: " si vous souhaitez discuter."
+
+about:
+  cofoundedHeader: "J'ai précédemment cofondé : "
+  linksToExploreHeader: "Quelques liens à explorer : "

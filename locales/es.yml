@@ -35,7 +35,7 @@ newsletter:
 
 work:
  title: Disponible para trabajar
- contactMePrefix: Contáctame en
+ contactMePrefix: "Contáctame en "
  contactMeSuffix: " si te gustaría charlar."
 
 about:
