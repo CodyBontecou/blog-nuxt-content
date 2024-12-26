@@ -14,7 +14,7 @@ const language = computed({
     <div>
         <select v-model="language">
             <option v-for="item in locales" :key="item.code" :value="item.code">
-                {{ item.name }}
+                {{ item.flag }} {{ item.language }}
             </option>
         </select>
     </div>
