@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Síđasta
+  minuteRead: Mínútulestur
+  keepReading: Haltu áfram að lesa →
+topics:
+  topics: Umfjöllunarefni
+writing:
+  writing: Skrifað
+landing:
+  whatsNew: Hvað er nýtt?
+  justShipped: Nýfluttur
+  hero: Cody Bontecou
+  description: er að njóta lífsins
+  cta: Skrifað
+  learnMore: Um það
+slug:
+  alsoEnjoy: Ūú gætir líka haft gaman af
+newsletter:
+  cardTitle: Fréttabréf
+  cardDescription: Skráðu þig á síðuna til að fá nýjustu upplýsingarnar mínar, engin spam.
+  email: Símtöl
+  submit: Sendu inn
+  successTitle: Árangur
+  successDescription: Takk fyrir að skrá þig, ég lofa að senda þér aðeins áhugavert efni.
+  signupError: Villur
+  signupErrorDescription: Það var mistök við að skrá sig í fréttabréf.
+work:
+  title: Opinn fyrir vinnu
+  contactMePrefix: Hafðu samband við mig á
+  contactMeSuffix: Ef ūú vilt spjalla.
+about:
+  cofoundedHeader: "Áður var ég meðstofnandi:"
+  linksToExploreHeader: "Nokkrir tenglar til að skoða:"

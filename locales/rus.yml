@@ -1,0 +1,35 @@
+constants:
+  author: Коди Бонтеку
+latest:
+  latest: Последнее
+  minuteRead: минуту читать
+  keepReading: Продолжайте читать →
+topics:
+  topics: Темы
+writing:
+  writing: Письменность
+landing:
+  whatsNew: Что нового?
+  justShipped: Только что отправлен .
+  hero: Коди Бонтеку
+  description: наслаждается жизнью.
+  cta: Письменность
+  learnMore: Около
+slug:
+  alsoEnjoy: Вы также можете насладиться
+newsletter:
+  cardTitle: Информационный бюллетень
+  cardDescription: Подпишитесь, чтобы получить мой последний контент.
+  email: Электронная почта
+  submit: Подать
+  successTitle: Успех
+  successDescription: Спасибо за подписку! Я обещаю отправлять только интересный контент.
+  signupError: Ошибка
+  signupErrorDescription: Была ошибка при подписке на информационный бюллетень.
+work:
+  title: Открыто для работы.
+  contactMePrefix: Свяжитесь со мной по
+  contactMeSuffix: если вы хотите поболтать.
+about:
+  cofoundedHeader: "Ранее я был соучредителем:"
+  linksToExploreHeader: "Несколько ссылок для изучения:"

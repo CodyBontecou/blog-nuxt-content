@@ -1,0 +1,37 @@
+constants:
+  author: Коди Бонтеку
+latest:
+  latest: Соңғысы
+  minuteRead: минут оқу
+  keepReading: Оқыуды жалғастыру →
+topics:
+  topics: Тақырыптар
+writing:
+  writing: Жазу
+landing:
+  whatsNew: Жаңалықтар
+  justShipped: Жаңа ғана жеткізілді
+  hero: Коди Бонтеку
+  description: өмірден ләззат алу
+  cta: Жазу
+  learnMore: Тақырыбы
+slug:
+  alsoEnjoy: Сізге де ұнайтын шығар
+newsletter:
+  cardTitle: Жаңалықтар бюллетени
+  cardDescription: Менің соңғы мазмұнымды алу үшін жазылыңыз. Спам жоқ.
+  email: Электрондық пошта
+  submit: Жіберу
+  successTitle: Жетістік
+  successDescription: Жазылғаныңыз үшін рахмет! Мен тек қызықты мазмұнды жіберуге уәде беремін.
+  signupError: Қателік
+  signupErrorDescription: Жаңалықтарға жазылу кезінде қате болды. Маған
+    codybontecou{at}gmail{dot}com мекенжайынан хабарласыңыз, мен сізді ескіше
+    қосамын.
+work:
+  title: Жұмысқа дайын
+  contactMePrefix: Маған хабарласыңыз
+  contactMeSuffix: Егер сіз сөйлескіңіз келсе.
+about:
+  cofoundedHeader: "Бұған дейін мен:"
+  linksToExploreHeader: "Зерттеу үшін бірнеше сілтемелер:"

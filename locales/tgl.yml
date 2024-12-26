@@ -1,0 +1,44 @@
+constants:
+  author: Si Cody Bontecou
+latest:
+  latest: Ang pinakabagong
+  minuteRead: Minuto ng pagbabasa
+  keepReading: Patuloy na basahin →
+topics:
+  topics: Mga Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing
+    Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing
+    Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing
+    Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing
+    Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing
+    Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing Pangunahing
+    Pangunahing Pangunahing
+writing:
+  writing: Pagsusulat
+landing:
+  whatsNew: Ano ang bago
+  justShipped: Kamakailan lamang ipinadala
+  hero: Si Cody Bontecou
+  description: ay nasisiyahan sa buhay
+  cta: Pagsusulat
+  learnMore: Tungkol
+slug:
+  alsoEnjoy: Maaari mo ring tamasahin
+newsletter:
+  cardTitle: Newsletter (mga pahayagan)
+  cardDescription: Mag-subscribe upang makuha ang aking pinakabagong nilalaman, walang spam.
+  email: E-mail
+  submit: Ipadala
+  successTitle: Pagtagumpay
+  successDescription: Salamat sa pag-sign up! Nangangako ako na magpadala lamang
+    ng kawili-wiling nilalaman.
+  signupError: Pagkakamali
+  signupErrorDescription: Nagkaroon ng pagkakamali sa pag-subscribe sa newsletter.
+    Hit me up sa codybontecou{at}gmail{dot}com at idadagdag ko kayo sa lumang
+    paraan.
+work:
+  title: Bukas sa trabaho
+  contactMePrefix: Makipag-ugnayan sa akin sa
+  contactMeSuffix: kung gusto mong mag-chat.
+about:
+  cofoundedHeader: "Dati akong kasamang nagtatag:"
+  linksToExploreHeader: "Ilang mga link upang galugarin:"

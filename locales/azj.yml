@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Ən son
+  minuteRead: dəqiqəlik oxumaq
+  keepReading: Oxumağa davam edin →
+topics:
+  topics: Mövzular
+writing:
+  writing: Yazı
+landing:
+  whatsNew: Nə yenilik var?
+  justShipped: Yeni göndərilib
+  hero: Cody Bontecou
+  description: Həyatdan zövq alır
+  cta: Yazı
+  learnMore: Haqqında
+slug:
+  alsoEnjoy: Siz də zövq ala bilərsiniz
+newsletter:
+  cardTitle: Xəbər bülletenləri
+  cardDescription: Ən son məzmunu almaq üçün abunə olun. Spam yoxdur.
+  email: E-poçt
+  submit: Təqdim edin
+  successTitle: Uğur
+  successDescription: Qeydiyyatdan keçdiyiniz üçün təşəkkür edirəm! Yalnız maraqlı
+    məzmun göndərməyə söz verirəm.
+  signupError: Səhv
+  signupErrorDescription: Xəbər bülleteninə abunə olmaqda bir səhv oldu. Mənə
+    codybontecou{at}gmail{dot}com-da zəng edin və mən sizi köhnə üsulla əlavə
+    edəcəyəm.
+work:
+  title: İşə açılmaq
+  contactMePrefix: Mənimlə əlaqə saxlayın
+  contactMeSuffix: Söhbət etmək istəyirsinizsə.
+about:
+  cofoundedHeader: Əvvəllər mən "
+  linksToExploreHeader: "Araşdırmaq üçün bir neçə bağlantı:"

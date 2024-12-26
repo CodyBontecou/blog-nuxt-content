@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Gần nhất
+  minuteRead: phút đọc
+  keepReading: Tiếp tục đọc →
+topics:
+  topics: Các chủ đề
+writing:
+  writing: Viết
+landing:
+  whatsNew: Có gì mới không?
+  justShipped: Chỉ mới được vận chuyển.
+  hero: Cody Bontecou
+  description: đang tận hưởng cuộc sống
+  cta: Viết
+  learnMore: Về
+slug:
+  alsoEnjoy: Bạn cũng có thể thích
+newsletter:
+  cardTitle: Báo tin
+  cardDescription: Đăng ký để nhận được nội dung mới nhất của tôi. Không có spam.
+  email: E-mail
+  submit: Gửi
+  successTitle: Thành công
+  successDescription: Cảm ơn bạn đã đăng ký! Tôi hứa sẽ chỉ gửi nội dung thú vị.
+  signupError: Lỗi
+  signupErrorDescription: Có một lỗi khi đăng ký bản tin. Hãy liên hệ với tôi tại
+    codybontecou{at}gmail{dot}com và tôi sẽ thêm bạn theo cách cũ.
+work:
+  title: Mở cửa để làm việc
+  contactMePrefix: Liên hệ với tôi tại
+  contactMeSuffix: nếu anh muốn trò chuyện.
+about:
+  cofoundedHeader: "Trước đây tôi đã đồng sáng lập:"
+  linksToExploreHeader: "Một vài liên kết để khám phá:"

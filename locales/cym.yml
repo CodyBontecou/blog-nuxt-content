@@ -1,0 +1,37 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Y diweddaraf
+  minuteRead: munud darllen
+  keepReading: Parhau i ddarllen →
+topics:
+  topics: Pynciau
+writing:
+  writing: Ysgrifennu
+landing:
+  whatsNew: Beth sy'n newydd
+  justShipped: Yn cael ei ddanfon yn ddiweddar
+  hero: Cody Bontecou
+  description: yn mwynhau bywyd
+  cta: Ysgrifennu
+  learnMore: Am
+slug:
+  alsoEnjoy: Efallai y byddwch hefyd yn mwynhau
+newsletter:
+  cardTitle: Newyddion
+  cardDescription: Ymunwch â mi i gael fy nghynnwys diweddaraf, heb sbam.
+  email: E-bost
+  submit: Cyflwynwch
+  successTitle: Llwyddiant
+  successDescription: Diolch am gofrestru! Rwy'n addo anfon cynnwys diddorol yn unig.
+  signupError: Camgymeriad
+  signupErrorDescription: Roedd camgymeriad wrth tanysgrifio i'r cylchlythyr.
+    Cysylltwch â mi ar codybontecou{at}gmail{dot}com a byddaf yn eich ychwanegu
+    yn yr hen ffordd.
+work:
+  title: Agor i weithio
+  contactMePrefix: Cysylltwch â mi ar
+  contactMeSuffix: Os hoffech chi sgwrsio.
+about:
+  cofoundedHeader: "Yn flaenorol, cyd-sefydlodd:"
+  linksToExploreHeader: "Ychydig o gysylltiadau i'w archwilio:"

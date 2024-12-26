@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: En son
+  minuteRead: dakika okuma
+  keepReading: Okumaya devam edin →
+topics:
+  topics: Konular
+writing:
+  writing: Yazma
+landing:
+  whatsNew: Ne var yeni?
+  justShipped: Az önce gönderildi.
+  hero: Cody Bontecou
+  description: hayatın tadını çıkarıyor.
+  cta: Yazma
+  learnMore: Hakkında
+slug:
+  alsoEnjoy: Ayrıca zevk alabilirsin.
+newsletter:
+  cardTitle: Haber bültenleri
+  cardDescription: En son içeriğimi almak için abone olun. Spam yok.
+  email: E-posta
+  submit: Gönder.
+  successTitle: Başarı
+  successDescription: Kayıt olduğunuz için teşekkürler! Sadece ilginç içerik
+    göndermeye söz veriyorum.
+  signupError: Hata
+  signupErrorDescription: Bültenin abone olmada bir hata oldu. Bana
+    codybontecou{at}gmail{dot}com'da hit yap ve seni eski moda şekilde
+    ekleyeceğim.
+work:
+  title: Çalışmaya açık
+  contactMePrefix: Bana ulaşın.
+  contactMeSuffix: Sohbet etmek istersen.
+about:
+  cofoundedHeader: "Daha önce şu kuruluşların kurucularından biriydim:"
+  linksToExploreHeader: "Keşfedilecek birkaç bağlantı:"

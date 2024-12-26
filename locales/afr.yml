@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Laaste
+  minuteRead: minuut gelees
+  keepReading: Hou aan om te lees →
+topics:
+  topics: Onderwerpe
+writing:
+  writing: Skryfwerk
+landing:
+  whatsNew: Wat is nuut
+  justShipped: Net gestuur
+  hero: Cody Bontecou
+  description: geniet die lewe
+  cta: Skryfwerk
+  learnMore: Oor
+slug:
+  alsoEnjoy: Jy kan ook geniet
+newsletter:
+  cardTitle: Nuusbrief
+  cardDescription: Skryf in om my nuutste inhoud te kry, geen spam nie.
+  email: E-pos
+  submit: Stuur in
+  successTitle: Sukses
+  successDescription: Dankie vir die aanmelding! Ek belowe om net interessante inhoud te stuur.
+  signupError: Foute
+  signupErrorDescription: Daar was 'n fout met die inskrywing op die nuusbrief.
+work:
+  title: Oop vir werk
+  contactMePrefix: Kontak my by
+  contactMeSuffix: as jy wil om te gesels.
+about:
+  cofoundedHeader: "Voorheen het ek mede-stigter van:"
+  linksToExploreHeader: "'n Paar skakels om te verken:"

@@ -1,0 +1,38 @@
+constants:
+  author: Koodiin Boonteekoo
+latest:
+  latest: Isa dhumaa
+  minuteRead: daqiiqaa dubbisaa
+  keepReading: Dubbisuu itti fufi →
+topics:
+  topics: Mata dureewwan
+writing:
+  writing: Barreeffama
+landing:
+  whatsNew: Wanti haaraan maalidha?
+  justShipped: Dhiheenya ergame
+  hero: Koodiin Boonteekoo
+  description: Jireenya gammadaa jira
+  cta: Barreeffama
+  learnMore: Waa'ee
+slug:
+  alsoEnjoy: Kana malees,
+newsletter:
+  cardTitle: Barruun oduu
+  cardDescription: Qabiyyee haaraa koo argachuuf subscribe godhaa. Spam hin qabu.
+  email: Ergaa iimeelii
+  submit: Gabaasa dhiyeessi
+  successTitle: Milkaaʼina argadheera
+  successDescription: Galatoomi galmaa'uu keetiif! Qabiyyeetti darbi Kutaawwan
+    Oduu Itoophiyaa Viidiyoo Jajjaboo Oduu Itoophiyaa Viidiyoo Jajjaboo
+  signupError: Dogoggorri
+  signupErrorDescription: Barruu oduu irratti galmaa'uu keessatti dogoggoraan kan
+    uumame yoo ta'e, codybontecou{at}gmail{dot}com irratti na gaafadhu, karaa
+    durii si dabaluu danda'a.
+work:
+  title: Hojiidhaaf banaa
+  contactMePrefix: Na haasofsiisi
+  contactMeSuffix: yoo waliin haasa'uu barbaadde.
+about:
+  cofoundedHeader: "Kanaan dura:"
+  linksToExploreHeader: "Liinkiiwwan qoratamuu qaban muraasni:"

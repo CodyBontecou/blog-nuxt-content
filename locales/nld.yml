@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: De laatste.
+  minuteRead: minuten gelezen
+  keepReading: Blijf lezen →
+topics:
+  topics: Onderwerpen
+writing:
+  writing: Schrijven
+landing:
+  whatsNew: Wat is er nieuw ?
+  justShipped: Net verscheept.
+  hero: Cody Bontecou
+  description: Geniet van het leven.
+  cta: Schrijven
+  learnMore: Over
+slug:
+  alsoEnjoy: Je zou ook kunnen genieten
+newsletter:
+  cardTitle: Nieuwsbrief
+  cardDescription: Abonneer om mijn nieuwste inhoud te krijgen.
+  email: E-mail
+  submit: Inleveren
+  successTitle: Succes
+  successDescription: Bedankt voor het aanmelden! Ik beloof alleen interessante inhoud te sturen.
+  signupError: Fout
+  signupErrorDescription: Er was een fout bij het abonneren op de nieuwsbrief.
+work:
+  title: Open voor werk.
+  contactMePrefix: Neem contact met me op.
+  contactMeSuffix: Als je wilt praten.
+about:
+  cofoundedHeader: "Eerder was ik medeoprichter van:"
+  linksToExploreHeader: "Een paar links om te verkennen:"

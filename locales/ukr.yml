@@ -1,0 +1,35 @@
+constants:
+  author: Коді Бонтеку
+latest:
+  latest: Останній
+  minuteRead: хвилинний читання
+  keepReading: Продовжуйте читати →
+topics:
+  topics: Теми
+writing:
+  writing: Письменництво
+landing:
+  whatsNew: Що нового?
+  justShipped: Щойно відправлено.
+  hero: Коді Бонтеку
+  description: насолоджується життям.
+  cta: Письменництво
+  learnMore: Про
+slug:
+  alsoEnjoy: Вам також може сподобатися
+newsletter:
+  cardTitle: Новинний лист
+  cardDescription: Підпишіться, щоб отримати мій останній контент. Без спаму.
+  email: Електронна пошта
+  submit: Подати
+  successTitle: Успіх
+  successDescription: Дякую за реєстрацію! Я обіцяю надсилати тільки цікавий контент.
+  signupError: Помилка
+  signupErrorDescription: Була помилка при підписі на інформаційний бюлетень.
+work:
+  title: Відкритий для роботи
+  contactMePrefix: Зв'яжіться зі мною по
+  contactMeSuffix: якщо ви хочете поспілкуватися.
+about:
+  cofoundedHeader: "Раніше я був співзасновником:"
+  linksToExploreHeader: "Кілька посилань для вивчення:"

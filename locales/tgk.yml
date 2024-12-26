@@ -1,0 +1,38 @@
+constants:
+  author: Коди Бонтеку
+latest:
+  latest: Охирин
+  minuteRead: дақиқаи хондан
+  keepReading: Хонданиро идома диҳед →
+topics:
+  topics: Мавзӯъҳо
+writing:
+  writing: Навиштан
+landing:
+  whatsNew: Чӣ нав аст?
+  justShipped: Танҳо интиқол дода шудааст
+  hero: Коди Бонтеку
+  description: аз ҳаёт лаззат мебарад
+  cta: Навиштан
+  learnMore: Дар бораи
+slug:
+  alsoEnjoy: Шумо инчунин метавонед аз
+newsletter:
+  cardTitle: Рӯзномаи хабарӣ
+  cardDescription: Барои гирифтани мундариҷаи навтарини ман обуна шавед.
+  email: Почтаи электронӣ
+  submit: Пешниҳод кунед
+  successTitle: Муваффақият
+  successDescription: Ташаккур барои бақайдгирӣ! Ман ваъда медиҳам, ки танҳо
+    мундариҷаи ҷолибро мефиристам.
+  signupError: Хатогӣ
+  signupErrorDescription: Ҳангоми обуна шудан ба бюллетен хато шуд. Ба ман дар
+    codybontecou{at}gmail{dot}com муроҷиат кунед ва ман шуморо ба тарзи кӯҳна
+    илова мекунам.
+work:
+  title: Барои кор кушода
+  contactMePrefix: Бо ман дар тамос шавед
+  contactMeSuffix: агар шумо хоҳед, ки сӯҳбат кунед.
+about:
+  cofoundedHeader: "Қаблан ман ҳаммуассиси:"
+  linksToExploreHeader: "Якчанд пайвандҳо барои омӯхтан:"

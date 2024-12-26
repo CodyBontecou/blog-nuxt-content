@@ -1,0 +1,36 @@
+constants:
+  author: コディ・ボンテコウ
+latest:
+  latest: 最新の
+  minuteRead: ミニット 読み込み
+  keepReading: 読み続けなさい
+topics:
+  topics: テーマ
+writing:
+  writing: 書くこと
+landing:
+  whatsNew: 新しいことは?
+  justShipped: 運ばれたばかりだ
+  hero: コディ・ボンテコウ
+  description: 人生を楽しんでる
+  cta: 書くこと
+  learnMore: 詳細
+slug:
+  alsoEnjoy: 楽しめるかもしれない
+newsletter:
+  cardTitle: ニュースレター
+  cardDescription: 登録して最新の記事を読む スパムなし
+  email: メール
+  submit: 提出する
+  successTitle: 成功した
+  successDescription: 登録ありがとうございます! 興味深いコンテンツしか送らないと約束します.
+  signupError: エラー
+  signupErrorDescription: ニュースレターにサブスクリプションする際にエラーが発生しました私に
+    codybontecou{at}gmail{dot}comで連絡してください私はあなたを昔ながらの方法で追加します
+work:
+  title: 仕事に開かれた
+  contactMePrefix: 電話で連絡してください
+  contactMeSuffix: 喋りたいなら
+about:
+  cofoundedHeader: 以前は私は共同創設者でした
+  linksToExploreHeader: "探求するいくつかのリンク:"

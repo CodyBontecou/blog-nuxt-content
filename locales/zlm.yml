@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Terakhir
+  minuteRead: minit dibaca
+  keepReading: Terus membaca →
+topics:
+  topics: Topik
+writing:
+  writing: Menulis
+landing:
+  whatsNew: Apa yang baharu
+  justShipped: Baru dihantar
+  hero: Cody Bontecou
+  description: "sedang menikmati hidup "
+  cta: Menulis
+  learnMore: Tentang
+slug:
+  alsoEnjoy: Anda juga mungkin menikmati
+newsletter:
+  cardTitle: Surat berita
+  cardDescription: Berlangganan untuk mendapatkan kandungan terbaru saya. Tidak ada spam.
+  email: E-mel
+  submit: Serahkan
+  successTitle: Keberhasilan
+  successDescription: Terima kasih telah mendaftar! Saya berjanji untuk hanya
+    menghantar kandungan yang menarik.
+  signupError: Kesalahan
+  signupErrorDescription: Ada kesilapan mendaftar untuk buletin. Hubungi saya di
+    codybontecou{at}gmail{dot}com dan saya akan menambahkan anda dengan cara
+    lama.
+work:
+  title: Buka untuk bekerja
+  contactMePrefix: Hubungi saya di
+  contactMeSuffix: jika anda ingin mengobrol.
+about:
+  cofoundedHeader: "Sebelum ini saya menganggarkan:"
+  linksToExploreHeader: "Beberapa pautan untuk diterokai:"

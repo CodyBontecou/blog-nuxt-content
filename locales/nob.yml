@@ -1,0 +1,37 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Seneste
+  minuteRead: minutt lest
+  keepReading: Fortsett å lese →
+topics:
+  topics: Emner
+writing:
+  writing: Skrive
+landing:
+  whatsNew: Hva er nytt?
+  justShipped: Nyforsendt
+  hero: Cody Bontecou
+  description: nyter livet
+  cta: Skrive
+  learnMore: Om
+slug:
+  alsoEnjoy: Du kan også nyte
+newsletter:
+  cardTitle: Nyhetsbrev
+  cardDescription: Abonnere for å få mitt nyeste innhold.
+  email: E-post
+  submit: Legg inn
+  successTitle: Suksess
+  successDescription: Takk for at du meldte deg på! Jeg lover å bare sende interessant innhold.
+  signupError: Feil
+  signupErrorDescription: Det var en feil ved å abonnere på nyhetsbrevet. Hit meg
+    på codybontecou{at}gmail{dot}com og jeg vil legge deg til på den gamle
+    måten.
+work:
+  title: Åpen for arbeid
+  contactMePrefix: Ta kontakt med meg på
+  contactMeSuffix: hvis du ønsker å chatte.
+about:
+  cofoundedHeader: "Tidligere var jeg medgrunnlegger av:"
+  linksToExploreHeader: "Noen lenker å utforske:"

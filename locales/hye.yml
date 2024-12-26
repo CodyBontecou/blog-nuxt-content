@@ -1,0 +1,38 @@
+constants:
+  author: Կոդի Բոնտեկու
+latest:
+  latest: Վերջին
+  minuteRead: րոպեային ընթերցում
+  keepReading: Շարունակեք կարդալ →
+topics:
+  topics: Թեմաներ
+writing:
+  writing: Գրություն
+landing:
+  whatsNew: Ինչ է նորը
+  justShipped: "Պարզապես առաքվել է:"
+  hero: Կոդի Բոնտեկու
+  description: վայելում է կյանքը
+  cta: Գրություն
+  learnMore: Մոտավորապես
+slug:
+  alsoEnjoy: Դուք կարող եք նաեւ վայելել
+newsletter:
+  cardTitle: Լրագրություն
+  cardDescription: "Հեռագրվեք իմ նորագույն բովանդակությանը ՝ առանց սփեմի:"
+  email: Էլեկտրոնային փոստ
+  submit: Ներկայացնել
+  successTitle: Հաջողություն
+  successDescription: "Շնորհակալություն գրանցման համար: Ես խոստանում եմ ուղարկել
+    միայն հետաքրքիր բովանդակություն:"
+  signupError: Սխալ
+  signupErrorDescription: "Լրագրության բաժանորդագրման ժամանակ սխալ է պատահել:
+    Հեռացրեք ինձ codybontecou{at}gmail{dot}com-ից, եւ ես ձեզ կավելացնեմ հին
+    ձեւով:"
+work:
+  title: "Բաց է աշխատանքի համար:"
+  contactMePrefix: Կապվեք ինձ հետ
+  contactMeSuffix: "եթե ցանկանում եք զրուցել:"
+about:
+  cofoundedHeader: Նախկինում ես համահիմնադիր եմ եղել.
+  linksToExploreHeader: Մի քանի հղումներ ուսումնասիրելու համար.

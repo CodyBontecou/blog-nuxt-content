@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Najnovejše
+  minuteRead: minuta branja
+  keepReading: Nadaljuj z branjem →
+topics:
+  topics: Teme
+writing:
+  writing: Pisanje
+landing:
+  whatsNew: Kaj je novega?
+  justShipped: Pravkar odposlana.
+  hero: Cody Bontecou
+  description: uživa v življenju.
+  cta: Pisanje
+  learnMore: O
+slug:
+  alsoEnjoy: Morda vam bo tudi všeč
+newsletter:
+  cardTitle: Novice
+  cardDescription: Naročite se na mojo najnovejšo vsebino. Brez neželene pošte.
+  email: E-pošta
+  submit: Predložite
+  successTitle: Uspeh
+  successDescription: Hvala za prijavo! Obljubim, da bom pošiljal samo zanimivo vsebino.
+  signupError: Napaka
+  signupErrorDescription: Pri naročilu na novice je prišlo do napake.
+work:
+  title: Odprto za delo
+  contactMePrefix: Obiskujte me na
+  contactMeSuffix: Če bi se rad pogovarjal.
+about:
+  cofoundedHeader: "Pred tem sem bil soustanovitelj:"
+  linksToExploreHeader: "Nekaj povezav za raziskovanje:"

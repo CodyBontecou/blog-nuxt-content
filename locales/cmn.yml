@@ -1,0 +1,35 @@
+constants:
+  author: 科迪·邦特科
+latest:
+  latest: 最新的
+  minuteRead: 阅读分钟
+  keepReading: 继续阅读 →
+topics:
+  topics: 主题
+writing:
+  writing: 写作
+landing:
+  whatsNew: 有什么新消息
+  justShipped: 刚刚发货
+  hero: 科迪·邦特科
+  description: 享受着生活
+  cta: 写作
+  learnMore: 关于
+slug:
+  alsoEnjoy: 你也可能喜欢
+newsletter:
+  cardTitle: 新闻信
+  cardDescription: 订阅我的最新内容,没有垃圾邮件.
+  email: 电子邮件
+  submit: 提交
+  successTitle: 成功
+  successDescription: 谢谢您的订阅!我承诺只发送有趣的内容.
+  signupError: 错误
+  signupErrorDescription: 订阅新闻通讯发生错误.请在 codybontecou{at}gmail{dot}com 上给我联系,我会以老式的方式添加你
+work:
+  title: 开放工作
+  contactMePrefix: 请联系我
+  contactMeSuffix: 如果你想聊天.
+about:
+  cofoundedHeader: "我之前是联合创始人:"
+  linksToExploreHeader: "一些可以探索的链接:"

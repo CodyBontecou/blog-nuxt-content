@@ -1,0 +1,37 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Ìgbà tó kẹ́yìn
+  minuteRead: iṣẹju ka
+  keepReading: Tẹ̀síwájú nínú ìwé náà →
+topics:
+  topics: Àwọn kókó
+writing:
+  writing: Ìwé kíkọ
+landing:
+  whatsNew: Kí ló tún wá ṣẹlẹ̀?
+  justShipped: Wọ́n ṣẹ̀ṣẹ̀ gbé e lọ
+  hero: Cody Bontecou
+  description: ń gbádùn ìgbésí ayé
+  cta: Ìwé kíkọ
+  learnMore: Nípa
+slug:
+  alsoEnjoy: O tún lè gbádùn
+newsletter:
+  cardTitle: Ìwé ìròyìn
+  cardDescription: Ṣe alabapin si awọn iroyin mi tuntun, ko si spam.
+  email: Ìfìwéránṣẹ́
+  submit: Fi ránṣẹ́
+  successTitle: Ìṣeyọrí
+  successDescription: O ṣeun fun iforukọsilẹ! Mo ṣèlérí láti fi àwọn ohun tó wúni lórí ránṣẹ́.
+  signupError: Àṣìṣe
+  signupErrorDescription: Àṣìṣe kan wáyé nígbà tí mo forúkọsílẹ̀ fún ìwé ìròyìn
+    náà. Ẹ kàn mí sí codybontecou{at}gmail{dot}com màá sì fi yín kún un ní ọ̀nà
+    àtijọ́.
+work:
+  title: Ṣii silẹ fun iṣẹ
+  contactMePrefix: Máa kàn sí mi ní
+  contactMeSuffix: bí o bá fẹ́ bá mi sọ̀rọ̀.
+about:
+  cofoundedHeader: "Ṣaaju ki o to Mo ti co-dasilẹ:"
+  linksToExploreHeader: "Àwọn ìjápọ̀ díẹ̀ láti ṣàyẹ̀wò:"

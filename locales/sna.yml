@@ -1,0 +1,37 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Yekupedzisira
+  minuteRead: Miniti kuverenga
+  keepReading: Ramba uchiverenga →
+topics:
+  topics: Misoro
+writing:
+  writing: Kunyora
+landing:
+  whatsNew: Chii chitsva
+  justShipped: Ndichangobva kutumirwa
+  hero: Cody Bontecou
+  description: ari kunakidzwa noupenyu
+  cta: Kunyora
+  learnMore: Pamusoro pe
+slug:
+  alsoEnjoy: Unganakidzwawo
+newsletter:
+  cardTitle: Tsamba yenhau
+  cardDescription: Subscribe kuti uwane zvinyorwa zvangu zvitsva, hapana spam.
+  email: Tsamba yeemail
+  submit: Tumira
+  successTitle: Kubudirira
+  successDescription: Ndinokutendai nokuda kwokunyoresa! Ndinovimbisa kutumira
+    bedzi mashoko anofadza.
+  signupError: Chikanganiso
+  signupErrorDescription: Pane chikanganiso chokunyoresa tsamba yenhau. Ndibatei
+    pa codybontecou{at}gmail{dot}com uye ndichakuwedzerai nenzira yekare.
+work:
+  title: Vazarukira kushanda
+  contactMePrefix: Ndibatei pa
+  contactMeSuffix: kana uchida kukurukura.
+about:
+  cofoundedHeader: "Pakutanga ndakabatanidza:"
+  linksToExploreHeader: "Zvimwe zvinongedzo zvokutsvakurudza:"

@@ -1,0 +1,38 @@
+constants:
+  author: കോഡി ബോണ്ടെക്കോ
+latest:
+  latest: ഏറ്റവും പുതിയത്
+  minuteRead: മിനിറ്റ് വായിക്കുക
+  keepReading: തുടരുക വായിക്കുക →
+topics:
+  topics: വിഷയങ്ങൾ
+writing:
+  writing: എഴുത്ത്
+landing:
+  whatsNew: പുതിയതെന്താണ്?
+  justShipped: അടുത്തിടെ കയറ്റി അയച്ചത്
+  hero: കോഡി ബോണ്ടെക്കോ
+  description: ജീവിതം ആസ്വദിക്കുന്നു
+  cta: എഴുത്ത്
+  learnMore: സംബന്ധിച്ച്
+slug:
+  alsoEnjoy: നിങ്ങള് ക്കും ഇഷ്ടമായിരിക്കാം
+newsletter:
+  cardTitle: വാർത്താക്കുറിപ്പ്
+  cardDescription: എന്റെ ഏറ്റവും പുതിയ ഉള്ളടക്കം ലഭിക്കുന്നതിന് സബ്സ്ക്രൈബ് ചെയ്യുക. സ്പാം ഇല്ല.
+  email: ഇമെയിൽ
+  submit: സമർപ്പിക്കുക
+  successTitle: വിജയം
+  successDescription: സൈൻ അപ്പ് ചെയ്തതിന് നന്ദി! രസകരമായ ഉള്ളടക്കം മാത്രമേ ഞാൻ
+    അയയ്ക്കുകയുള്ളൂ എന്ന് ഞാൻ വാഗ്ദാനം ചെയ്യുന്നു.
+  signupError: പിശക്
+  signupErrorDescription: ന്യൂസ് ലെറ്ററിന് സബ്സ്ക്രൈബ് ചെയ്യുമ്പോള് ഒരു പിശക്
+    സംഭവിച്ചു. എന്നെ കോഡിബോണ്ടെകോവ് {at} gmail{dot} com ൽ കണ്ടുമുട്ടൂ, ഞാന്
+    നിങ്ങളെ പഴയ രീതിയില് ചേര് ക്കും.
+work:
+  title: ജോലിക്ക് തുറന്നിരിക്കുന്നു
+  contactMePrefix: എന്നെ ബന്ധപ്പെടുക
+  contactMeSuffix: നിങ്ങള് ക്ക് സംസാരിക്കാന് താല്പര്യം ഉണ്ടെങ്കില് .
+about:
+  cofoundedHeader: "മുമ്പ് ഞാന് സഹസ്ഥാപകനായിരുന്നു:"
+  linksToExploreHeader: "പര്യവേക്ഷണം ചെയ്യാനുള്ള കുറച്ച് ലിങ്കുകൾ:"

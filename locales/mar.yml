@@ -1,0 +1,37 @@
+constants:
+  author: कोडी बोन्टेको
+latest:
+  latest: नवीनतम
+  minuteRead: मिनिट वाचले
+  keepReading: वाचन सुरू ठेवा →
+topics:
+  topics: विषय
+writing:
+  writing: लेखन
+landing:
+  whatsNew: काय नवीन आहे?
+  justShipped: नुकतेच पाठवले
+  hero: कोडी बोन्टेको
+  description: जीवनाचा आनंद घेत आहे.
+  cta: लेखन
+  learnMore: बद्दल
+slug:
+  alsoEnjoy: तुम्हालाही आवडू शकेल
+newsletter:
+  cardTitle: वृत्तपत्र
+  cardDescription: माझ्या नवीनतम सामग्रीसाठी सदस्यता घ्या. स्पॅम नाही.
+  email: ई-मेल
+  submit: सबमिट करा
+  successTitle: यश
+  successDescription: नोंदणी केल्याबद्दल धन्यवाद! मी फक्त मनोरंजक सामग्री पाठवण्याचे वचन देतो.
+  signupError: त्रुटी
+  signupErrorDescription: न्यूजलेटरची सदस्यता घेताना एक त्रुटी आली. मला
+    कोडिबोंटेकोऊ {at} gmail{dot} com वर हिट करा आणि मी तुम्हाला जुन्या पद्धतीने
+    जोडतो.
+work:
+  title: कामासाठी खुले
+  contactMePrefix: माझ्याशी संपर्क साधा
+  contactMeSuffix: जर तुम्हाला गप्पा मारायच्या असतील तर.
+about:
+  cofoundedHeader: "यापूर्वी मी सह-संस्थापक होतो:"
+  linksToExploreHeader: "अन्वेषण करण्यासाठी काही दुवे:"

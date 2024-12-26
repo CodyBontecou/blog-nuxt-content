@@ -1,0 +1,35 @@
+constants:
+  author: Кодзі Бонтэку
+latest:
+  latest: Апошнія
+  minuteRead: хвіліна чытаць
+  keepReading: Працягвайце чытаць →
+topics:
+  topics: Тэмы
+writing:
+  writing: Пісьмо
+landing:
+  whatsNew: Што новае
+  justShipped: Толькі што адпраўлены
+  hero: Кодзі Бонтэку
+  description: атрымлівае асалоду ад жыццём
+  cta: Пісьмо
+  learnMore: Пра
+slug:
+  alsoEnjoy: Вы таксама можаце атрымаць асалоду ад
+newsletter:
+  cardTitle: Навінапіс
+  cardDescription: Падпішыцеся, каб атрымаць мой апошні кантэнт. Без спаму.
+  email: Электронная пошта
+  submit: Падаць
+  successTitle: Поспех
+  successDescription: Дзякуй за падпіску! Я абяцаю дасылаць толькі цікавы кантэнт.
+  signupError: Памылка
+  signupErrorDescription: Адбылася памылка пры падпісе на інфармацыйны бюлетэнь.
+work:
+  title: Адкрыты для працы
+  contactMePrefix: Супрацоўнічайце са мной па
+  contactMeSuffix: калі вы хацелі б пагутарыць.
+about:
+  cofoundedHeader: "Раней я быў сузаснавальнікам:"
+  linksToExploreHeader: "Некалькі спасылак для даследавання:"

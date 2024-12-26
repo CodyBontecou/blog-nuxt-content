@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Nke ikpeazụ
+  minuteRead: nkeji na-agụ
+  keepReading: Nọgide na-agụ →
+topics:
+  topics: Isiokwu ndị dị na ya
+writing:
+  writing: Ide ihe
+landing:
+  whatsNew: Gịnị bụ ihe ọhụrụ
+  justShipped: Ọ dịbeghị anya e zigara ya
+  hero: Cody Bontecou
+  description: na-ekpori ndụ
+  cta: Ide ihe
+  learnMore: Banyere
+slug:
+  alsoEnjoy: I nwekwara ike ịnụ ụtọ
+newsletter:
+  cardTitle: Akwụkwọ akụkọ
+  cardDescription: Jide n'aka na ị ga-enweta ọdịnaya m kachasị ọhụrụ na-enweghị spam.
+  email: E-mail
+  submit: Nyefee
+  successTitle: Ihe ịga nke ọma
+  successDescription: Daalụ maka ịdenye aha! M na-ekwe nkwa iziga naanị ọdịnaya na-adọrọ mmasị.
+  signupError: Njehie
+  signupErrorDescription: Ọ bụrụ na ị nwere nsogbu ịdenye aha na akwụkwọ akụkọ
+    ahụ, biko zitere m na codebonnet.com ma m ga-agbakwunye gị n'ụzọ ochie.
+work:
+  title: Na-emeghe maka ọrụ
+  contactMePrefix: Kpọtụrụ m na
+  contactMeSuffix: Ọ bụrụ na ị ga-achọ ikwurịta okwu.
+about:
+  cofoundedHeader: "N'oge gara aga, esonyere m hiwe:"
+  linksToExploreHeader: "Njikọ ole na ole iji nyochaa:"

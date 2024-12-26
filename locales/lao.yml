@@ -1,0 +1,36 @@
+constants:
+  author: ໂຄດີ້ ໂບນເຕກູ
+latest:
+  latest: ຫຼ້າສຸດ
+  minuteRead: ການອ່ານນາທີ
+  keepReading: ສືບຕໍ່ອ່ານ →
+topics:
+  topics: ຫົວຂໍ້
+writing:
+  writing: ການຂຽນ
+landing:
+  whatsNew: ມີຫຍັງໃຫມ່?
+  justShipped: ຫາກໍ່ຖືກສົ່ງ
+  hero: ໂຄດີ້ ໂບນເຕກູ
+  description: ກໍາ ລັງເພີດເພີນກັບຊີວິດ
+  cta: ການຂຽນ
+  learnMore: ກ່ຽວກັບ
+slug:
+  alsoEnjoy: ທ່ານຍັງອາດຈະເພີດເພີນກັບ
+newsletter:
+  cardTitle: ຫນັງສືພິມຂ່າວ
+  cardDescription: ຈອງເພື່ອໄດ້ຮັບເນື້ອຫາ ໃຫມ່ ທີ່ສຸດຂອງຂ້ອຍ, ບໍ່ມີ spam.
+  email: ອີເມວ
+  submit: ຍື່ນ
+  successTitle: ຄວາມສໍາເລັດ
+  successDescription: ຂອບໃຈ ສໍາ ລັບການລົງທະບຽນ, ຂ້ອຍສັນຍາວ່າຈະສົ່ງເນື້ອຫາທີ່ ຫນ້າ ສົນໃຈເທົ່ານັ້ນ.
+  signupError: ຄວາມຜິດພາດ
+  signupErrorDescription: ມີຂໍ້ຜິດພາດໃນການລົງທະບຽນຈົດຫມາຍຂ່າວ. ໂທຫາຂ້ອຍທີ່
+    codybontecou{at}gmail{dot}com ແລະຂ້ອຍຈະເພີ່ມເຈົ້າຕາມວິທີເກົ່າ.
+work:
+  title: ເປີດສໍາລັບການເຮັດວຽກ
+  contactMePrefix: ຕິດຕໍ່ຂ້ອຍທີ່
+  contactMeSuffix: ຖ້າຫາກວ່າທ່ານຕ້ອງການທີ່ຈະສົນທະນາກັນ.
+about:
+  cofoundedHeader: "ກ່ອນຫນ້ານີ້ຂ້າພະເຈົ້າໄດ້ຮ່ວມກໍ່ຕັ້ງ:"
+  linksToExploreHeader: "ບາງລິ້ງທີ່ຈະ ສໍາ ຫຼວດ:"

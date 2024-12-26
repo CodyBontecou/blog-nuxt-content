@@ -1,0 +1,36 @@
+constants:
+  author: كودي بونتيكو
+latest:
+  latest: آخر مرة
+  minuteRead: قراءة الدقيقة
+  keepReading: واصل القراءة →
+topics:
+  topics: المواضيع
+writing:
+  writing: الكتابة
+landing:
+  whatsNew: اشنو الجدد؟
+  justShipped: توا تم شحنها
+  hero: كودي بونتيكو
+  description: كايسعدو الحياة
+  cta: الكتابة
+  learnMore: تقريباً
+slug:
+  alsoEnjoy: يمكن ليك تستمتع.
+newsletter:
+  cardTitle: الرسالة الإخبارية
+  cardDescription: اشترك باش تحصل على آخر محتوى ديالي، ما كاينش البريد العشوائي.
+  email: البريد الإلكتروني
+  submit: إرسال
+  successTitle: النجاح
+  successDescription: شكرا على التسجيل، كايعدني بلي غادي نصيفط ليك غير محتوى مثير.
+  signupError: الخطأ
+  signupErrorDescription: كاين شي خطأ فالتسجيل في النشرة الإخبارية. اتصل بي على
+    codybontecou{at}gmail{dot}com و غادي نضيفك بالطريقة القديمة.
+work:
+  title: مفتوح للعمل
+  contactMePrefix: اتصل بي على
+  contactMeSuffix: إيلا بغيتي تتكلم.
+about:
+  cofoundedHeader: "سابقا كنت من المؤسسين:"
+  linksToExploreHeader: "شوية من الروابط لي نستكشفوها:"

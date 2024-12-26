@@ -1,0 +1,39 @@
+constants:
+  author: Cody Bontecou (Cody Bontecou) waa ciyaaryahan reer France ah.
+latest:
+  latest: Midkii ugu danbeeyay
+  minuteRead: Daqiiqad akhris ah
+  keepReading: Sii wad akhriska →
+topics:
+  topics: Mowduucyada
+writing:
+  writing: Qoraalka
+landing:
+  whatsNew: Maxaa cusub oo jira?
+  justShipped: Waxaa la soo diray.
+  hero: Cody Bontecou (Cody Bontecou) waa ciyaaryahan reer France ah.
+  description: Nolosha ayaa ku raaxeysaneysa
+  cta: Qoraalka
+  learnMore: Ku saabsan
+slug:
+  alsoEnjoy: Waxaa laga yaabaa inaad sidoo kale ku raaxaysato
+newsletter:
+  cardTitle: Wargeyska
+  cardDescription: Ka soo qaybgal si aad u hesho waxyaabaha ugu dambeeyay ee aan
+    ku qorno, spam ma jiro.
+  email: Boostada
+  submit: Soo gudbinta
+  successTitle: Guul gaar ah
+  successDescription: Waad ku mahadsan tahay diiwaangelinta! Waxaan balanqaadayaa
+    inaan kuu soo diri doono oo keliya waxyaabaha xiisaha leh.
+  signupError: Khalad
+  signupErrorDescription: Waxaa jirtay khalad la xiriira diiwaangelinta wargeyska.
+    igu soo wac codybontecou{at}gmail{dot}com waxaana ku dari doonaa qaabka
+    qadiimiga ah.
+work:
+  title: U fur fur shaqada
+  contactMePrefix: Xiriiri igu soo dir
+  contactMeSuffix: Haddii aad rabto in aad la sheekaysato.
+about:
+  cofoundedHeader: "Waxaan horey u ahaa aasaasaha:"
+  linksToExploreHeader: "Xiriirro yar oo aad ka baari karto:"

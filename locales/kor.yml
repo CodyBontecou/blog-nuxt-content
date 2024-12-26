@@ -1,0 +1,36 @@
+constants:
+  author: 코디 본테쿠
+latest:
+  latest: 최신
+  minuteRead: 분 읽기
+  keepReading: 계속 읽어보세요
+topics:
+  topics: 주제들
+writing:
+  writing: 글쓰기
+landing:
+  whatsNew: 새로운 게 뭐야?
+  justShipped: 방금 배송됐어
+  hero: 코디 본테쿠
+  description: 인생을 즐기고 있어요
+  cta: 글쓰기
+  learnMore: 대략
+slug:
+  alsoEnjoy: 여러분도 즐기실지도 모릅니다.
+newsletter:
+  cardTitle: 뉴스레터
+  cardDescription: 최신 콘텐츠를 받기 위해 구독하십시오. 스은 없습니다.
+  email: 이메일
+  submit: 제출하세요
+  successTitle: 성공
+  successDescription: 가입해 주셔서 감사합니다! 흥미로운 콘텐츠만 보내드리겠다고 약속합니다.
+  signupError: 오류
+  signupErrorDescription: 뉴스레터에 가입하는 데 오류가 있었습니다. codybontecou{at}gmail{dot}com에
+    문의하십시오. 그리고 저는 당신을 옛날 방식대로 추가할 것입니다.
+work:
+  title: 일하기 위해 열려 있습니다.
+  contactMePrefix: 이번번번호로 연락해주세요
+  contactMeSuffix: 얘기하고 싶으시다면
+about:
+  cofoundedHeader: 이전에는 공동 설립자였습니다.
+  linksToExploreHeader: 몇 가지 링크를 살펴보겠습니다.

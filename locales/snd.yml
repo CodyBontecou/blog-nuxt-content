@@ -1,0 +1,37 @@
+constants:
+  author: ڪوڊي بونٽيڪو
+latest:
+  latest: آخري دفعو
+  minuteRead: منٽ پڙهڻ
+  keepReading: پڙهڻ جاري رکو →
+topics:
+  topics: موضوعن تي
+writing:
+  writing: لکڻ جي
+landing:
+  whatsNew: ڇا نئون آهي
+  justShipped: صرف موڪليو ويو
+  hero: ڪوڊي بونٽيڪو
+  description: زندگي مان لطف اندوز ٿي رهيو آهي
+  cta: لکڻ جي
+  learnMore: جي باري ۾
+slug:
+  alsoEnjoy: تون به لطف اندوز ٿي سگهين ٿو
+newsletter:
+  cardTitle: نيوز ليٽر
+  cardDescription: منهنجي تازي مواد حاصل ڪرڻ لاءِ سبسڪرائب ڪريو. اسپام نه.
+  email: اي ميل
+  submit: پيش ڪريو
+  successTitle: ڪاميابي
+  successDescription: سائن اپ ڪرڻ جي مهرباني! مان واعدو ڪريان ٿو ته صرف دلچسپ مواد موڪليان ٿو.
+  signupError: غلطي
+  signupErrorDescription: نيوز ليٽر جي رڪنيت ۾ هڪ غلطي ٿي وئي. مون کي
+    codybontecou{at}gmail{dot}com تي ماريو ۽ مان توهان کي پراڻي زماني جي طريقي
+    سان شامل ڪندس.
+work:
+  title: ڪم ڪرڻ لاءِ کليل
+  contactMePrefix: مون سان رابطو ڪريو
+  contactMeSuffix: جيڪڏهن توهان چيٽ ڪرڻ چاهيو ٿا.
+about:
+  cofoundedHeader: "ان کان اڳ مون گڏيل طور تي قائم ڪيو:"
+  linksToExploreHeader: "ڳولا ڪرڻ لاءِ ڪجهه لنڪ:"

@@ -1,0 +1,36 @@
+constants:
+  author: Kodis Bonteku
+latest:
+  latest: Naujausias
+  minuteRead: minutės skaitymas
+  keepReading: Skaitykite toliau →
+topics:
+  topics: Temos
+writing:
+  writing: Rašymas
+landing:
+  whatsNew: Kas naujo?
+  justShipped: Ką tik išsiųstas
+  hero: Kodis Bonteku
+  description: Mėgaujasi gyvenimu.
+  cta: Rašymas
+  learnMore: Apie
+slug:
+  alsoEnjoy: Taip pat jums gali patikti
+newsletter:
+  cardTitle: Naujienlaiškis
+  cardDescription: Prisijunkite, kad gautumėte mano naujausią turinį.
+  email: El. paštas
+  submit: Pateikti
+  successTitle: Sėkmė
+  successDescription: Ačiū už prisijungimą! Pažadu siųsti tik įdomų turinį.
+  signupError: Klaida
+  signupErrorDescription: Buvo klaida prenumeruojant naujienlaiškį. Paskambink man
+    codybontecou{at}gmail{dot}com ir aš pridėsiu tave senamadišku būdu.
+work:
+  title: Atviras darbui
+  contactMePrefix: Susisiekite su manimi
+  contactMeSuffix: Jei norėtum pasikalbėti.
+about:
+  cofoundedHeader: "Anksčiau aš buvau vienas iš įkūrėjų:"
+  linksToExploreHeader: "Keletas nuorodų, kurias reikia ištirti:"

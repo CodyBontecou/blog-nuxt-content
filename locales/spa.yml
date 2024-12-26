@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou. ¿Qué es esto?
+latest:
+  latest: El más reciente
+  minuteRead: lectura de minutos
+  keepReading: Sigue leyendo →
+topics:
+  topics: Temas y temas
+writing:
+  writing: La escritura
+landing:
+  whatsNew: ¿Qué hay de nuevo?
+  justShipped: Acaba de ser enviado
+  hero: Cody Bontecou. ¿Qué es esto?
+  description: está disfrutando de la vida.
+  cta: La escritura
+  learnMore: Alrededor de
+slug:
+  alsoEnjoy: También podrías disfrutar
+newsletter:
+  cardTitle: El boletín informativo
+  cardDescription: Suscribirse para obtener mi último contenido.
+  email: El correo electrónico
+  submit: Envío
+  successTitle: El éxito
+  successDescription: Gracias por registrarte, prometo enviar sólo contenido interesante.
+  signupError: El error
+  signupErrorDescription: Hubo un error al suscribirse al boletín, póngame en
+    codybontecou{at}gmail{dot}com y te agregaré a la vieja manera.
+work:
+  title: Abierto al trabajo
+  contactMePrefix: Póngase en contacto conmigo en
+  contactMeSuffix: si quieres charlar.
+about:
+  cofoundedHeader: "Anteriormente cofundé:"
+  linksToExploreHeader: "Algunos enlaces para explorar:"

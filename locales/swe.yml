@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Senaste
+  minuteRead: Minutläsning
+  keepReading: Fortsätt läsa →
+topics:
+  topics: Ämnen
+writing:
+  writing: Skrivande
+landing:
+  whatsNew: Vad är nytt?
+  justShipped: Nyss skickad
+  hero: Cody Bontecou
+  description: "njuter av livet "
+  cta: Skrivande
+  learnMore: Om
+slug:
+  alsoEnjoy: Du kanske också tycker om
+newsletter:
+  cardTitle: Nyhetsbrev
+  cardDescription: Prenumerera för att få mitt senaste innehåll. Ingen spam.
+  email: E-post
+  submit: Inlämna
+  successTitle: Framgång
+  successDescription: Tack för att du anmälde dig! Jag lovar att bara skicka intressant innehåll.
+  signupError: Fel
+  signupErrorDescription: Det var ett fel när du prenumererade på nyhetsbrevet.
+work:
+  title: Öppen för arbete
+  contactMePrefix: Kontakta mig på
+  contactMeSuffix: om du vill prata.
+about:
+  cofoundedHeader: "Tidigare var jag med och grundade:"
+  linksToExploreHeader: "Några länkar att utforska:"

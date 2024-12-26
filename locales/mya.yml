@@ -1,0 +1,39 @@
+constants:
+  author: Cody Bontecou ကို
+latest:
+  latest: နောက်ဆုံးပေါ်
+  minuteRead: မိနစ်ဖတ်ခြင်း
+  keepReading: ဆက်လက်ဖတ်ရှုပါ →
+topics:
+  topics: အကြောင်းအရာများ
+writing:
+  writing: စာရေးခြင်း
+landing:
+  whatsNew: အသစ်အဆန်းက ဘာလဲ။
+  justShipped: အခုတင် ပို့လိုက်တာပါ။
+  hero: Cody Bontecou ကို
+  description: ဘဝကို နှစ်ခြိုက်နေတယ်
+  cta: စာရေးခြင်း
+  learnMore: အကြောင်း
+slug:
+  alsoEnjoy: ခင်ဗျားတို့လည်း နှစ်ခြိုက်ကြမှာပါ။
+newsletter:
+  cardTitle: သတင်းစာစောင်
+  cardDescription: ကျွန်တော့ရဲ့ နောက်ဆုံးပေါ် အကြောင်းအရာတွေကို ရယူဖို့
+    စာရင်းပေးသွင်းပါ။ spam မရှိပါ။
+  email: အီးမေးလ်
+  submit: တင်ပြပါ
+  successTitle: အောင်မြင်မှု
+  successDescription: မှတ်ပုံတင်မှုအတွက် ကျေးဇူးတင်ပါတယ်။ စိတ်ဝင်စားစရာ
+    အကြောင်းအရာတွေကိုပဲ ပို့ပေးမယ်လို့ ကတိပေးပါတယ်။
+  signupError: အမှား
+  signupErrorDescription: သတင်းလွှာကို စာရင်းသွင်းရာမှာ အမှားတစ်ခု ဖြစ်ခဲ့တယ်။
+    codybontecou{at}gmail{dot}com မှာ ကျွန်တော့ကို ဝင်လိုက်ပါ၊ ကျွန်တော်
+    ခင်ဗျားကို ခေတ်ဟောင်းနည်းနဲ့ ထည့်ပေးမယ်။
+work:
+  title: အလုပ်အတွက် ပွင့်လင်းတယ်။
+  contactMePrefix: ကျွန်တော့ကို ဆက်သွယ်ပါ
+  contactMeSuffix: စကားပြောချင်ရင် ပြောပါ။
+about:
+  cofoundedHeader: အရင်က ကျွန်တော် ပူးတွဲတည်ထောင်ခဲ့တာက
+  linksToExploreHeader: ရှာဖွေရန် လင့်ခ်အချို့။

@@ -1,0 +1,38 @@
+constants:
+  author: কোডি বন্টেকু
+latest:
+  latest: সর্বশেষ
+  minuteRead: মিনিট রিড
+  keepReading: পড়া চালিয়ে যান →
+topics:
+  topics: বিষয়গুলি
+writing:
+  writing: লেখালেখি
+landing:
+  whatsNew: কি নতুন খবর?
+  justShipped: সবেমাত্র পাঠানো হয়েছে
+  hero: কোডি বন্টেকু
+  description: জীবন উপভোগ করছে
+  cta: লেখালেখি
+  learnMore: সম্পর্কে
+slug:
+  alsoEnjoy: আপনিও উপভোগ করতে পারেন
+newsletter:
+  cardTitle: নিউজলেটার
+  cardDescription: আমার সর্বশেষ সামগ্রী পেতে সাবস্ক্রাইব করুন। কোন স্প্যাম নেই।
+  email: ই-মেইল
+  submit: জমা দিন
+  successTitle: সাফল্য
+  successDescription: সাইন আপ করার জন্য ধন্যবাদ! আমি প্রতিশ্রুতি দিচ্ছি যে আমি
+    কেবল আকর্ষণীয় বিষয়বস্তু পাঠাবো।
+  signupError: ত্রুটি
+  signupErrorDescription: নিউজলেটারে সাবস্ক্রাইব করার সময় একটা ত্রুটি হয়েছে।
+    আমাকে কোডিবন্টেকুএটজিমেলডটকম এ ফোন করুন এবং আমি আপনাকে পুরানো পদ্ধতিতে যোগ
+    করব।
+work:
+  title: কাজের জন্য উন্মুক্ত
+  contactMePrefix: আমার সাথে যোগাযোগ করুন
+  contactMeSuffix: যদি তুমি চ্যাট করতে চাও।
+about:
+  cofoundedHeader: "এর আগে আমি সহ-প্রতিষ্ঠাতা ছিলাম:"
+  linksToExploreHeader: অন্বেষণের জন্য কয়েকটি লিঙ্কঃ

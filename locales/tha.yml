@@ -1,0 +1,36 @@
+constants:
+  author: โคดี้ บอนเตคิว
+latest:
+  latest: ล่าสุด
+  minuteRead: นาทีอ่าน
+  keepReading: อ่านต่อไป →
+topics:
+  topics: หัวข้อ
+writing:
+  writing: การเขียน
+landing:
+  whatsNew: มีอะไรใหม่ไหม
+  justShipped: เพิ่งส่งมา
+  hero: โคดี้ บอนเตคิว
+  description: กําลังสนุกกับชีวิตอยู่
+  cta: การเขียน
+  learnMore: เกี่ยวกับ
+slug:
+  alsoEnjoy: คุณอาจจะสนุกด้วย
+newsletter:
+  cardTitle: จดหมายข่าว
+  cardDescription: สมัครสมาชิกเพื่อรับเนื้อหาล่าสุดของฉัน ไม่มีสแปม
+  email: อีเมล
+  submit: ยื่น
+  successTitle: ความสําเร็จ
+  successDescription: ขอบคุณที่ลงทะเบียน ผมสัญญาว่าจะส่งเนื้อหาที่น่าสนใจเท่านั้น
+  signupError: ความผิดพลาด
+  signupErrorDescription: มีความผิดพลาดในการสมัครสมาชิกในหนังสือพิมพ์ ติดต่อฉันที่
+    codybontecou{at}gmail{dot}com และฉันจะเพิ่มคุณในทางเก่า
+work:
+  title: เปิดให้บริการ
+  contactMePrefix: ติดต่อฉันที่
+  contactMeSuffix: ถ้าคุณอยากคุยกัน
+about:
+  cofoundedHeader: "ก่อนหน้านี้ผมเป็นผู้ร่วมก่อตั้ง:"
+  linksToExploreHeader: "ลิงก์ไม่กี่ข้อที่จะสํารวจ:"

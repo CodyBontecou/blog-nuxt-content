@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Paling anyar
+  minuteRead: menit maca
+  keepReading: Terus maca →
+topics:
+  topics: Topik-topik
+writing:
+  writing: Nulis
+landing:
+  whatsNew: Apa sing anyar
+  justShipped: Mung dikirim
+  hero: Cody Bontecou
+  description: lagi seneng urip
+  cta: Nulis
+  learnMore: Babagan
+slug:
+  alsoEnjoy: Sampeyan uga bisa seneng
+newsletter:
+  cardTitle: Newsletter (Layang-layang)
+  cardDescription: Langganan kanggo nampa konten paling anyar tanpa spam.
+  email: E-mail
+  submit: Kirimake
+  successTitle: Sukses
+  successDescription: Matur nuwun kanggo ndhaftar! Aku janji mung bakal ngirim konten sing menarik.
+  signupError: Kesalahan
+  signupErrorDescription: Ana kesalahan langganan buletin. Hit kula ing
+    codybontecou{at}gmail{dot}com lan aku bakal nambah sampeyan cara lawas.
+work:
+  title: Bukak kanggo nyambut gawé
+  contactMePrefix: Hubungi aku ing
+  contactMeSuffix: Yen sampeyan pengin ngobrol.
+about:
+  cofoundedHeader: "Sadurungé aku dadi pendiri:"
+  linksToExploreHeader: "Sawetara pranala kanggo njelajah:"

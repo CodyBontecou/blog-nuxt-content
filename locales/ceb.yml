@@ -1,0 +1,38 @@
+constants:
+  author: Si Cody Bontecou
+latest:
+  latest: Ang labing bag-o
+  minuteRead: Minuto nga gibasa
+  keepReading: Padayon sa pagbasa →
+topics:
+  topics: Mga Topiko
+writing:
+  writing: Pagsulat
+landing:
+  whatsNew: Unsa ang bag-o
+  justShipped: Bag-o lang gipadala
+  hero: Si Cody Bontecou
+  description: nagtagamtam sa kinabuhi
+  cta: Pagsulat
+  learnMore: Mahitungod sa
+slug:
+  alsoEnjoy: Mahimo usab nimong malingaw
+newsletter:
+  cardTitle: Newsletter
+  cardDescription: Pag-subscribe sa akong labing bag-ong mga artikulo, dili spam
+  email: E-mail
+  submit: Ipadala
+  successTitle: Pagmalamposon
+  successDescription: Salamat sa pag-sign up! Ako nagsaad sa pagpadala lamang sa
+    makaiikag nga sulod.
+  signupError: Sayop
+  signupErrorDescription: Adunay usa ka sayop sa pag-subscribe sa newsletter.
+    Hupti ako sa codybontecou{at}gmail{dot}com ug idugang ko ikaw sa karaang
+    paagi.
+work:
+  title: Buksan sa pagtrabaho
+  contactMePrefix: Makigkontak kanako sa
+  contactMeSuffix: kon gusto nimong makig-estorya.
+about:
+  cofoundedHeader: "Kaniadto ako ang nagtukod sa:"
+  linksToExploreHeader: "Pipila ka mga link sa pagsuhid:"

@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Legutóbbi
+  minuteRead: perc olvasás
+  keepReading: Olvass tovább →
+topics:
+  topics: Témák
+writing:
+  writing: Írás
+landing:
+  whatsNew: Mi a új?
+  justShipped: Épp most szállították.
+  hero: Cody Bontecou
+  description: Élvezem az életet.
+  cta: Írás
+  learnMore: Körülbelül
+slug:
+  alsoEnjoy: Talán élvezheted is.
+newsletter:
+  cardTitle: Hírlevél
+  cardDescription: Írd fel magad, hogy megkapd a legújabb tartalmakot.
+  email: E-mail
+  submit: Elküldés
+  successTitle: Siker
+  successDescription: Köszönöm a regisztrációt! Ígérem, hogy csak érdekes tartalmakat küldök.
+  signupError: Hiba
+  signupErrorDescription: Volt egy hiba a hírlevél feliratkozásában.
+work:
+  title: Nyitva a munkára
+  contactMePrefix: Kapcsolatba lépjen velem
+  contactMeSuffix: Ha beszélgetni szeretnél.
+about:
+  cofoundedHeader: "Korábban társalapítója voltam:"
+  linksToExploreHeader: "Néhány link a feltáráshoz:"

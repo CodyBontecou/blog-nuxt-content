@@ -1,0 +1,38 @@
+constants:
+  author: លោក Cody Bontecou
+latest:
+  latest: ចុងក្រោយបំផុត
+  minuteRead: នាទីអាន
+  keepReading: សូមអានបន្ត →
+topics:
+  topics: ប្រធានបទ
+writing:
+  writing: ការសរសេរ
+landing:
+  whatsNew: តើមានអ្វីថ្មី?
+  justShipped: ទើបតែដឹកជញ្ជូន
+  hero: លោក Cody Bontecou
+  description: កំពុងតែរីករាយជាមួយជីវិត
+  cta: ការសរសេរ
+  learnMore: អំពី
+slug:
+  alsoEnjoy: អ្នកក៏អាចរីករាយបានដែរ
+newsletter:
+  cardTitle: សារព័ត៌មាន
+  cardDescription: សូមចុះឈ្មោះដើម្បីទទួលបានអត្ថបទចុងក្រោយរបស់ខ្ញុំ គ្មាន spam ។
+  email: អ៊ីមែល
+  submit: បញ្ជូន
+  successTitle: ភាពជោគជ័យ
+  successDescription: សូមអរគុណសម្រាប់ការចុះឈ្មោះ! ខ្ញុំសន្យាថា
+    នឹងផ្ញើសារតែខ្លឹមសារដែលគួរឱ្យចាប់អារម្មណ៍ប៉ុណ្ណោះ។
+  signupError: កំហុស
+  signupErrorDescription: មានកំហុសក្នុងការចុះឈ្មោះសម្រាប់សារព័ត៌មាន.
+    សូមទាក់ទងខ្ញុំនៅ codybontecou{at}gmail{dot}com
+    ហើយខ្ញុំនឹងបន្ថែមអ្នកតាមរបៀបចាស់។
+work:
+  title: បើកទូលាយសម្រាប់ការងារ
+  contactMePrefix: សូមទាក់ទងខ្ញុំនៅ
+  contactMeSuffix: ប្រសិន បើ អ្នក ចង់ និយាយ គ្នា។
+about:
+  cofoundedHeader: "កាលពីមុនខ្ញុំបានសហការបង្កើត:"
+  linksToExploreHeader: "តំណភ្ជាប់មួយចំនួនដើម្បីស្រាវជ្រាវ:"

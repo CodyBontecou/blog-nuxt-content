@@ -1,0 +1,36 @@
+constants:
+  author: Коди Бонтеку.
+latest:
+  latest: Най-новото
+  minuteRead: Минута за четене
+  keepReading: Продължавай да четеш →
+topics:
+  topics: Теми
+writing:
+  writing: Писане
+landing:
+  whatsNew: Какво ново?
+  justShipped: Току-що изпратено.
+  hero: Коди Бонтеку.
+  description: Наслаждава се на живота.
+  cta: Писане
+  learnMore: За какво?
+slug:
+  alsoEnjoy: Може и да ти хареса.
+newsletter:
+  cardTitle: Информационен бюлетин
+  cardDescription: Подпишете се, за да получите най-новото ми съдържание.
+  email: Е-пошта
+  submit: Представяне
+  successTitle: Успех
+  successDescription: Благодаря, че се регистрирахте! Обещавам да изпращам само
+    интересно съдържание.
+  signupError: Грешка
+  signupErrorDescription: Имаше грешка при абонирането за бюлетина.
+work:
+  title: Отворени за работа.
+  contactMePrefix: Свържете се с мен на
+  contactMeSuffix: Ако искате да поговорим.
+about:
+  cofoundedHeader: "Преди това бях съосновател на:"
+  linksToExploreHeader: "Няколко връзки за изследване:"

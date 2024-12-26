@@ -1,0 +1,37 @@
+constants:
+  author: કોડી બોન્ટેકો
+latest:
+  latest: નવીનતમ
+  minuteRead: મિનિટ વાંચન
+  keepReading: વાંચન ચાલુ રાખો →
+topics:
+  topics: વિષયો
+writing:
+  writing: લેખન
+landing:
+  whatsNew: શું નવું છે
+  justShipped: હમણાં જ મોકલેલ
+  hero: કોડી બોન્ટેકો
+  description: જીવનનો આનંદ માણી રહ્યો છે.
+  cta: લેખન
+  learnMore: વિશે
+slug:
+  alsoEnjoy: તમને પણ આનંદ થઈ શકે છે
+newsletter:
+  cardTitle: ન્યૂઝલેટર
+  cardDescription: મારી નવીનતમ સામગ્રી મેળવવા માટે સબ્સ્ક્રાઇબ કરો. કોઈ સ્પામ નહીં.
+  email: ઈમેલ
+  submit: સબમિટ કરો
+  successTitle: સફળતા
+  successDescription: સાઇન અપ કરવા બદલ આભાર! હું માત્ર રસપ્રદ સામગ્રી મોકલવાનું વચન આપું છું.
+  signupError: ભૂલ
+  signupErrorDescription: ન્યૂઝલેટરની સબ્સ્ક્રાઇબ કરવામાં ભૂલ થઈ હતી. મને
+    કોડિબોન્ટેકોવ {at} gmail{dot} com પર હિટ કરો અને હું તમને જૂની ફેશનની રીતે
+    ઉમેરીશ.
+work:
+  title: કામ કરવા માટે ખુલ્લું
+  contactMePrefix: મારો સંપર્ક કરો
+  contactMeSuffix: જો તમે ચેટ કરવા માંગો છો.
+about:
+  cofoundedHeader: અગાઉ મેં સહ-સ્થાપિત કર્યુંઃ
+  linksToExploreHeader: અન્વેષણ કરવા માટે કેટલીક લિંક્સઃ

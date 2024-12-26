@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Últim
+  minuteRead: Llegir el minut
+  keepReading: Segueix llegint →
+topics:
+  topics: Tèmps
+writing:
+  writing: Escriptura
+landing:
+  whatsNew: Què hi ha de nou?
+  justShipped: Acaba d'enviar-se.
+  hero: Cody Bontecou
+  description: està gaudint de la vida.
+  cta: Escriptura
+  learnMore: Sobre
+slug:
+  alsoEnjoy: També et podria agradar
+newsletter:
+  cardTitle: Newsletter
+  cardDescription: Subscrib-te per rebre el meu contingut més recent, sense spam.
+  email: Correu electrònic
+  submit: Submetre
+  successTitle: Succés
+  successDescription: Gràcies per inscriure't! Prometo enviar només contingut interessant.
+  signupError: Error
+  signupErrorDescription: Hi ha hagut un error a la subscripció al butlletí.
+work:
+  title: Obert al treball
+  contactMePrefix: Contacta'm a
+  contactMeSuffix: si vols xerrar.
+about:
+  cofoundedHeader: "Anteriorment vaig cofundar:"
+  linksToExploreHeader: "Alguns enllaços per explorar:"

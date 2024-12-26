@@ -1,0 +1,39 @@
+constants:
+  author: কোদী বোন্তেকু
+latest:
+  latest: খ্বাইদগী নৌবা
+  minuteRead: মিনিত পাবা
+  keepReading: মখা তানা পাবা →
+topics:
+  topics: হীরমশিং
+writing:
+  writing: ইবা
+landing:
+  whatsNew: অনৌবা করি লৈবগে
+  justShipped: নৌনা থাদোক্লিবা
+  hero: কোদী বোন্তেকু
+  description: পুন্সি মহিং নুংঙাইনা চৎলি
+  cta: ইবা
+  learnMore: মসিগী মতাংদা
+slug:
+  alsoEnjoy: অদোম্নাসু নুংঙাইবা ফংগনি
+newsletter:
+  cardTitle: ন্যুজলেতর
+  cardDescription: ঐগী খ্বাইদগী নৌবা কন্তেন্ত ফংনবগীদমক্তা সবস্ক্রাইব তৌবীয়ু।
+    স্পাম অমত্তা লৈতে।
+  email: ই-মেইল
+  submit: সবমিৎ তৌবীয়ু
+  successTitle: মায় পাকপা
+  successDescription: সাইন-অপ তৌবগীদমক্তা থাগৎচরি! ঐহাক্না পুক্নিং চিংশিন্নিংঙাই
+    ওইবা কন্তেন্ত খক্তমক থাগৎচরি।
+  signupError: অশোয়বা
+  signupErrorDescription: ন্যুজলেতরদা সবস্ক্রাইব তৌবদা অশোয়বা অমা থোকখি। ঐঙোন্দা
+    কোদিবোন্তেকু{at}gmail{dot}comদা ক্লিক তৌবীয়ু অমসুং ঐহাক্না অদোমবু অরিবা
+    মতমগী মওংদা হাপচিনগনি।
+work:
+  title: থবক তৌনবগীদমক হাংদোকউ
+  contactMePrefix: ঐঙোন্দা পাউ ফাওনবিয়ু
+  contactMeSuffix: করিগুম্বা নহাক্না ৱারী শাবা পাম্লবদি।
+about:
+  cofoundedHeader: "মমাংদা ঐহাক্না কো-ফাউন্দ তৌখি:"
+  linksToExploreHeader: "থিজিন হুমজিনবগীদমক লিঙ্ক খরা:"

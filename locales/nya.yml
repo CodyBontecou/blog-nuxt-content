@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Zosachedwa kwambiri
+  minuteRead: mphindi kuwerenga
+  keepReading: Pitirizani kuwerenga →
+topics:
+  topics: Mitu ya nkhani
+writing:
+  writing: Kulemba
+landing:
+  whatsNew: Kodi pali zatsopano?
+  justShipped: Zangotumizidwa kumene
+  hero: Cody Bontecou
+  description: akusangalala ndi moyo
+  cta: Kulemba
+  learnMore: Zokhudza
+slug:
+  alsoEnjoy: Mwinamwake mungasangalale ndi
+newsletter:
+  cardTitle: Kalata ya nkhani
+  cardDescription: Lembani kuti mulandire zomwe zili patsamba langa posachedwa, popanda spam.
+  email: Imelo
+  submit: Tumizani
+  successTitle: Kupambana
+  successDescription: Zikomo chifukwa cholembetsa! Ndikukulonjezani kuti
+    ndidzangotumiza zokhudzana ndi nkhani zosangalatsa.
+  signupError: Zolakwika
+  signupErrorDescription: Panali cholakwika cholembetsa ku nyuzipepala.
+    Ndiimbireni pa codybontecou{at}gmail{dot}com ndipo ndidzakuwonjezerani
+    m'njira yakale.
+work:
+  title: Kutseguka kuntchito
+  contactMePrefix: Ndilankhuleni pa
+  contactMeSuffix: ngati mukufuna kukambitsirana.
+about:
+  cofoundedHeader: "M'mbuyomu ndinayambitsa:"
+  linksToExploreHeader: "Maulalo angapo oti mufufuze:"

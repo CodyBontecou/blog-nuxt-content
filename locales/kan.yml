@@ -1,0 +1,38 @@
+constants:
+  author: ಕೋಡಿ ಬೊಂಟೆಕೌ
+latest:
+  latest: ಇತ್ತೀಚಿನದು
+  minuteRead: ನಿಮಿಷ ಓದುವಿಕೆ
+  keepReading: ಓದುತ್ತಲೇ ಇರಿ →
+topics:
+  topics: ವಿಷಯಗಳು
+writing:
+  writing: ಬರವಣಿಗೆ
+landing:
+  whatsNew: ಹೊಸತೇನಿದೆ
+  justShipped: ಈಗಷ್ಟೇ ರವಾನಿಸಲಾಗಿದೆ
+  hero: ಕೋಡಿ ಬೊಂಟೆಕೌ
+  description: ಜೀವನವನ್ನು ಆನಂದಿಸುತ್ತಿದೆ
+  cta: ಬರವಣಿಗೆ
+  learnMore: ಬಗ್ಗೆ
+slug:
+  alsoEnjoy: ನೀವು ಸಹ ಆನಂದಿಸಬಹುದು
+newsletter:
+  cardTitle: ಸುದ್ದಿಪತ್ರ
+  cardDescription: ನನ್ನ ಇತ್ತೀಚಿನ ವಿಷಯವನ್ನು ಪಡೆಯಲು ಚಂದಾದಾರರಾಗಿ. ಯಾವುದೇ ಸ್ಪ್ಯಾಮ್ ಇಲ್ಲ.
+  email: ಇಮೇಲ್ ವಿಳಾಸ
+  submit: ಸಲ್ಲಿಸಿ
+  successTitle: ಯಶಸ್ಸು
+  successDescription: ಸೈನ್ ಅಪ್ ಮಾಡಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು! ಆಸಕ್ತಿದಾಯಕ ವಿಷಯವನ್ನು
+    ಮಾತ್ರ ಕಳುಹಿಸಲು ನಾನು ಭರವಸೆ ನೀಡುತ್ತೇನೆ.
+  signupError: ದೋಷ
+  signupErrorDescription: ಸುದ್ದಿಪತ್ರಕ್ಕೆ ಚಂದಾದಾರರಾಗುವಲ್ಲಿ ಒಂದು ದೋಷವಿದೆ. ನನ್ನನ್ನು
+    ಕೋಡಿಬೊಂಟೆಕೌ {at}gmail{dot}com ನಲ್ಲಿ ಹೊಡೆಯಿರಿ ಮತ್ತು ನಾನು ನಿಮ್ಮನ್ನು ಹಳೆಯ-ಶೈಲಿಯ
+    ರೀತಿಯಲ್ಲಿ ಸೇರಿಸುತ್ತೇನೆ.
+work:
+  title: ಕೆಲಸಕ್ಕೆ ಮುಕ್ತವಾಗಿರಿ
+  contactMePrefix: ನನ್ನನ್ನು ಸಂಪರ್ಕಿಸಿ
+  contactMeSuffix: ನೀವು ಚಾಟ್ ಮಾಡಲು ಬಯಸಿದರೆ.
+about:
+  cofoundedHeader: "ಈ ಹಿಂದೆ ನಾನು ಸಹ-ಸಂಸ್ಥಾಪಕ:"
+  linksToExploreHeader: "ಅನ್ವೇಷಿಸಲು ಕೆಲವು ಲಿಂಕ್ ಗಳು:"

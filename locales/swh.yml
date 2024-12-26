@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Ya karibuni zaidi
+  minuteRead: dakika kusoma
+  keepReading: Endelea kusoma →
+topics:
+  topics: Mada
+writing:
+  writing: Kuandika
+landing:
+  whatsNew: Ni nini kipya
+  justShipped: Ni tu kusafirishwa
+  hero: Cody Bontecou
+  description: ni kufurahia maisha
+  cta: Kuandika
+  learnMore: Kuhusu
+slug:
+  alsoEnjoy: Unaweza pia kufurahia
+newsletter:
+  cardTitle: Barua ya habari
+  cardDescription: Kujiunga na kupata maudhui yangu ya hivi karibuni, hakuna spam.
+  email: Barua pepe
+  submit: Submit
+  successTitle: Mafanikio
+  successDescription: Asante kwa kujiandikisha! Ninaahidi kutuma tu maudhui ya kuvutia.
+  signupError: Kosa
+  signupErrorDescription: Kulikuwa na kosa kujiandikisha kwa jarida. Hit mimi juu
+    ya codybontecou{at}gmail{dot}com na mimi kuongeza wewe njia ya zamani.
+work:
+  title: Kufungua kwa kazi
+  contactMePrefix: Wasiliana nami katika
+  contactMeSuffix: kama ungependa kuzungumza.
+about:
+  cofoundedHeader: "Hapo awali nilikuwa mwanzilishi mwenza wa:"
+  linksToExploreHeader: "Viungo vichache vya kuchunguza:"

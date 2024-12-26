@@ -1,0 +1,35 @@
+constants:
+  author: 科迪·邦特科
+latest:
+  latest: 最新嘅
+  minuteRead: 讀取分鐘
+  keepReading: 繼續閱讀 →
+topics:
+  topics: 主題
+writing:
+  writing: 寫作
+landing:
+  whatsNew: 有咩新嘅呢?
+  justShipped: 啱啱運嚟
+  hero: 科迪·邦特科
+  description: 享受緊生活
+  cta: 寫作
+  learnMore: 關於
+slug:
+  alsoEnjoy: 你亦可以享受
+newsletter:
+  cardTitle: 新聞信
+  cardDescription: 訂閱我最新內容,唔會收到垃圾郵件.
+  email: 電子郵件
+  submit: 提交
+  successTitle: 成功
+  successDescription: 多謝你註冊,我承諾只會寄有趣嘅內容.
+  signupError: 錯誤
+  signupErrorDescription: 訂閱新聞信有個錯誤. 請打電話畀我,我會用舊式嘅方式添加你.
+work:
+  title: 打開工作
+  contactMePrefix: 請聯絡我
+  contactMeSuffix: 如果你想傾偈,
+about:
+  cofoundedHeader: 我之前係其中一個創辦人
+  linksToExploreHeader: "有幾個可以參考嘅連結:"

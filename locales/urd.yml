@@ -1,0 +1,37 @@
+constants:
+  author: کوڈی بونٹیکو
+latest:
+  latest: تازہ ترین
+  minuteRead: منٹ پڑھنا
+  keepReading: پڑھتے رہیں →
+topics:
+  topics: موضوعات
+writing:
+  writing: لکھنا
+landing:
+  whatsNew: کیا نیا ہے
+  justShipped: ابھی بھیجا گیا
+  hero: کوڈی بونٹیکو
+  description: زندگی سے لطف اندوز ہو رہا ہے
+  cta: لکھنا
+  learnMore: کے بارے میں
+slug:
+  alsoEnjoy: آپ کو بھی لطف اندوز ہو سکتا ہے
+newsletter:
+  cardTitle: نیوز لیٹر
+  cardDescription: سبسکرائب کریں اور میری تازہ ترین معلومات حاصل کریں - کوئی سپیم نہیں
+  email: ای میل
+  submit: پیش کریں
+  successTitle: کامیابی
+  successDescription: سائن اپ کرنے کا شکریہ! میں صرف دلچسپ مواد بھیجنے کا وعدہ کرتا ہوں.
+  signupError: غلطی
+  signupErrorDescription: نیوز لیٹر کی رکنیت میں ایک غلطی ہوئی تھی۔ مجھے
+    کوڈبونٹیکو{at}gmail{dot}com پر کال کریں اور میں آپ کو پرانے زمانے کے طریقے
+    سے شامل کروں گا۔
+work:
+  title: کام کرنے کے لئے کھلا
+  contactMePrefix: مجھ سے رابطہ کریں
+  contactMeSuffix: اگر آپ بات چیت کرنا چاہتے ہیں.
+about:
+  cofoundedHeader: "اس سے پہلے میں نے شریک بانی:"
+  linksToExploreHeader: "دریافت کرنے کے لئے کچھ لنکس:"

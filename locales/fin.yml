@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Viimeisin
+  minuteRead: minuutin lukeminen
+  keepReading: Jatka lukemista →
+topics:
+  topics: Aiheet
+writing:
+  writing: Kirjoittaminen
+landing:
+  whatsNew: Mitä uutta ?
+  justShipped: Vasta lähetetty .
+  hero: Cody Bontecou
+  description: Nauttii elämästä.
+  cta: Kirjoittaminen
+  learnMore: Siitä
+slug:
+  alsoEnjoy: Saatat myös nauttia
+newsletter:
+  cardTitle: Uutiskirje
+  cardDescription: Tilaa uusimmat sisällöt ilman roskapostia.
+  email: Sähköposti
+  submit: Lähettäkää
+  successTitle: Menestys
+  successDescription: Lupaan lähettää vain mielenkiintoista sisältöä.
+  signupError: Virhe
+  signupErrorDescription: Oli virhe tilaamaan uutiskirjeitä.
+work:
+  title: Avoin työhön
+  contactMePrefix: Ota yhteyttä minuun
+  contactMeSuffix: Jos haluat jutella.
+about:
+  cofoundedHeader: "Aiemmin perustin:"
+  linksToExploreHeader: "Muutamia linkkejä tutustumaan:"

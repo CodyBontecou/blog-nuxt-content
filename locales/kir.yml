@@ -1,0 +1,37 @@
+constants:
+  author: Коди Бонтеку
+latest:
+  latest: Акыркысы
+  minuteRead: мүнөттүк окуу
+  keepReading: Окуй бергиле →
+topics:
+  topics: Темалар
+writing:
+  writing: Жазуу
+landing:
+  whatsNew: Жаңы нерсе эмне?
+  justShipped: Жакында эле жөнөтүлдү
+  hero: Коди Бонтеку
+  description: жашоодон ырахат алып жатат
+  cta: Жазуу
+  learnMore: Жарыялоо
+slug:
+  alsoEnjoy: Ошондой эле
+newsletter:
+  cardTitle: Жаңылыктар
+  cardDescription: Менин акыркы мазмунума жазылыңыз, спам жок.
+  email: Электрондук почта
+  submit: Жеткирүү
+  successTitle: Ийгиликке жетүү
+  successDescription: Катталганыңыз үчүн рахмат! Мен кызыктуу мазмунду гана жөнөтүүгө убада берем.
+  signupError: Ката
+  signupErrorDescription: Жаңылыктар бюллетенине жазылуу катасы болду. Мага
+    codybontecou{at}gmail{dot}com дареги аркылуу кайрылыңыз, мен сизди эскиче
+    кошууга аракет кылам.
+work:
+  title: Жумушка даяр
+  contactMePrefix: Мага кайрылыңыз
+  contactMeSuffix: Эгер сиз сүйлөшкүңүз келсе.
+about:
+  cofoundedHeader: "Буга чейин мен төмөнкүлөрдү негиздегенмин:"
+  linksToExploreHeader: "Бир нече шилтемелер:"

@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Ekyasembayo
+  minuteRead: Miniti ey'okusoma
+  keepReading: Weeyongere okusoma →
+topics:
+  topics: Ensonga
+writing:
+  writing: Okuwandiika
+landing:
+  whatsNew: Biki ebipya
+  justShipped: Waakutwalibwa
+  hero: Cody Bontecou
+  description: asanyukira obulamu
+  cta: Okuwandiika
+  learnMore: Ebikwata ku
+slug:
+  alsoEnjoy: Oyinza n'okunyumirwa
+newsletter:
+  cardTitle: Olupapula lw'amawulire
+  cardDescription: Wandiika ku mukutu gwange ogwa 'Subscribe' era ojja kufuna
+    obubaka obukwata ku bulagirizi obuli mu mpapula z'amawulire.
+  email: E-mail y'omukwano
+  submit: Okuwaayo
+  successTitle: Obuwanguzi
+  successDescription: Weebale okwewandiisa! Nkusuubiza okusindika ebintu ebyewuunyisa byokka.
+  signupError: Ensobi
+  signupErrorDescription: Waabaddewo ensobi mu kussa mu nkola empapula
+    z'amawulire. Nkwegayiridde ondagire ku codybontecou{at}gmail{dot}com era nja
+    kukwongera mu ngeri ey'edda.
+work:
+  title: Okuggulawo emirimu
+  contactMePrefix: Nkwegayiridde nkolagana nange ku
+  contactMeSuffix: bw'oba oyagala okwogerako.
+about:
+  cofoundedHeader: "Emabegako nnatandikawo:"
+  linksToExploreHeader: "Ensibuko entonotono ez'okunoonyereza:"

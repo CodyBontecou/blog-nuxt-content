@@ -1,0 +1,37 @@
+constants:
+  author: کۆدی بۆنتێکۆ
+latest:
+  latest: نوێترین
+  minuteRead: خولەکێک بخوێنەوە
+  keepReading: بەردەوامبە لە خوێندنەوە →
+topics:
+  topics: بابەتەکان
+writing:
+  writing: نووسین
+landing:
+  whatsNew: چی نوێیە؟
+  justShipped: تازە نێردراوە
+  hero: کۆدی بۆنتێکۆ
+  description: چێژ لە ژیان وەردەگرێت
+  cta: نووسین
+  learnMore: دەربارەی
+slug:
+  alsoEnjoy: لەوانەیە چێژ لە
+newsletter:
+  cardTitle: نامەی هەواڵ
+  cardDescription: بۆ وەرگرتنی نوێترین بابەتەکانم، بەشداربە.
+  email: ئیمەیڵ
+  submit: پێشکەش بکە
+  successTitle: سەرکەوتن
+  successDescription: سوپاس بۆ تۆمارکردن، بەڵێن دەدەم تەنها ناوەڕۆکی سەرنجڕاکێش بنێرم.
+  signupError: هەڵە
+  signupErrorDescription: هەڵەیەک ڕوویدا لە بەشداریکردن لە هەواڵنامەکەدا، لە
+    کۆدیبۆنتیکوو لە گەمەیڵ دۆت کۆم پەیوەندی پێوە بکە و من بە شێوازی کۆن زیادت
+    دەکەم.
+work:
+  title: کراوە بۆ کارکردن
+  contactMePrefix: پەیوەندیم پێوە بکە لە
+  contactMeSuffix: ئەگەر دەتەوێت قسە بکەیت.
+about:
+  cofoundedHeader: "پێشتر من هاوکارم لە دامەزراندنی:"
+  linksToExploreHeader: "چەند بەستەرێک بۆ لێکۆڵینەوە:"

@@ -1,0 +1,38 @@
+constants:
+  author: Kodi Bonteku
+latest:
+  latest: Eng soʻnggi
+  minuteRead: O'qish daqiqasi
+  keepReading: Oʻqishni davom ettiring →
+topics:
+  topics: Mavzular
+writing:
+  writing: Yozish
+landing:
+  whatsNew: Yangi nima bor?
+  justShipped: Yaqinda joʻnatilgan
+  hero: Kodi Bonteku
+  description: hayotdan zavqlanmoqda
+  cta: Yozish
+  learnMore: Taxminan
+slug:
+  alsoEnjoy: Siz ham zavqlanishingiz mumkin
+newsletter:
+  cardTitle: Yangiliklar byulleteni
+  cardDescription: Bizning eng so'nggi tarkibni olish uchun obuna bo'ling.
+  email: Elektron pochta
+  submit: Taqdim etish
+  successTitle: Muvaffaqiyat
+  successDescription: Ro'yxatdan o'tganingiz uchun rahmat! Men faqat qiziqarli
+    tarkibni yuborishga va'da beraman.
+  signupError: Xato
+  signupErrorDescription: Yangiliklar byulleteniga obuna bo'lishda xatolik yuz
+    berdi. Menga codybontecou{at}gmail{dot}com orqali murojaat qiling va men
+    sizni eski uslubda qo'shaman.
+work:
+  title: Ishga ochiq
+  contactMePrefix: Menga murojaat qiling
+  contactMeSuffix: Agar suhbatlashishni istasangiz.
+about:
+  cofoundedHeader: "Ilgari men quyidagilarni asos solganman:"
+  linksToExploreHeader: "Ko'rib chiqish uchun bir nechta havolalar:"

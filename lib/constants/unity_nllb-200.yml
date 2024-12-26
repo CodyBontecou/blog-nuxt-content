@@ -1,0 +1,729 @@
+langs:
+  - code: afr
+    language: Afrikaans
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: afr.yml
+    flag: "🇿🇦"
+  - code: amh
+    language: አማርኛ
+    script: Ethi
+    source: Sp, Tx
+    target: Tx
+    file: amh.yml
+    flag: "🇪🇹"
+  - code: arb
+    language: العربية
+    script: Arab
+    source: Sp, Tx
+    target: Sp, Tx
+    file: arb.yml
+    flag: "🇸🇦"
+  - code: ary
+    language: الدارجة
+    script: Arab
+    source: Sp, Tx
+    target: Tx
+    file: ary.yml
+    flag: "🇲🇦"
+  - code: arz
+    language: المصرية
+    script: Arab
+    source: Sp, Tx
+    target: Tx
+    file: arz.yml
+    flag: "🇪🇬"
+  - code: asm
+    language: অসমীয়া
+    script: Beng
+    source: Sp, Tx
+    target: Tx
+    file: asm.yml
+    flag: "🇮🇳"
+  - code: ast
+    language: Asturianu
+    script: Latn
+    source: Sp
+    target: --
+    file: ast.yml
+    flag: "🇪🇸"
+  - code: azj
+    language: Azərbaycan
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: azj.yml
+    flag: "🇦🇿"
+  - code: bel
+    language: Беларуская
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: bel.yml
+    flag: "🇧🇾"
+  - code: ben
+    language: বাংলা
+    script: Beng
+    source: Sp, Tx
+    target: Sp, Tx
+    file: ben.yml
+    flag: "🇧🇩"
+  - code: bos
+    language: Bosanski
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: bos.yml
+    flag: "🇧🇦"
+  - code: bul
+    language: Български
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: bul.yml
+    flag: "🇧🇬"
+  - code: cat
+    language: Català
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: cat.yml
+    flag: "🏴󠁥󠁳󠁣󠁴󠁿"
+  - code: ceb
+    language: Cebuano
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: ceb.yml
+    flag: "🇵🇭"
+  - code: ces
+    language: Čeština
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: ces.yml
+    flag: "🇨🇿"
+  - code: ckb
+    language: سۆرانی
+    script: Arab
+    source: Sp, Tx
+    target: Tx
+    file: ckb.yml
+    flag: "🇮🇶"
+  - code: cmn
+    language: 普通话
+    script: Hans
+    source: Sp, Tx
+    target: Sp, Tx
+    file: cmn.yml
+    flag: "🇨🇳"
+  - code: cmn_Hant
+    language: 漢語
+    script: Hant
+    source: Sp, Tx
+    target: Sp, Tx
+    file: cmn_Hant.yml
+    flag: "🇹🇼"
+  - code: cym
+    language: Cymraeg
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: cym.yml
+    flag: "🇬🇧"
+  - code: dan
+    language: Dansk
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: dan.yml
+    flag: "🇩🇰"
+  - code: deu
+    language: Deutsch
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: deu.yml
+    flag: "🇩🇪"
+  - code: ell
+    language: Ελληνικά
+    script: Grek
+    source: Sp, Tx
+    target: Tx
+    file: ell.yml
+    flag: "🇬🇷"
+  - code: eng
+    language: English
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: eng.yml
+    flag: "🇺🇸"
+  - code: est
+    language: Eesti
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: est.yml
+    flag: "🇪🇪"
+  - code: eus
+    language: Euskara
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: eus.yml
+    flag: "🏴󠁥󠁳󠁰󠁶󠁿"
+  - code: fin
+    language: Suomi
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: fin.yml
+    flag: "🇫🇮"
+  - code: fra
+    language: Français
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: fra.yml
+    flag: "🇫🇷"
+  - code: fuv
+    language: Fulfulde
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: fuv.yml
+    flag: "🇸🇳"
+  - code: gaz
+    language: Afaan Oromoo
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: gaz.yml
+    flag: "🇪🇹"
+  - code: gle
+    language: Gaeilge
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: gle.yml
+    flag: "🇮🇪"
+  - code: glg
+    language: Galego
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: glg.yml
+    flag: "🇪🇸"
+  - code: guj
+    language: ગુજરાતી
+    script: Gujr
+    source: Sp, Tx
+    target: Tx
+    file: guj.yml
+    flag: "🇮🇳"
+  - code: heb
+    language: עברית
+    script: Hebr
+    source: Sp, Tx
+    target: Tx
+    file: heb.yml
+    flag: "🇮🇱"
+  - code: hin
+    language: हिन्दी
+    script: Deva
+    source: Sp, Tx
+    target: Sp, Tx
+    file: hin.yml
+    flag: "🇮🇳"
+  - code: hrv
+    language: Hrvatski
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: hrv.yml
+    flag: "🇭🇷"
+  - code: hun
+    language: Magyar
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: hun.yml
+    flag: "🇭🇺"
+  - code: hye
+    language: Հայերեն
+    script: Armn
+    source: Sp, Tx
+    target: Tx
+    file: hye.yml
+    flag: "🇦🇲"
+  - code: ibo
+    language: Igbo
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: ibo.yml
+    flag: "🇳🇬"
+  - code: ind
+    language: Bahasa Indonesia
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: ind.yml
+    flag: "🇮🇩"
+  - code: isl
+    language: Íslenska
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: isl.yml
+    flag: "🇮🇸"
+  - code: ita
+    language: Italiano
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: ita.yml
+    flag: "🇮🇹"
+  - code: jav
+    language: Basa Jawa
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: jav.yml
+    flag: "🇮🇩"
+  - code: jpn
+    language: 日本語
+    script: Jpan
+    source: Sp, Tx
+    target: Sp, Tx
+    file: jpn.yml
+    flag: "🇯🇵"
+  - code: kam
+    language: Kikamba
+    script: Latn
+    source: Sp
+    target: --
+    file: kam.yml
+    flag: "🇰🇪"
+  - code: kan
+    language: ಕನ್ನಡ
+    script: Knda
+    source: Sp, Tx
+    target: Tx
+    file: kan.yml
+    flag: "🇮🇳"
+  - code: kat
+    language: ქართული
+    script: Geor
+    source: Sp, Tx
+    target: Tx
+    file: kat.yml
+    flag: "🇬🇪"
+  - code: kaz
+    language: Қазақ
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: kaz.yml
+    flag: "🇰🇿"
+  - code: kea
+    language: Kriolu
+    script: Latn
+    source: Sp
+    target: --
+    file: kea.yml
+    flag: "🇨🇻"
+  - code: khk
+    language: Монгол
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: khk.yml
+    flag: "🇲🇳"
+  - code: khm
+    language: ខ្មែរ
+    script: Khmr
+    source: Sp, Tx
+    target: Tx
+    file: khm.yml
+    flag: "🇰🇭"
+  - code: kir
+    language: Кыргызча
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: kir.yml
+    flag: "🇰🇬"
+  - code: kor
+    language: 한국어
+    script: Kore
+    source: Sp, Tx
+    target: Sp, Tx
+    file: kor.yml
+    flag: "🇰🇷"
+  - code: lao
+    language: ລາວ
+    script: Laoo
+    source: Sp, Tx
+    target: Tx
+    file: lao.yml
+    flag: "🇱🇦"
+  - code: lit
+    language: Lietuvių
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: lit.yml
+    flag: "🇱🇹"
+  - code: lvs
+    language: Latviešu
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: lvs.yml
+    flag: "🇱🇻"
+  - code: lug
+    language: Luganda
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: lug.yml
+    flag: "🇺🇬"
+  - code: luo
+    language: Dholuo
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: luo.yml
+    flag: "🇰🇪"
+  - code: lvs
+    language: Latviešu
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: lvs.yml
+    flag: "🇱🇻"
+  - code: mai
+    language: मैथिली
+    script: Deva
+    source: Sp, Tx
+    target: Tx
+    file: mai.yml
+    flag: "🇮🇳"
+  - code: mal
+    language: മലയാളം
+    script: Mlym
+    source: Sp, Tx
+    target: Tx
+    file: mal.yml
+    flag: "🇮🇳"
+  - code: mar
+    language: मराठी
+    script: Deva
+    source: Sp, Tx
+    target: Tx
+    file: mar.yml
+    flag: "🇮🇳"
+  - code: mkd
+    language: Македонски
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: mkd.yml
+    flag: "🇲🇰"
+  - code: mlt
+    language: Malti
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: mlt.yml
+    flag: "🇲🇹"
+  - code: mni
+    language: মৈতৈলোন্
+    script: Beng
+    source: Sp, Tx
+    target: Tx
+    file: mni.yml
+    flag: "🇮🇳"
+  - code: mya
+    language: မြန်မာစာ
+    script: Mymr
+    source: Sp, Tx
+    target: Tx
+    file: mya.yml
+    flag: "🇲🇲"
+  - code: nld
+    language: Nederlands
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: nld.yml
+    flag: "🇳🇱"
+  - code: nno
+    language: Nynorsk
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: nno.yml
+    flag: "🇳🇴"
+  - code: nob
+    language: Bokmål
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: nob.yml
+    flag: "🇳🇴"
+  - code: npi
+    language: नेपाली
+    script: Deva
+    source: Sp, Tx
+    target: Tx
+    file: npi.yml
+    flag: "🇳🇵"
+  - code: nya
+    language: Chichewa
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: nya.yml
+    flag: "🇲🇼"
+  - code: oci
+    language: Occitan
+    script: Latn
+    source: Sp
+    target: --
+    file: oci.yml
+    flag: "🇫🇷"
+  - code: ory
+    language: ଓଡ଼ିଆ
+    script: Orya
+    source: Sp, Tx
+    target: Tx
+    file: ory.yml
+    flag: "🇮🇳"
+  - code: pan
+    language: ਪੰਜਾਬੀ
+    script: Guru
+    source: Sp, Tx
+    target: Tx
+    file: pan.yml
+    flag: "🇮🇳"
+  - code: pbt
+    language: پښتو
+    script: Arab
+    source: Sp, Tx
+    target: Tx
+    file: pbt.yml
+    flag: "🇦🇫"
+  - code: pes
+    language: فارسی
+    script: Arab
+    source: Sp, Tx
+    target: Sp, Tx
+    file: pes.yml
+    flag: "🇮🇷"
+  - code: pol
+    language: Polski
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: pol.yml
+    flag: "🇵🇱"
+  - code: por
+    language: Português
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: por.yml
+    flag: "🇵🇹"
+  - code: ron
+    language: Română
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: ron.yml
+    flag: "🇷🇴"
+  - code: rus
+    language: Русский
+    script: Cyrl
+    source: Sp, Tx
+    target: Sp, Tx
+    file: rus.yml
+    flag: "🇷🇺"
+  - code: slk
+    language: Slovenčina
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: slk.yml
+    flag: "🇸🇰"
+  - code: slv
+    language: Slovenščina
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: slv.yml
+    flag: "🇸🇮"
+  - code: sna
+    language: chiShona
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: sna.yml
+    flag: "🇿🇼"
+  - code: snd
+    language: سنڌي
+    script: Arab
+    source: Sp, Tx
+    target: Tx
+    file: snd.yml
+    flag: "🇵🇰"
+  - code: som
+    language: Soomaali
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: som.yml
+    flag: "🇸🇴"
+  - code: spa
+    language: Español
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: spa.yml
+    flag: "🇪🇸"
+  - code: srp
+    language: Српски
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: srp.yml
+    flag: "🇷🇸"
+  - code: swe
+    language: Svenska
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: swe.yml
+    flag: "🇸🇪"
+  - code: swh
+    language: Kiswahili
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: swh.yml
+    flag: "🇹🇿"
+  - code: tam
+    language: தமிழ்
+    script: Taml
+    source: Sp, Tx
+    target: Tx
+    file: tam.yml
+    flag: "🇮🇳"
+  - code: tel
+    language: తెలుగు
+    script: Telu
+    source: Sp, Tx
+    target: Sp, Tx
+    file: tel.yml
+    flag: "🇮🇳"
+  - code: tgk
+    language: Тоҷикӣ
+    script: Cyrl
+    source: Sp, Tx
+    target: Tx
+    file: tgk.yml
+    flag: "🇹🇯"
+  - code: tgl
+    language: Tagalog
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: tgl.yml
+    flag: "🇵🇭"
+  - code: tha
+    language: ไทย
+    script: Thai
+    source: Sp, Tx
+    target: Sp, Tx
+    file: tha.yml
+    flag: "🇹🇭"
+  - code: tur
+    language: Türkçe
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: tur.yml
+    flag: "🇹🇷"
+  - code: ukr
+    language: Українська
+    script: Cyrl
+    source: Sp, Tx
+    target: Sp, Tx
+    file: ukr.yml
+    flag: "🇺🇦"
+  - code: urd
+    language: اردو
+    script: Arab
+    source: Sp, Tx
+    target: Sp, Tx
+    file: urd.yml
+    flag: "🇵🇰"
+  - code: uzn
+    language: O'zbek
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: uzn.yml
+    flag: "🇺🇿"
+  - code: vie
+    language: Tiếng Việt
+    script: Latn
+    source: Sp, Tx
+    target: Sp, Tx
+    file: vie.yml
+    flag: "🇻🇳"
+  - code: xho
+    language: isiXhosa
+    script: Latn
+    source: Sp
+    target: --
+    file: xho.yml
+    flag: "🇿🇦"
+  - code: yor
+    language: Yorùbá
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: yor.yml
+    flag: "🇳🇬"
+  - code: yue
+    language: 粵語
+    script: Hant
+    source: Sp, Tx
+    target: Tx
+    file: yue.yml
+    flag: "🇭🇰"
+  - code: zlm
+    language: Bahasa Melayu
+    script: Latn
+    source: Sp
+    target: --
+    file: zlm.yml
+    flag: "🇲🇾"
+  - code: zsm
+    language: Bahasa Malaysia
+    script: Latn
+    source: Tx
+    target: Tx
+    file: zsm.yml
+    flag: "🇲🇾"
+  - code: zul
+    language: isiZulu
+    script: Latn
+    source: Sp, Tx
+    target: Tx
+    file: zul.yml
+    flag: "🇿🇦"

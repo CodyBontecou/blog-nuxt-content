@@ -1,0 +1,37 @@
+constants:
+  author: کوډي بونټکو
+latest:
+  latest: وروستی
+  minuteRead: د دقیقې لوستل
+  keepReading: په لوستلو دوام ورکړئ →
+topics:
+  topics: موضوعات او موضوعات
+writing:
+  writing: لیکل
+landing:
+  whatsNew: څه نوي دي؟
+  justShipped: یوازې لیږل شوی
+  hero: کوډي بونټکو
+  description: د ژوند څخه خوند اخلي
+  cta: لیکل
+  learnMore: په اړه
+slug:
+  alsoEnjoy: تاسو ممکن د دې څخه هم خوند واخلئ
+newsletter:
+  cardTitle: د خبرپاڼې
+  cardDescription: زما د وروستي مینځپانګې ترلاسه کولو لپاره ګډون وکړئ.
+  email: د بریښنالیک
+  submit: سپارل شوی
+  successTitle: بریالیتوب
+  successDescription: د نوم لیکنې لپاره مننه! زه ژمنه کوم چې یوازې په زړه پورې مینځپانګه واستوم.
+  signupError: تېروتنه
+  signupErrorDescription: د خبرپاڼې د ګډون په وخت کې يوه تېروتنه رامنځته شوه. ما
+    ته په codybontecou{at}gmail{dot}com کې زنګ ووهئ او زه به تاسو ته په پخوانۍ
+    بڼه اضافه کړم.
+work:
+  title: د کار لپاره خلاص
+  contactMePrefix: له ما سره په دې پته اړیکه ونیسئ
+  contactMeSuffix: که تاسو غواړئ چې خبرې وکړئ.
+about:
+  cofoundedHeader: "پخوا مې د دې بنسټ ایښودونکي په توګه کار کاوه:"
+  linksToExploreHeader: "د سپړلو لپاره یو څو لینکونه:"

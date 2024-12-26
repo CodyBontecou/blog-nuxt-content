@@ -1,0 +1,38 @@
+constants:
+  author: కోడి బోంటెకో
+latest:
+  latest: తాజాది
+  minuteRead: నిమిషం చదవండి
+  keepReading: చదవడం కొనసాగించండి →
+topics:
+  topics: అంశాలు
+writing:
+  writing: రచన
+landing:
+  whatsNew: కొత్త ఏమిటి
+  justShipped: ఇప్పుడే రవాణా చేయబడింది
+  hero: కోడి బోంటెకో
+  description: జీవితాన్ని ఆస్వాదిస్తోంది
+  cta: రచన
+  learnMore: గురించి
+slug:
+  alsoEnjoy: మీరు కూడా ఆనందించవచ్చు
+newsletter:
+  cardTitle: వార్తాపత్రిక
+  cardDescription: నా తాజా కంటెంట్ను పొందడానికి సబ్స్క్రైబ్ చేయండి. స్పామ్ లేదు.
+  email: ఇమెయిల్ చిరునామా
+  submit: సమర్పించండి
+  successTitle: విజయం
+  successDescription: సైన్ అప్ చేసినందుకు ధన్యవాదాలు! నేను ఆసక్తికరమైన కంటెంట్ను
+    మాత్రమే పంపుతానని వాగ్దానం చేస్తున్నాను.
+  signupError: లోపం
+  signupErrorDescription: వార్తాలేఖకు సబ్స్క్రైబ్ చేయడంలో ఒక లోపం ఉంది. నాకు
+    కొడిబొంటెకో {at} gmail {dot} com లో హిట్ చేయండి మరియు నేను మిమ్మల్ని పాత
+    ఫ్యాషన్ మార్గంలో జోడిస్తాను.
+work:
+  title: పనికి సిద్ధంగా ఉండండి
+  contactMePrefix: నన్ను సంప్రదించండి
+  contactMeSuffix: మీరు చాట్ చేయాలనుకుంటే.
+about:
+  cofoundedHeader: "ఇంతకుముందు నేను సహ వ్యవస్థాపకుడిగా ఉన్నాను:"
+  linksToExploreHeader: అన్వేషించడానికి కొన్ని లింకులుః

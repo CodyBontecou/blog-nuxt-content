@@ -1,0 +1,41 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Weddee
+  minuteRead: Minutes read
+  keepReading: Waawde e Waawde
+topics:
+  topics: Theme (sanduuje)
+writing:
+  writing: Waawkude
+landing:
+  whatsNew: Enee, ko haaraa?
+  justShipped: Waggitamaayii
+  hero: Cody Bontecou
+  description: is enjoying life
+  cta: Waawkude
+  learnMore: Waati
+slug:
+  alsoEnjoy: Waawdee wa'dee wa'dee
+newsletter:
+  cardTitle: Waraajo
+  cardDescription: Weehdu e keewoo
+    ko'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o'o
+  email: E-mail (e-mail)
+  submit: Waawde
+  successTitle: Ceeddo
+  successDescription: Mahadee's for signing up! I promise to only send interesting content.
+  signupError: Dallol
+  signupErrorDescription: Ene eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo
+    eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo
+    eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo
+    eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo
+    eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo
+    eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo eewoo
+work:
+  title: Wee miin e waaa
+  contactMePrefix: Wutaa e an e an
+  contactMeSuffix: If you want to chat, you can chat. - Y'all wanna chat? - Y'all wanna chat?
+about:
+  cofoundedHeader: "Dino miin e kootii:"
+  linksToExploreHeader: "Wantoonni muraadho to'oore:"

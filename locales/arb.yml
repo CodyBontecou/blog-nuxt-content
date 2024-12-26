@@ -1,0 +1,36 @@
+constants:
+  author: كودي بونتيكو
+latest:
+  latest: أحدث
+  minuteRead: دقيقة قراءة
+  keepReading: استمر في القراءة
+topics:
+  topics: المواضيع
+writing:
+  writing: الكتابة
+landing:
+  whatsNew: ما الجديد؟
+  justShipped: تم شحنها للتو
+  hero: كودي بونتيكو
+  description: يستمتع بالحياة
+  cta: الكتابة
+  learnMore: حول
+slug:
+  alsoEnjoy: قد تستمتع أيضاً
+newsletter:
+  cardTitle: رسالة إخبارية
+  cardDescription: اشتراك للحصول على آخر محتوى لدي. لا رسائل غير مرغوب فيها.
+  email: البريد الإلكتروني
+  submit: إرسال
+  successTitle: النجاح
+  successDescription: شكراً على التسجيل! أعدك بإرسال محتوى مثير للاهتمام فقط.
+  signupError: خطأ
+  signupErrorDescription: كان هناك خطأ في الاشتراك في النشرة الإخبارية. اضغط علي
+    على codybontecou{at}gmail{dot}com وسأضيفك بالطريقة القديمة.
+work:
+  title: مفتوح للعمل
+  contactMePrefix: اتصل بي على
+  contactMeSuffix: إذا كنت ترغب في الدردشة.
+about:
+  cofoundedHeader: "سابقاً شاركت في تأسيس:"
+  linksToExploreHeader: "بعض الروابط لاستكشافها:"

@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Najnovšie
+  minuteRead: čítanie minút
+  keepReading: Pokračujte v čítaní →
+topics:
+  topics: Témy
+writing:
+  writing: Písanie
+landing:
+  whatsNew: Čo je nové?
+  justShipped: Práve odoslané
+  hero: Cody Bontecou
+  description: Užíva si život.
+  cta: Písanie
+  learnMore: O
+slug:
+  alsoEnjoy: Mohli by ste si tiež vychutnať
+newsletter:
+  cardTitle: Novinársky bulletin
+  cardDescription: Prihláste sa, aby ste získali môj najnovší obsah.
+  email: E-mailová adresa
+  submit: Predložiť
+  successTitle: Úspech
+  successDescription: Ďakujem za prihlásenie! Sľubujem, že budem posielať len zaujímavý obsah.
+  signupError: Chyba
+  signupErrorDescription: Pri predplatení bulletinu došlo k chybe, daj mi odkaz na
+    codybontecou{at}gmail{dot}com a pridám ťa staromódnym spôsobom.
+work:
+  title: Otvorené pre prácu
+  contactMePrefix: Kontaktujte ma na
+  contactMeSuffix: ak by ste sa chceli porozprávať.
+about:
+  cofoundedHeader: "Predtým som spoluzakladal:"
+  linksToExploreHeader: "Niekoľko odkazov na preskúmanie:"

@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Viimane
+  minuteRead: lugemine minuti jooksul
+  keepReading: Jätka lugemist →
+topics:
+  topics: Teemad
+writing:
+  writing: Kirjutamine
+landing:
+  whatsNew: Mis on uut?
+  justShipped: Just saadeti.
+  hero: Cody Bontecou
+  description: "naudib elu "
+  cta: Kirjutamine
+  learnMore: Umbes
+slug:
+  alsoEnjoy: Sa võid ka nautida
+newsletter:
+  cardTitle: Ajakirja
+  cardDescription: Allkirjastage, et saada minu uusim sisu.
+  email: E-posti aadress
+  submit: Esita
+  successTitle: Edusammud
+  successDescription: Aitäh registreerumise eest! Ma luban saata ainult huvitavat sisu.
+  signupError: Viga
+  signupErrorDescription: Uudiskirja tellimisel tekkis viga. Helista mulle
+    kodybontecou{at}gmail{dot}com ja ma lisan su vanamoodsalt.
+work:
+  title: Avatud tööle
+  contactMePrefix: Võta minuga ühendust
+  contactMeSuffix: kui soovite vestelda.
+about:
+  cofoundedHeader: "Varem asutasin ma:"
+  linksToExploreHeader: "Mõned lingid, mida uurida:"

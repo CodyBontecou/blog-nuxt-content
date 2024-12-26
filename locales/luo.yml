@@ -1,0 +1,37 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Ma ne otim machiegni
+  minuteRead: dakika mar somo
+  keepReading: Dhi nyime somo →
+topics:
+  topics: Weche ma ji ohero wuoyoe
+writing:
+  writing: Ndiko
+landing:
+  whatsNew: Ang'o manyien?
+  justShipped: Ne oornwa mana gi meli.
+  hero: Cody Bontecou
+  description: en ng'at mohero ngima
+  cta: Ndiko
+  learnMore: Kuom wach
+slug:
+  alsoEnjoy: Bende inyalo bedo mamor gi
+newsletter:
+  cardTitle: Gaset mar gaset
+  cardDescription: Ng'ato ka ng'ato kuomu nyalo bedo gi thuolo mar ng'iyo weche
+    manyien e websait marwa, to ok ni mondo okonywa.
+  email: E - mail
+  submit: Chiw weche
+  successTitle: Ne Ginyalo Timo Gik Maber
+  successDescription: Erokamano kuom donjo! Asingora ni abiro oro mana weche mamulo chuny.
+  signupError: Okang' ma ne ok owinjore
+  signupErrorDescription: Ne nitie ketho moro e ndiko barua mar gaset. Nyisa e
+    codybontecou{at}gmail{dot}com kendo abiro medo nying'i e yo machon.
+work:
+  title: Ng'ato ka ng'ato nyalo tiyo
+  contactMePrefix: Wuo koda e
+  contactMeSuffix: Kapo ni diher goyo mbaka.
+about:
+  cofoundedHeader: "Motelo ne mano, ne an achiel kuom joma ne ochako:"
+  linksToExploreHeader: "Weche moko ma nyalo konyi ng'eyo:"

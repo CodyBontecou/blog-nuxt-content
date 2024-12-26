@@ -1,0 +1,38 @@
+constants:
+  author: கோடி பொன்டெகோ
+latest:
+  latest: சமீபத்தியது
+  minuteRead: நிமிட வாசிப்பு
+  keepReading: தொடர்ந்து படிக்கவும் →
+topics:
+  topics: தலைப்புகள்
+writing:
+  writing: எழுத்து
+landing:
+  whatsNew: என்ன புதியது
+  justShipped: இப்போது அனுப்பப்பட்டது
+  hero: கோடி பொன்டெகோ
+  description: வாழ்க்கையை அனுபவித்துக்கொண்டிருக்கிறார்.
+  cta: எழுத்து
+  learnMore: பற்றி
+slug:
+  alsoEnjoy: நீங்கள் ரசிக்கலாம்
+newsletter:
+  cardTitle: செய்திமடல்
+  cardDescription: எனது சமீபத்திய உள்ளடக்கத்தைப் பெற சந்தா செய்யுங்கள். ஸ்பேம் இல்லை.
+  email: மின்னஞ்சல்
+  submit: சமர்ப்பிக்கவும்
+  successTitle: வெற்றி
+  successDescription: பதிவுசெய்ததற்கு நன்றி! சுவாரஸ்யமான உள்ளடக்கத்தை மட்டுமே
+    அனுப்புவேன் என்று உறுதியளிக்கிறேன்.
+  signupError: பிழை
+  signupErrorDescription: செய்திமடலுக்கு சந்தா செலுத்துவதில் ஒரு பிழை ஏற்பட்டது.
+    என்னை codybontecou{at}gmail{dot}com இல் தாருங்கள், நான் உங்களை பழைய பாணியில்
+    சேர்க்கிறேன்.
+work:
+  title: வேலைக்குத் திறக்கவும்
+  contactMePrefix: என்னை தொடர்பு கொள்ளவும்
+  contactMeSuffix: நீங்கள் அரட்டை அடிக்க விரும்பினால்.
+about:
+  cofoundedHeader: "முன்னதாக நான் இணை நிறுவனர்:"
+  linksToExploreHeader: "ஆராய சில இணைப்புகள்:"

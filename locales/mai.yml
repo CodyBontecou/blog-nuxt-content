@@ -1,0 +1,36 @@
+constants:
+  author: कोडी बोन्टेको
+latest:
+  latest: नवीनतम
+  minuteRead: मिनट पढ़ल गेल
+  keepReading: पढ़ैत रहू →
+topics:
+  topics: विषयसभ
+writing:
+  writing: लेखन
+landing:
+  whatsNew: की नव अछि?
+  justShipped: एखनहि पठाओल गेल अछि
+  hero: कोडी बोन्टेको
+  description: जीवनक आनन्द लैत अछि
+  cta: लेखन
+  learnMore: बारे मे
+slug:
+  alsoEnjoy: अहाँ सेहो आनन्द उठा सकैत छी
+newsletter:
+  cardTitle: न्यूजलेटर
+  cardDescription: हमर नवीनतम सामग्री प्राप्त करबाक लेल सदस्यता लिअ. कोनो स्पैम नहि.
+  email: ई-मेल
+  submit: सबमिट करू
+  successTitle: सफलता
+  successDescription: साइन अप करबाक लेल धन्यवाद! हम वचन दैत छी जे हम केवल रोचक सामग्री पठाएब।
+  signupError: त्रुटि
+  signupErrorDescription: न्यूजलेटरक सदस्यतामे एकटा त्रुटि भेल छल। हमरा
+    कोडिबोंटेकोव {at}gmail{dot}com पर फोन करू आ हम अहाँकेँ पुरान तरीकासँ जोड़ब।
+work:
+  title: काज करबाक लेल खुला
+  contactMePrefix: हमरा सँ सम्पर्क करू
+  contactMeSuffix: जँ अहाँ गप-सप्प करए चाहै छी।
+about:
+  cofoundedHeader: "पहिने हम सह-संस्थापक छलहुँ:"
+  linksToExploreHeader: "अन्वेषण करबाक लेल किछु लिंक:"

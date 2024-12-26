@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Cea mai recentă
+  minuteRead: minut citit
+  keepReading: Continuă să citeşti →
+topics:
+  topics: Subiecte
+writing:
+  writing: Scriere
+landing:
+  whatsNew: Ce e nou?
+  justShipped: Tocmai expediat.
+  hero: Cody Bontecou
+  description: Se bucură de viaţă.
+  cta: Scriere
+  learnMore: Despre
+slug:
+  alsoEnjoy: S-ar putea să-ţi placă şi
+newsletter:
+  cardTitle: Buletinul informativ
+  cardDescription: Abonati-va pentru a primi cele mai recente conținuturi.
+  email: Poştă electronică
+  submit: Prezentare
+  successTitle: Succesul
+  successDescription: Vă mulțumesc pentru înregistrare! Promit să trimit doar conținut interesant.
+  signupError: Eroră
+  signupErrorDescription: A existat o eroare în abonamentul la buletinul informativ.
+work:
+  title: Deschis la muncă
+  contactMePrefix: Contactează-mă la
+  contactMeSuffix: dacă vrei să vorbim.
+about:
+  cofoundedHeader: "Anterior am co-fondat:"
+  linksToExploreHeader: "Câteva linkuri de explorat:"

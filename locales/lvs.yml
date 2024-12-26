@@ -1,0 +1,36 @@
+constants:
+  author: Kodijs Bonteku
+latest:
+  latest: Pēdējais
+  minuteRead: minūtē lasīts
+  keepReading: Turpiniet lasīt →
+topics:
+  topics: Tēmas
+writing:
+  writing: Rakstīšana
+landing:
+  whatsNew: Kas jauns?
+  justShipped: Tikko nosūtīts
+  hero: Kodijs Bonteku
+  description: "izbauda dzīvi "
+  cta: Rakstīšana
+  learnMore: Par
+slug:
+  alsoEnjoy: Jums arī varētu patikt
+newsletter:
+  cardTitle: Ziņu lapas
+  cardDescription: Apslēdzies, lai saņemtu manu jaunāko saturu. Bez spama.
+  email: E-pasts
+  submit: Iesniegt
+  successTitle: Uzvarēšana
+  successDescription: Paldies par reģistrāciju! Es apsolu sūtīt tikai interesantu saturu.
+  signupError: kļūda
+  signupErrorDescription: Bija kļūda, parakstoties uz ziņu biļeti. Sazinieties ar
+    mani codybontecou{at}gmail{dot}com un es jūs pievienos vecajā stilā.
+work:
+  title: Atvērt darbam
+  contactMePrefix: Sazinieties ar mani
+  contactMeSuffix: ja vēlaties sarunāties.
+about:
+  cofoundedHeader: "Iepriekš es biju viens no dibinātājiem:"
+  linksToExploreHeader: "Dažas saites, ko var izpētīt:"

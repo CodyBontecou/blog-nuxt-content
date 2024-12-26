@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou-ren izena
+latest:
+  latest: Azkenekoa.
+  minuteRead: Minutu bat irakurri
+  keepReading: Jarraitu irakurtzen.
+topics:
+  topics: Gaiak
+writing:
+  writing: Idaztea
+landing:
+  whatsNew: Zer berri?
+  justShipped: Oraintxe bidali dute.
+  hero: Cody Bontecou-ren izena
+  description: Bizitza gozatzen ari da.
+  cta: Idaztea
+  learnMore: Zeri buruzkoa?
+slug:
+  alsoEnjoy: Eta gustatuko litzaizuke.
+newsletter:
+  cardTitle: Albistegiak
+  cardDescription: Eman izena nire azken edukiak jasotzeko, spam-ik gabe.
+  email: Posta elektronikoa
+  submit: Aurkeztu ezazu.
+  successTitle: Arrakasta izan dugu.
+  successDescription: Eskerrik asko izena emateagatik.
+  signupError: Akats bat da.
+  signupErrorDescription: Akats bat izan da buletinean harpidetza egitean.
+work:
+  title: Lanean hasteko prest.
+  contactMePrefix: Jarri harremanetan.
+  contactMeSuffix: Hitz egin nahi baduzu.
+about:
+  cofoundedHeader: "Aurretik, hau sortu nuen:"
+  linksToExploreHeader: "Aztertu beharreko lotura batzuk:"

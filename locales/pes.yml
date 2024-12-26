@@ -1,0 +1,37 @@
+constants:
+  author: کودي بونتيکو
+latest:
+  latest: آخرین
+  minuteRead: دقیقه خواندن
+  keepReading: به خواندن ادامه دهید
+topics:
+  topics: موضوعات
+writing:
+  writing: نوشتن
+landing:
+  whatsNew: چه خبر جديديه؟
+  justShipped: تازه فرستاده شده
+  hero: کودي بونتيکو
+  description: از زندگی لذت می برد.
+  cta: نوشتن
+  learnMore: در مورد
+slug:
+  alsoEnjoy: شما همچنین ممکن است از
+newsletter:
+  cardTitle: خبرنامه
+  cardDescription: برای دریافت آخرین مطالب من، اشتراک کنید. هیچ اسپم.
+  email: ایمیل
+  submit: ارسال کنید
+  successTitle: موفقیت
+  successDescription: ممنون که ثبت نام کردي! قول ميدم فقط مطالب جالب بفرستم.
+  signupError: اشتباه
+  signupErrorDescription: در اشتراک برگه خبری خطایی رخ داده است. به من در
+    codybontecou{at}gmail{dot}com تماس بگیرید و من شما را به روش قدیمی اضافه می
+    کنم.
+work:
+  title: برای کار باز است
+  contactMePrefix: با من تماس بگیر
+  contactMeSuffix: اگه ميخواي با هم حرف بزني.
+about:
+  cofoundedHeader: "قبلاً من یکی از بنیانگذاران:"
+  linksToExploreHeader: "چند لینک برای بررسی:"

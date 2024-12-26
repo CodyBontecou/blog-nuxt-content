@@ -1,0 +1,39 @@
+constants:
+  author: କୋଡି ବୋଣ୍ଟେକୁ
+latest:
+  latest: ସଦ୍ୟତମ
+  minuteRead: ମିନିଟ୍ ପଢିବା
+  keepReading: ପଢିବା ଜାରି ରଖନ୍ତୁ →
+topics:
+  topics: ବିଷୟବସ୍ତୁ
+writing:
+  writing: ଲେଖାଲେଖି
+landing:
+  whatsNew: କ'ଣ ନୂଆ ଅଛି ?
+  justShipped: ଏବେ ପଠାଯାଇଛି
+  hero: କୋଡି ବୋଣ୍ଟେକୁ
+  description: ଜୀବନକୁ ଉପଭୋଗ କରୁଛି
+  cta: ଲେଖାଲେଖି
+  learnMore: ବିଷୟରେ
+slug:
+  alsoEnjoy: ଆପଣ ମଧ୍ୟ ଉପଭୋଗ କରିପାରନ୍ତି
+newsletter:
+  cardTitle: ସମ୍ବାଦପତ୍ର
+  cardDescription: ସବସ୍କ୍ରାଇବ କରନ୍ତୁ ଏବଂ ମୋର ନୂତନ ବିଷୟବସ୍ତୁ ପାଇବାକୁ ଅନୁରୋଧ କରନ୍ତୁ
+    _ କୌଣସି ସ୍ପାମ୍ ନାହିଁ _
+  email: ଇମେଲ
+  submit: ଦାଖଲ କରନ୍ତୁ
+  successTitle: ସଫଳତା
+  successDescription: ସାଇନ୍ ଅପ୍ କରିଥିବାରୁ ଧନ୍ୟବାଦ! ମୁଁ ପ୍ରତିଶ୍ରୁତି ଦେଉଛି ଯେ ମୁଁ
+    କେବଳ ଆକର୍ଷଣୀୟ ବିଷୟବସ୍ତୁ ପଠାଇବି ।
+  signupError: ତ୍ରୁଟି
+  signupErrorDescription: ସମ୍ବାଦପତ୍ରରେ ସବସ୍କ୍ରାଇବ କରିବାରେ ଏକ ତ୍ରୁଟି ଥିଲା । ମୋତେ
+    codeybontecou{at}gmail{dot}com ରେ ଧରନ୍ତୁ ଏବଂ ମୁଁ ଆପଣଙ୍କୁ ପୁରୁଣାକାଳିଆ ଉପାୟରେ
+    ଯୋଡ଼ିବି ।
+work:
+  title: କାମ କରିବା ପାଇଁ ଖୋଲା
+  contactMePrefix: ମୋ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ
+  contactMeSuffix: ଯଦି ଆପଣ ଚାଟ୍ କରିବାକୁ ଚାହାଁନ୍ତି ।
+about:
+  cofoundedHeader: "ଏହାପୂର୍ବରୁ ମୁଁ ସହ-ପ୍ରତିଷ୍ଠାତା ଥିଲି:"
+  linksToExploreHeader: "ଅନୁସନ୍ଧାନ କରିବା ପାଇଁ କିଛି ଲିଙ୍କ୍:"

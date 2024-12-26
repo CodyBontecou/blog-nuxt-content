@@ -1,0 +1,35 @@
+constants:
+  author: Cody Bontecou est un homme de bonne humeur.
+latest:
+  latest: Le plus récent
+  minuteRead: lecture de la minute
+  keepReading: Continuez à lire →
+topics:
+  topics: Les sujets
+writing:
+  writing: Écrire
+landing:
+  whatsNew: Qu'est ce qui se passe ?
+  justShipped: Juste expédié
+  hero: Cody Bontecou est un homme de bonne humeur.
+  description: Il profite de la vie.
+  cta: Écrire
+  learnMore: À propos de
+slug:
+  alsoEnjoy: Vous pourriez aussi aimer
+newsletter:
+  cardTitle: Le bulletin d'information
+  cardDescription: Abonnez-vous pour recevoir mes derniers contenus, pas de spam.
+  email: Le courrier électronique
+  submit: Soumettre
+  successTitle: Le succès
+  successDescription: Merci de vous inscrire ! Je promets de n'envoyer que du contenu intéressant.
+  signupError: Une erreur.
+  signupErrorDescription: Il y a eu une erreur d'abonnement à la newsletter.
+work:
+  title: Ouvert au travail
+  contactMePrefix: Contactez-moi à
+  contactMeSuffix: Si vous voulez discuter.
+about:
+  cofoundedHeader: "Auparavant, j'ai cofondé:"
+  linksToExploreHeader: "Quelques liens à explorer:"

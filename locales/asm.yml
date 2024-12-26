@@ -1,0 +1,37 @@
+constants:
+  author: ক'ডি বন্টেকু
+latest:
+  latest: শেহতীয়া
+  minuteRead: মিনিট পঢ়া
+  keepReading: পঢ়া অব্যাহত ৰাখক →
+topics:
+  topics: বিষয়সমূহ
+writing:
+  writing: লিখা
+landing:
+  whatsNew: কি নতুন কথা আছে?
+  justShipped: শেহতীয়াকৈ প্ৰেৰণ কৰা হৈছে
+  hero: ক'ডি বন্টেকু
+  description: জীৱনক উপভোগ কৰি আছে।
+  cta: লিখা
+  learnMore: প্ৰায়
+slug:
+  alsoEnjoy: আপুনিও উপভোগ কৰিব পাৰে
+newsletter:
+  cardTitle: নিউজলেটাৰ
+  cardDescription: মোৰ শেহতীয়া বিষয়বস্তু লাভ কৰিবলৈ ছাবস্ক্ৰাইব কৰক। স্পাম নাই।
+  email: ই-মেইল
+  submit: দাখিল কৰা
+  successTitle: সফলতা
+  successDescription: সাইন আপ কৰাৰ বাবে ধন্যবাদ! মই প্ৰতিশ্ৰুতি দিওঁ যে মই কেৱল
+    আকৰ্ষণীয় বিষয়বস্তুহে পঠিয়াম।
+  signupError: ত্ৰুটি
+  signupErrorDescription: নিউজলেটাৰলৈ ছাবস্ক্ৰাইব কৰাত এটা ত্ৰুটি হৈছিল। মোক
+    কোডিবন্টেকু{এট}জিমেইল{ডট}কমত লগ কৰক আৰু মই আপোনাক পুৰণি ধৰণে যোগ কৰিম।
+work:
+  title: কামৰ বাবে মুকলি
+  contactMePrefix: মোৰ সৈতে যোগাযোগ কৰক
+  contactMeSuffix: যদি আপুনি কথা পাতিব বিচাৰে।
+about:
+  cofoundedHeader: ইয়াৰ পূৰ্বে মই সহ-প্ৰতিষ্ঠাপক আছিলোঃ
+  linksToExploreHeader: অনুসন্ধান কৰিবলৈ কেইটামান লিংকঃ

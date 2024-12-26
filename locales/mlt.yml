@@ -1,0 +1,36 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: L-aħħar
+  minuteRead: minuta qari
+  keepReading: Ibqa' taqra →
+topics:
+  topics: Is-suġġetti
+writing:
+  writing: Il-kitba
+landing:
+  whatsNew: X'hemm ġdid
+  justShipped: Ġie mibgħut
+  hero: Cody Bontecou
+  description: qed igawdi l-ħajja
+  cta: Il-kitba
+  learnMore: Dwar
+slug:
+  alsoEnjoy: Inti tista ' wkoll igawdu
+newsletter:
+  cardTitle: L-aħbarijiet
+  cardDescription: Abbonat biex tikseb l-aħħar kontenut tiegħi mingħajr spam
+  email: L-email
+  submit: Isottometti
+  successTitle: Is- suċċess
+  successDescription: Grazzi għall-iffirmar! I wegħda li tibgħat biss kontenut interessanti.
+  signupError: Żball
+  signupErrorDescription: Kien hemm żball li ssib il-newsletter. Ħabbatni fuq
+    codybontecou{at}gmail{dot}com u jien se nżidek il-mod antik.
+work:
+  title: Miftuħ għax-xogħol
+  contactMePrefix: Ikkuntattjani f'
+  contactMeSuffix: Jekk inti tixtieq li jitkellmu.
+about:
+  cofoundedHeader: "Qabel kont ko-fundatur ta':"
+  linksToExploreHeader: "Xi links biex tesplora:"

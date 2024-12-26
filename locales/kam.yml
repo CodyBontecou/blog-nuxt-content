@@ -1,0 +1,42 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: The latest
+  minuteRead: "                                                                                                                               \
+    "
+  keepReading: "                                                                                                                               \
+    "
+topics:
+  topics: "                                                                                                                               \
+    "
+writing:
+  writing: "[object Object]"
+landing:
+  whatsNew: What's new
+  justShipped: Just shipped
+  hero: Cody Bontecou
+  description: "[object Object]"
+  cta: "[object Object]"
+  learnMore: About
+slug:
+  alsoEnjoy: You might also enjoy
+newsletter:
+  cardTitle: Newsletter
+  cardDescription: ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️
+  email: Email
+  submit: Submit
+  successTitle: Success
+  successDescription: Thank you for signing up! I promise to only send interesting
+    content. I promise to only send interesting content. I promise to only send
+    interesting content.
+  signupError: "[object Object]"
+  signupErrorDescription: There was an error subscribing to the newsletter. Hit me
+    up at codybontecou{at}gmail{dot}com and I'll add you the old fashioned way.
+work:
+  title: Open to work
+  contactMePrefix: Contact me at
+  contactMeSuffix: If you would like to chat.
+about:
+  cofoundedHeader: "I co-founded:"
+  linksToExploreHeader: "                                                                                                                               \
+    "

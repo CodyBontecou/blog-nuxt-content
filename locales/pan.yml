@@ -1,0 +1,37 @@
+constants:
+  author: ਕੋਡੀ ਬੋਂਟੇਕੂ
+latest:
+  latest: ਨਵੀਨਤਮ
+  minuteRead: ਮਿੰਟ ਪੜ੍ਹਿਆ
+  keepReading: ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖੋ →
+topics:
+  topics: ਵਿਸ਼ੇ
+writing:
+  writing: ਲਿਖਣਾ
+landing:
+  whatsNew: ਕੀ ਨਵਾਂ ਹੈ
+  justShipped: ਹੁਣੇ ਹੀ ਭੇਜਿਆ ਗਿਆ
+  hero: ਕੋਡੀ ਬੋਂਟੇਕੂ
+  description: ਜ਼ਿੰਦਗੀ ਦਾ ਆਨੰਦ ਮਾਣ ਰਿਹਾ ਹੈ
+  cta: ਲਿਖਣਾ
+  learnMore: ਬਾਰੇ
+slug:
+  alsoEnjoy: ਤੁਸੀਂ ਵੀ ਅਨੰਦ ਲੈ ਸਕਦੇ ਹੋ
+newsletter:
+  cardTitle: ਨਿਊਜ਼ਲੈਟਰ
+  cardDescription: ਮੇਰੀ ਨਵੀਨਤਮ ਸਮੱਗਰੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਗਾਹਕੀ ਲਓ. ਕੋਈ ਸਪੈਮ ਨਹੀਂ.
+  email: ਈਮੇਲ
+  submit: ਪੇਸ਼ ਕਰਨਾ
+  successTitle: ਸਫ਼ਲਤਾ
+  successDescription: ਸਾਈਨ ਅਪ ਕਰਨ ਲਈ ਧੰਨਵਾਦ! ਮੈਂ ਵਾਅਦਾ ਕਰਦਾ ਹਾਂ ਕਿ ਮੈਂ ਸਿਰਫ ਦਿਲਚਸਪ ਸਮੱਗਰੀ ਭੇਜਾਂਗਾ.
+  signupError: ਗਲਤੀ
+  signupErrorDescription: ਨਿਊਜ਼ਲੈਟਰ ਦੀ ਗਾਹਕੀ ਲੈਣ ਵਿੱਚ ਇੱਕ ਗਲਤੀ ਹੋਈ। ਮੈਨੂੰ
+    ਕੋਡਬੋਂਟੇਕੂ{at}gmail{dot}com ਤੇ ਮਾਰੋ ਅਤੇ ਮੈਂ ਤੁਹਾਨੂੰ ਪੁਰਾਣੇ ਜ਼ਮਾਨੇ ਦੇ ਤਰੀਕੇ
+    ਨਾਲ ਜੋੜਾਂਗਾ।
+work:
+  title: ਕੰਮ ਕਰਨ ਲਈ ਖੁੱਲ੍ਹਾ
+  contactMePrefix: ਮੇਰੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ
+  contactMeSuffix: ਜੇ ਤੁਸੀਂ ਗੱਲਬਾਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।
+about:
+  cofoundedHeader: "ਪਹਿਲਾਂ ਮੈਂ ਸਹਿ-ਸੰਸਥਾਪਕ ਸੀ:"
+  linksToExploreHeader: "ਖੋਜ ਕਰਨ ਲਈ ਕੁਝ ਲਿੰਕ:"

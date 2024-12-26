@@ -1,0 +1,37 @@
+constants:
+  author: Коди Бонтеку
+latest:
+  latest: Хамгийн сүүлийн үеийн
+  minuteRead: Минут унших
+  keepReading: Уншиж бай →
+topics:
+  topics: "Тодруулбал:"
+writing:
+  writing: Бичих
+landing:
+  whatsNew: Шинэ зүйл юу байна вэ?
+  justShipped: Саяхан илгээсэн
+  hero: Коди Бонтеку
+  description: Амьдралдаа баярлаж байна.
+  cta: Бичих
+  learnMore: Ойролцоогоор
+slug:
+  alsoEnjoy: Та бас дуртай байж болох юм
+newsletter:
+  cardTitle: Мэдээллийн захидал
+  cardDescription: Хамгийн сүүлийн үеийн контентыг авахын тулд захиалга авах.
+  email: Цахим шуудан
+  submit: Өргөдөл
+  successTitle: Амжилт
+  successDescription: Та бүхэнд баярлалаа! Би зөвхөн сонирхолтой агуулгыг илгээх
+    болно гэж амлаж байна.
+  signupError: Алдаа
+  signupErrorDescription: Мэдээллийн хуудсанд захиалга өгөхөд алдаа гарсан. намайг
+    codybontecou{at}gmail{dot}com дээр дууд. би таныг хуучин хэв маягаар нэмнэ.
+work:
+  title: Ажиллах нээлттэй
+  contactMePrefix: Надад холбоо бариарай
+  contactMeSuffix: Хэрэв та ярилцахыг хүсвэл.
+about:
+  cofoundedHeader: "Өмнө нь би хамтран үүсгэн байгуулсан:"
+  linksToExploreHeader: "Судалж үзэх хэд хэдэн холбоосууд:"

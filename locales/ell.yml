@@ -1,0 +1,36 @@
+constants:
+  author: Κόντι Μπόντεκου
+latest:
+  latest: Τελευταίο
+  minuteRead: λεπτό ανάγνωσης
+  keepReading: Συνεχίστε να διαβάζετε →
+topics:
+  topics: Θέματα
+writing:
+  writing: Γράφοντας
+landing:
+  whatsNew: Τι καινούργιο;
+  justShipped: Μόλις αποσταλεί.
+  hero: Κόντι Μπόντεκου
+  description: Απολαμβάνει τη ζωή.
+  cta: Γράφοντας
+  learnMore: Σχετικά
+slug:
+  alsoEnjoy: Μπορεί επίσης να απολαύσετε
+newsletter:
+  cardTitle: Εφημερίδα
+  cardDescription: Συνταχθείτε για να λάβετε το τελευταίο μου περιεχόμενο.
+  email: Ταχυδρομείο
+  submit: Υποβάλτε
+  successTitle: Επιτυχία
+  successDescription: Ευχαριστούμε για την εγγραφή! Υπόσχομαι να στέλνω μόνο
+    ενδιαφέρον περιεχόμενο.
+  signupError: Σφάλμα
+  signupErrorDescription: Υπήρξε ένα σφάλμα στην εγγραφή στο ενημερωτικό δελτίο.
+work:
+  title: Ανοιχτό για δουλειά.
+  contactMePrefix: Επικοινώνησε μαζί μου στο
+  contactMeSuffix: Αν θέλετε να μιλήσουμε.
+about:
+  cofoundedHeader: "Προηγουμένως συνιδρυτήσα:"
+  linksToExploreHeader: "Μερικοί σύνδεσμοι για να εξερευνήσετε:"

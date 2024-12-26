@@ -1,0 +1,36 @@
+constants:
+  author: קודי בונטקו.
+latest:
+  latest: האחרון.
+  minuteRead: דקה קוראת
+  keepReading: המשיכו לקרוא →
+topics:
+  topics: נושאים
+writing:
+  writing: כתיבה
+landing:
+  whatsNew: מה חדש?
+  justShipped: בדיוק נשלח.
+  hero: קודי בונטקו.
+  description: הוא נהנה מהחיים.
+  cta: כתיבה
+  learnMore: על
+slug:
+  alsoEnjoy: אתה יכול גם ליהנות
+newsletter:
+  cardTitle: עיתון חדשות
+  cardDescription: להירשם לקבל את התוכן האחרון שלי. אין ספאם.
+  email: דואר אלקטרוני
+  submit: להגיש
+  successTitle: הצלחה.
+  successDescription: תודה על ההרשמה, אני מבטיח לשלוח רק תוכן מעניין.
+  signupError: שגיאה.
+  signupErrorDescription: הייתה טעות בהרשמה לכתב העת, תתקשרי אליי
+    ב-codybontecou{at}gmail{dot}com ואוסיף אותך בדרך הישנה.
+work:
+  title: פתוח לעבודה.
+  contactMePrefix: צור איתי קשר ב
+  contactMeSuffix: אם תרצה לשוחח.
+about:
+  cofoundedHeader: "בעבר הייתי מייסד שותף:"
+  linksToExploreHeader: "כמה קישורים לחקור:"

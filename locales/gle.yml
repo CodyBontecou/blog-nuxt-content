@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: An ceann is déanaí
+  minuteRead: nóiméad a léamh
+  keepReading: Lean ar aghaidh ag léamh →
+topics:
+  topics: Téamaí
+writing:
+  writing: Scríobhadh
+landing:
+  whatsNew: Cad atá nua
+  justShipped: Díreach a sheachadadh
+  hero: Cody Bontecou
+  description: Tá sé ag taitneamh a bhaint as an saol
+  cta: Scríobhadh
+  learnMore: Maidir
+slug:
+  alsoEnjoy: B'fhéidir go mbainfidh tú taitneamh as freisin
+newsletter:
+  cardTitle: Nuachtlitir
+  cardDescription: Cliceáil ar an leathanach seo chun mo chuid ábhair is déanaí a
+    fháil, gan spam.
+  email: Seoladh ríomhphoist
+  submit: A chur isteach
+  successTitle: Éifeacht
+  successDescription: Go raibh maith agat as clárú! Geallaim go seolfaidh mé ábhar suimiúil amháin.
+  signupError: Earráid
+  signupErrorDescription: Bhí earráid ag síntiús an nuachtlitir. Buail liom ar
+    codybontecou{at}gmail{dot}com agus cuirfidh mé tú ar an mbealach
+    sean-aimseartha.
+work:
+  title: Oscailte le haghaidh oibre
+  contactMePrefix: Déan teagmháil liom ag
+  contactMeSuffix: más mian leat comhrá a dhéanamh.
+about:
+  cofoundedHeader: "Roimhe sin bhí mé ina chomhbhunaitheoir:"
+  linksToExploreHeader: "Cúpla nasc le iniúchadh:"

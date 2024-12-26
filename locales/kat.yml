@@ -1,0 +1,37 @@
+constants:
+  author: კოდი ბონტეკუ
+latest:
+  latest: უახლესი
+  minuteRead: წუთის წაკითხვა
+  keepReading: გააგრძელეთ კითხვა →
+topics:
+  topics: თემები
+writing:
+  writing: წერა
+landing:
+  whatsNew: კაკგჲ ვ ნჲგჲ?
+  justShipped: ახლახანს გაგზავნილი.
+  hero: კოდი ბონტეკუ
+  description: ისიამოვნებს ცხოვრებით.
+  cta: წერა
+  learnMore: დაახლოებით
+slug:
+  alsoEnjoy: მჲზვ ეა ჟვ ჲბთფაქ.
+newsletter:
+  cardTitle: საინფორმაციო ბიულეტენი
+  cardDescription: გამოწერეთ თქვენი ახალი შინაარსი, სპამი არ არის.
+  email: ელექტრონული ფოსტა
+  submit: წარადგინე
+  successTitle: წარმატება
+  successDescription: გმადლობთ დარეგისტრირებისთვის! გპირდები, რომ მხოლოდ
+    საინტერესო შინაარსს გამოგიგზავნი.
+  signupError: შეცდომა
+  signupErrorDescription: თმაქვ ოპჲბლვმ გ ოპვჟრთგარა ნა ჟრანალთრვ. ოჲჱგჲლწგაი მვ
+    ნა codybontecou{at}gmail{dot}com თ ღვ რვ ეჲ£ეჲგამ ნა ჟრანალთრვ.
+work:
+  title: ღია სამუშაოებისთვის.
+  contactMePrefix: დაუკავშირდით მე
+  contactMeSuffix: აკჲ თჟკაქ ეა დჲგჲპთქ.
+about:
+  cofoundedHeader: "მანამდე მე თანადამფუძნებელი ვიყავი:"
+  linksToExploreHeader: "რამოდენიმე ბმული, რომ შეისწავლოთ:"

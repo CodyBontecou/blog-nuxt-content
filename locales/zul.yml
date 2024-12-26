@@ -1,0 +1,38 @@
+constants:
+  author: Cody Bontecou
+latest:
+  latest: Okokugcina
+  minuteRead: Ukufundwa kwemizuzu
+  keepReading: Qhubeka ufunda →
+topics:
+  topics: Izihloko
+writing:
+  writing: Ukubhala
+landing:
+  whatsNew: Yini entsha?
+  justShipped: Kusanda kuthunyelwa
+  hero: Cody Bontecou
+  description: ukujabulela ukuphila
+  cta: Ukubhala
+  learnMore: Mayelana
+slug:
+  alsoEnjoy: Ungase futhi ujabulele
+newsletter:
+  cardTitle: Izindaba
+  cardDescription: Bhalisela ukuze uthole okuqukethwe kwami kwakamuva, akukho spam.
+  email: I-imeyili
+  submit: Thumela
+  successTitle: Ukuphumelela
+  successDescription: Ngiyabonga ngokubhalisa! Ngiyathembisa ukuthumela
+    okuqukethwe okuthakazelisayo kuphela.
+  signupError: Iphutha
+  signupErrorDescription: Kube khona iphutha ekubhaleni incwadi yezindaba.
+    Ngishayele ku-codybontecou{at}gmail{dot}com futhi ngizokungeza ngendlela
+    endala.
+work:
+  title: Vula ukuze usebenze
+  contactMePrefix: Ngithintane ku-
+  contactMeSuffix: Uma ungathanda ukuxoxa.
+about:
+  cofoundedHeader: "Ngaphambilini ngangisekela:"
+  linksToExploreHeader: "Izixhumanisi ezimbalwa ongazisebenzisa:"

@@ -1,0 +1,36 @@
+constants:
+  author: ኮዲ ቦንቴኩ
+latest:
+  latest: የቅርብ ጊዜ
+  minuteRead: ደቂቃዎች ማንበብ
+  keepReading: ማንበብ ይቀጥሉ →
+topics:
+  topics: ርዕሰ ጉዳዮች
+writing:
+  writing: መጻፍ
+landing:
+  whatsNew: አዲስ ነገር ምንድን ነው?
+  justShipped: በቅርቡ ተልኳል
+  hero: ኮዲ ቦንቴኩ
+  description: " ሕይወትን እየተደሰተ ነው"
+  cta: መጻፍ
+  learnMore: ስለ
+slug:
+  alsoEnjoy: በተጨማሪም ሊደሰቱ ይችላሉ
+newsletter:
+  cardTitle: ጋዜጣዊ መግለጫ
+  cardDescription: የቅርብ ጊዜውን ይዘት ለማግኘት ይመዝገቡ ፣ ምንም አይፈለጌ መልእክት የለም
+  email: ኢሜይል
+  submit: ማቅረብ
+  successTitle: ስኬት
+  successDescription: ስለመመዝገብዎ እናመሰግናለን! አስደሳች ይዘትን ብቻ ለመላክ ቃል እገባለሁ ።
+  signupError: ስህተት
+  signupErrorDescription: ለዜና ወረቀቱ በመመዝገብ ላይ ስህተት ተፈጥሯል በ
+    codybontecou{at}gmail{dot}com ላይ ይምቱኝ እና በድሮው መንገድ እጨምራችኋለሁ ።
+work:
+  title: ለሥራ ክፍት
+  contactMePrefix: በ
+  contactMeSuffix: ለመወያየት ከፈለጉ.
+about:
+  cofoundedHeader: "ቀደም ሲል በጋራ የመሠረትኩት:"
+  linksToExploreHeader: "ለመዳሰስ ጥቂት አገናኞች:"
