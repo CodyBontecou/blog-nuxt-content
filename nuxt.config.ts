@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { languages } from './lib/constants/languages'
+
 export default defineNuxtConfig({
     devtools: {
         enabled: true,
@@ -48,13 +50,8 @@ export default defineNuxtConfig({
             useCookie: true,
             cookieKey: 'nuxt_i18n',
         },
-        defaultLocale: 'en',
-        locales: [
-            { code: 'en', language: 'en', name: 'English', file: 'en.yml' },
-            { code: 'es', language: 'es', name: 'Español', file: 'es.yml' },
-            { code: 'spa', language: 'es', name: 'Español', file: 'es.yml' },
-            { code: 'fr', language: 'fr', name: 'Français', file: 'fr.yml' },
-        ],
+        defaultLocale: 'eng',
+        locales: languages,
     },
     shadcn: {
         prefix: '',
