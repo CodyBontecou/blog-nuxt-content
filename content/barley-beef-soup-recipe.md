@@ -5,8 +5,8 @@ ignore: true
 topics:
   - recipe
 created_at: 2024-12-02T17:47
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 - Better than bouillon beef broth
 - Mirepoix (onion, carrot, celery) No curry
@@ -23,4 +23,4 @@ Celery 3
 onion 2
 chicken stock (try to get better than bulleon)
 
-sautee in butter let that cool and then but in the bread crumbs and a cup of chopped parsley and a tablespoon of poultry seasoning, and broth. 
+sautee in butter let that cool and then but in the bread crumbs and a cup of chopped parsley and a tablespoon of poultry seasoning, and broth.

@@ -7,8 +7,8 @@ topics:
 draft: false
 ignore: false
 created_at: 2024-11-13T22:45
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 I was exposed to Gustav Klimt's artwork today and it was fascinating. I can clearly see how some of his work has inspired many of the video games and shows that have entertained me.
@@ -45,4 +45,3 @@ He is an inspiration to me. His story reinforces my belief that if you continue 
 
 
 ![artwork sold for $135 million](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg/440px-Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg)
-

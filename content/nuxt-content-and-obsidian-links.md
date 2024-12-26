@@ -8,11 +8,11 @@ topics:
   - blogging
 date: 2024-12-13T13:38
 created_at: 2024-12-13T13:38
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
-This blog is managed using Obsidian, giving me the ability to link between files using the double bracket syntax. 
+This blog is managed using Obsidian, giving me the ability to link between files using the double bracket syntax.
 
 This is not a supported linking structure by default in Nuxt Content. Instead, it requires using the `content:file:beforeParse` hook.
 
@@ -20,9 +20,9 @@ Nuxt Content exposes a few [hooks](https://content.nuxt.com/recipes/hooks) to mo
 
 ## Nitro Plugin
 
-If you do not have have a server and/or plugins directory, create them. 
+If you do not have have a server and/or plugins directory, create them.
 
-Create a file in your `server/plugins` directory that will have the markdown parsing logic. I'm calling my file `obsidian-links.ts` 
+Create a file in your `server/plugins` directory that will have the markdown parsing logic. I'm calling my file `obsidian-links.ts`
 
 In it, place this code:
 
@@ -55,7 +55,7 @@ It then splits on `|` in case you are using the Obsidian link alt text syntax, d
 
 ## Conclusion
 
-> And there you have it! 
+> And there you have it!
 
 We can now comfortably link within our markdown files using the native Obsidian syntax while simultaneously keeping links organized when building our site using Nuxt Content.
 

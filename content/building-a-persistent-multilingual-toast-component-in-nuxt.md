@@ -7,8 +7,8 @@ topics:
   - i18n
 date: 2024-12-14T10:02
 created_at: 2024-12-14T10:02
-last_modified: 2024-12-22T18:31
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 translations:
   - es
 ---
@@ -126,7 +126,7 @@ onMounted(() => {
 ```
 
 This imports the `useToast` composable and extracts the `toast` function from it.
-We then call `toast()`. In this example, I run it in an `onMounted` call for ease-of-use. 
+We then call `toast()`. In this example, I run it in an `onMounted` call for ease-of-use.
 
 This is typically how I use it, but it's ultimately just a function that can be called as needed.
 

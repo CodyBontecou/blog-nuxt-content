@@ -22,8 +22,8 @@ canonicalUrl: https://codybontecou.com/dopamine-fasting-with-100-days-of-code
 topics:
   - Life
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 > I'm stuck in a loop of consuming different means of entertainment and I want to alter this behavior, spending this time pursuing fulfilling goals.

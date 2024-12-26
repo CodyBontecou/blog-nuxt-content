@@ -34,8 +34,8 @@ topics:
   - vue-router
   - composition
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 > This is a continuation of my previous [post](https://codybontecou.com/silently-update-url-nuxt-3.html) on how to set query parameters in Nuxt 3. We'll be continuing with the code written there so make sure you check it out.

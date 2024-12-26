@@ -24,8 +24,8 @@ meta:
     content: Generating a Code Snippet with Carbon
 canonicalUrl: https://codybontecou.com/generating-a-code-snippet-with-carbon.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 <h1 class="text-4xl font-semibold">Dev Blogging 101 - Generating a Code Snippet with Carbon</h1>

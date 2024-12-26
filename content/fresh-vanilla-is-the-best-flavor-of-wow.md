@@ -7,8 +7,8 @@ topics:
   - warcraft
 date: 2024-11-21T20:17
 created_at: 2024-11-21T20:17
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 Stepping back into a living world that has had a lasting impact on our lives brings a feeling of nostalgia that is very pleasant. Like watching your favorite movie/show for the nth time, we find enjoyment in playing our favorite games again. It brings us back to a time when things may have been simpler, or more chaotic, and this game brought peace to our lives.

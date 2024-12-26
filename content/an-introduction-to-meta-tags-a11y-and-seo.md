@@ -26,8 +26,8 @@ topics:
   - A11y
   - SEO
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 Last night I started working on the meta tags for my app Costream, which allows Twitch streamers to co-stream (also known as LiveView) alongside any Youtube stream.

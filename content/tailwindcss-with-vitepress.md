@@ -7,8 +7,8 @@ topics:
   - tailwind
   - vitepress
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-22T15:59
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 # Configuring TailwindCSS to work with Vitepress
 

@@ -26,8 +26,8 @@ topics:
   - typescript
   - reddit
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 > This post is for **day 2** of my [#100DaysOfCode](https://twitter.com/hashtag/100DaysOfCode?src=hashtag_click). In this post I'll be discussing how to programmatically post to Reddit using NodeJS and Typescript.

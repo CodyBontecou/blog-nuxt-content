@@ -9,11 +9,11 @@ topics:
 draft: false
 ignore: false
 created_at: 2024-11-09T10:02
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
-A step-by-step guide on how to connect your obsidian vault that is stored on Github to your iOS device. 
+A step-by-step guide on how to connect your obsidian vault that is stored on Github to your iOS device.
 
 The [obsidian-git](https://github.com/Vinzent03/obsidian-git) plugin works for iOS and Android, although it claims on their github repository that it is unreliable and in some cases, simply does not work.
 
@@ -32,9 +32,9 @@ I tried many of the options and guides discussed online, but after hours of work
 ![Browse repo in Working Copy](https://i.imgur.com/2SCcfvZ.gif)
 
 
-**Note**: I  ran into issues when including the `.obsidian` directory in my git repo. There are plugins that work on desktop that are not supported on mobile, resulting in mobile-specific bugs. Sometimes crashing the application and making the vault unusable on mobile. 
+**Note**: I  ran into issues when including the `.obsidian` directory in my git repo. There are plugins that work on desktop that are not supported on mobile, resulting in mobile-specific bugs. Sometimes crashing the application and making the vault unusable on mobile.
 
-I recommend removing this directory from source when using this method to sync vaults between devices. 
+I recommend removing this directory from source when using this method to sync vaults between devices.
 
 Instead, maintain two `.obsidian` directories, one for your mobile environment and one for your desktop environment.
 
@@ -45,7 +45,7 @@ Instead, maintain two `.obsidian` directories, one for your mobile environment a
 
 ![Create new vault](https://i.imgur.com/quMRWRu.png)
 
-3. Copy your repository downloaded by Working Copy and paste it into your newly created vault. 
+3. Copy your repository downloaded by Working Copy and paste it into your newly created vault.
 
 *You may need to enable the Working Copy location to see it's files. This is shown in the gif.*
 
@@ -79,7 +79,7 @@ I run my blog through Obsidian. Obsidian-git allows for automatic commit-and-syn
 
 It's a nice and fluid system that works well for me.
 
-Extending this to work with Obsidian on my phone is a blessing. Now I can write my thoughts on the go, which is ideal. 
+Extending this to work with Obsidian on my phone is a blessing. Now I can write my thoughts on the go, which is ideal.
 
 The easier I can document my thoughts, the better.
 

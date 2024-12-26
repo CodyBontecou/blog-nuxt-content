@@ -7,8 +7,8 @@ draft: false
 ignore: false
 date: 2024-11-13T12:25
 created_at: 2024-11-13T12:25
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 In this guide, I'll show you how I achieved a cleaner, more focused writing environment without sacrificing any of Obsidian's powerful functionality
@@ -17,7 +17,7 @@ In this guide, I'll show you how I achieved a cleaner, more focused writing envi
 
 My Vault hooked into content directory within a [Nuxt Content](https://content.nuxt.com) project. This allows easy [git syncing](http://codybontecou.com/obsidian-git-on-ios) between devices as well as a powerful CI/CD system using Nuxt Studio and Github Actions.
 
-But, this clutters my vault with code-related files like `node_modules` that appear in the sidebar and search results. I don't like this. 
+But, this clutters my vault with code-related files like `node_modules` that appear in the sidebar and search results. I don't like this.
 
 
 
@@ -46,7 +46,7 @@ This also works perfectly on mobile devices:
 
 ## Filter relevant search results
 
-You can "exclude" files and folders from search results. 
+You can "exclude" files and folders from search results.
 
 Exclude is in quotes because Obsidian will still show these files in Quick Switcher and link suggestions. But, it looks like they are less likely to appear as a suggestion and only appear when explicitly searched for.
 

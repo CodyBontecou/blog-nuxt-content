@@ -32,8 +32,8 @@ topics:
   - testing
   - mocking
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 > Testing software is essential to the development cycle of building applications. A strong test suite gives the developer(s) a sense of freedom to organize and refactor the codebase as needed without fear of unknowingly breaking something.

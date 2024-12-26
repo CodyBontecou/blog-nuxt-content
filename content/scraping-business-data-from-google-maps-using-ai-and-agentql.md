@@ -8,8 +8,8 @@ topics:
   - agentql
 date: 2024-12-05T16:04
 created_at: 2024-12-05T16:04
-last_modified: 2024-12-19T11:29
-lang: en
+last_modified: 2024-12-25T22:46
+lang: eng
 ---
 
 Writing web scraping scripts by hand typically follows a development pattern like:
@@ -80,7 +80,7 @@ This is a basic example that only accesses a single element, but later on we wil
 
 ### inputQuery
 
-The `inputQuery` value of `"'plumbing' inurl:business.site santa rosa"` is using an alternative Google search syntax to find the businesses I'm interested in processing. 
+The `inputQuery` value of `"'plumbing' inurl:business.site santa rosa"` is using an alternative Google search syntax to find the businesses I'm interested in processing.
 
 Here’s a breakdown of the components of the query:
 
@@ -155,7 +155,7 @@ const data = await page.queryData(`{
 console.log(data)
 ```
 
-Now we can use the `.queryData()` function to extract data to fit the structure we provide. 
+Now we can use the `.queryData()` function to extract data to fit the structure we provide.
 
 In this query, I am defining a data structure `business[]`. This forces AgentQL to return a business array that contains objects with the name, website_url, ..., service_type fields.
 
