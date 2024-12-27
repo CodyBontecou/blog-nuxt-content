@@ -5,17 +5,21 @@ import { calculateReadingTime } from '~/lib/utils/calculateReadingTime'
 import { getPostBody } from '~/lib/utils/getPostBody'
 import type { ParsedContent } from '@nuxt/content'
 
+interface Props {
+    post: any
+}
+
+const { post } = defineProps<Props>()
+
 // Get the current route params
 const { path } = useRoute()
 const localePath = useLocalePath()
-
-// Fetch the post data
-const { data: post } = await useAsyncData(`post-${path}`, () =>
-    queryContent(localePath(path)).findOne()
-)
+const { locale } = useI18n()
 
 // Extract topics and create an array of queries
-const postTopics: string[] = post.value?.topics
+const postTopics = computed(() => {
+    return post.topics
+})
 
 const { data: allArticles } = await useAsyncData('allArticles', () =>
     queryContent('/')
@@ -28,11 +32,11 @@ const similarArticles = computed(() => {
     return allArticles.value
         ?.filter(article => {
             // Skip if it's the same article
-            if (article.title === post.value?.title) return false
+            if (article.title === post.title) return false
 
             // Handle cases where topics might be undefined/null
             const articleTopics = article.topics || []
-            const currentPostTopics = postTopics || []
+            const currentPostTopics = postTopics.value || []
 
             // Only check topic overlap if both articles have topics
             return (
@@ -84,7 +88,7 @@ const suggestedArticles = computed<ParsedContent[]>(() => {
     return similarArticles.value.concat(shuffledArray)
 })
 
-const postBody = computed(() => getPostBody(post.value?.body))
+const postBody = computed(() => getPostBody(post.body))
 
 // TableOfContents
 const isMobileMenuOpen = ref(false)
@@ -94,8 +98,8 @@ const tocLinks = ref<string[]>([])
 
 // Get all headings from the article
 const headings = computed(() => {
-    if (!post.value?.body?.toc?.links) return []
-    return post.value.body.toc.links
+    if (!post.body?.toc?.links) return []
+    return post.body.toc.links
 })
 
 onMounted(() => {
@@ -286,7 +290,7 @@ watch(isMobileMenuOpen, newValue => {
             <!-- Main content -->
             <template #default>
                 <main class="flex flex-col justify-center max-w-3xl mx-auto">
-                    <ContentDoc :path="localePath(path)">
+                    <ContentDoc :path="post._stem">
                         <article class="prose lg:prose-lg">
                             <h1 class="text-4xl font-normal mb-4">
                                 {{ post?.title }}

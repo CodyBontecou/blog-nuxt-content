@@ -2,14 +2,42 @@
 import { BlogPost } from '@/components/ui/blogPost'
 
 import { getFirstParagraphText } from '~/lib/utils/getFirstParagraphText'
+import { sluggify } from '~/lib/utils/sluggify'
 
 // Get the current route params
 const { path } = useRoute()
-const localePath = useLocalePath()
 
-const { data: post } = await useAsyncData(`post-${path}`, () =>
-    queryContent(localePath(path)).findOne()
-)
+const { data: post } = await useAsyncData(`post-${path}`, async () => {
+    const allPosts = await queryContent()
+        .where({
+            draft: { $ne: true },
+            ignore: { $ne: true },
+        })
+        .find()
+
+    // Get the path segments
+    const pathSegments = path.split('/').filter(Boolean)
+
+    // Last segment should match the slug
+    const urlSlug = pathSegments[pathSegments.length - 1]
+
+    const post = allPosts.find(p => {
+        if (p.slug) {
+            return p.slug === urlSlug
+        } else {
+            return sluggify(p?.title ?? '').toLowerCase() === urlSlug
+        }
+    })
+
+    if (!post) {
+        throw createError({
+            statusCode: 404,
+            message: 'Post not found',
+        })
+    }
+
+    return post
+})
 
 defineOgImageComponent('BlogPost', {
     title: post.value?.title ?? '',
@@ -43,7 +71,7 @@ useHead({
     <Suspense>
         <!-- Main content -->
         <template #default>
-            <BlogPost />
+            <BlogPost :post="post" />
         </template>
 
         <!-- Loading state -->
