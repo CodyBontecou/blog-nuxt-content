@@ -7,6 +7,8 @@ interface Props {
 }
 
 defineProps<Props>()
+
+const { locale } = useI18n()
 </script>
 
 <template>
@@ -19,12 +21,12 @@ defineProps<Props>()
             <div class="flex-shrink-0 text-gray-600 text-md pr-6 font-mono">
                 {{ formatPostDate(article.date) }}
             </div>
-            <NuxtLinkLocale
-                :to="article._path"
+            <NuxtLink
+                :to="locale + '/' + article.slug"
                 class="opacity-90 hover:opacity-50 hover:underline text-lg truncate"
             >
                 {{ article.title }}
-            </NuxtLinkLocale>
+            </NuxtLink>
         </li>
     </ul>
 </template>
