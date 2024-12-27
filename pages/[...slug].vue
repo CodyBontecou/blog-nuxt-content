@@ -1,42 +1,30 @@
 <script setup lang="ts">
 import { BlogPost } from '@/components/ui/blogPost'
-
 import { getFirstParagraphText } from '~/lib/utils/getFirstParagraphText'
-import { sluggify } from '~/lib/utils/sluggify'
 
 // Get the current route params
-const { path } = useRoute()
+const { path, params } = useRoute()
+
+const slug = params.slug
+const urlSlug = Array.isArray(slug) ? slug[slug.length - 1] : slug
 
 const { data: post } = await useAsyncData(`post-${path}`, async () => {
-    const allPosts = await queryContent()
+    const p = await queryContent()
         .where({
             draft: { $ne: true },
             ignore: { $ne: true },
+            slug: { $eq: urlSlug },
         })
-        .find()
+        .findOne()
 
-    // Get the path segments
-    const pathSegments = path.split('/').filter(Boolean)
-
-    // Last segment should match the slug
-    const urlSlug = pathSegments[pathSegments.length - 1]
-
-    const post = allPosts.find(p => {
-        if (p.slug) {
-            return p.slug === urlSlug
-        } else {
-            return sluggify(p?.title ?? '').toLowerCase() === urlSlug
-        }
-    })
-
-    if (!post) {
+    if (!p) {
         throw createError({
             statusCode: 404,
             message: 'Post not found',
         })
     }
 
-    return post
+    return p
 })
 
 defineOgImageComponent('BlogPost', {
