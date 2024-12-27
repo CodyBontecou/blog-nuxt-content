@@ -143,30 +143,45 @@ export class ASTMarkdownTranslator {
         await Promise.all(promises)
     }
 
+    public checkFrontmatterCondition(
+        content: string,
+        condition: (frontmatter: Record<string, any>) => boolean
+    ): boolean {
+        const { frontmatter } = this.extractFrontmatter(content)
+        if (!frontmatter) return false
+        return condition(frontmatter)
+    }
+
     public async translateMarkdownFile(
         content: string,
         sourceLang: string = 'eng',
-        targetLang: string = 'spa'
-    ): Promise<void> {
+        targetLang: {
+            code: string
+            language: string
+            name: string
+            file: string
+        }
+    ): Promise<{ content: string; frontmatter: Record<string, any> | null }> {
         try {
             const { frontmatter, content: markdownContent } =
                 this.extractFrontmatter(content)
-            let translatedContent = ''
-            let translatedFrontmatter
 
-            if (frontmatter) {
-                translatedFrontmatter = await this.translateFrontmatter(
-                    frontmatter,
-                    sourceLang,
-                    targetLang
-                )
-                translatedContent +=
-                    '---\n' + yaml.stringify(translatedFrontmatter) + '---\n\n'
-            }
+            // Create translated frontmatter with translate set to false
+            const translatedFrontmatter = frontmatter
+                ? {
+                      ...(await this.translateFrontmatter(
+                          frontmatter,
+                          sourceLang,
+                          targetLang.code
+                      )),
+                      translate: false,
+                      lang: targetLang.language,
+                  }
+                : null
 
-            // Add translation notice to be translated
+            // Add translation notice
             const originalSlug = sluggify(frontmatter?.title ?? 'error')
-            const translationNotice = `This article has been translated by AI. [View the original article written in English here](/${originalSlug})\n\n`
+            const translationNotice = `This article has been translated by Artificial Intelligence. [View the original article written in English here](/${originalSlug})\n\n`
             const contentWithNotice = translationNotice + markdownContent
 
             const processor = unified()
@@ -181,16 +196,68 @@ export class ASTMarkdownTranslator {
                 })
 
             const tree = processor.parse(contentWithNotice)
-            await this.translateMarkdownAST(tree, sourceLang, targetLang)
-            translatedContent += processor.stringify(tree)
+            await this.translateMarkdownAST(tree, sourceLang, targetLang.code)
+
+            let translatedContent = processor.stringify(tree)
             translatedContent = fixSpacingAfterParentheses(translatedContent)
             translatedContent = fixSpacingBeforeLinks(translatedContent)
 
-            const filePath = `content/es/${sluggify(translatedFrontmatter?.title) ?? 'error'}.md`
-            await fs.writeFile(filePath, translatedContent, 'utf-8')
+            const finalContent = translatedFrontmatter
+                ? `---\n${yaml.stringify(translatedFrontmatter)}---\n${translatedContent}`
+                : translatedContent
+
+            // Create target directory if it doesn't exist
+            const targetDir = `content/${targetLang.language}`
+            try {
+                await fs.mkdir(targetDir, { recursive: true })
+            } catch (error) {
+                console.error(`Error creating directory ${targetDir}:`, error)
+                throw error
+            }
+
+            // Create the translated file using the original slug
+            const filePath = `${targetDir}/${originalSlug}.md`
+            await fs.writeFile(filePath, finalContent, 'utf-8')
             console.log(`Translation completed! Output saved to ${filePath}`)
+
+            // Update original file's frontmatter to track translations
+            if (frontmatter) {
+                // Read the current content again to get the latest translated_to array
+                const currentContent = await fs.readFile(
+                    `content/${originalSlug}.md`,
+                    'utf-8'
+                )
+                const { frontmatter: currentFrontmatter } =
+                    this.extractFrontmatter(currentContent)
+
+                // Ensure we have the latest translated_to array
+                const currentTranslations =
+                    currentFrontmatter?.translated_to || []
+                const updatedTranslations = Array.isArray(currentTranslations)
+                    ? currentTranslations
+                    : [currentTranslations]
+
+                const updatedOriginalFrontmatter = {
+                    ...currentFrontmatter,
+                    translate: false,
+                    last_modified: new Date().toISOString(),
+                    translated_to: Array.from(
+                        new Set([...updatedTranslations, targetLang.language])
+                    ),
+                }
+                const updatedOriginalContent = `---\n${yaml.stringify(updatedOriginalFrontmatter)}---\n${markdownContent}`
+                const originalFilePath = `content/${originalSlug}.md`
+                await fs.writeFile(
+                    originalFilePath,
+                    updatedOriginalContent,
+                    'utf-8'
+                )
+                console.log(`Original file updated: ${originalFilePath}`)
+            }
+
+            return { content: finalContent, frontmatter }
         } catch (error) {
-            console.error('Error during file translation:', error)
+            console.error('Error translating markdown file:', error)
             throw error
         }
     }
