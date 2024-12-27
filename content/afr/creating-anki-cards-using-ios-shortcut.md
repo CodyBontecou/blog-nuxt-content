@@ -1,5 +1,6 @@
 ---
 title: Skep Anki kaarte met behulp van iOS kortpad
+slug: skep-anki-kaarte-met-behulp-van-ios-kortpad
 draft: false
 ignore: false
 topics:
@@ -8,7 +9,7 @@ topics:
   - shortcut
 date: 2024-12-08T12:45
 created_at: 2024-12-08T12:45
-last_modified: 2024-12-24T16:22
+last_modified: 2024-12-26T10:31
 lang: afr
 translate: false
 ---
