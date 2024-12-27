@@ -11,11 +11,6 @@ interface Props {
 
 const { post } = defineProps<Props>()
 
-// Get the current route params
-const { path } = useRoute()
-const localePath = useLocalePath()
-const { locale } = useI18n()
-
 // Extract topics and create an array of queries
 const postTopics = computed(() => {
     return post.topics
