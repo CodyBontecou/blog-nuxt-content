@@ -7,7 +7,7 @@ topics:
 draft: true
 ignore: true
 created_at: 2024-11-12T22:54
-last_modified: 2024-12-30T11:13
+last_modified: 2024-12-30T15:05
 lang: eng
 ---
 ## [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
@@ -15,23 +15,19 @@ lang: eng
 [[#Customer Obsession]]
 [[#Ownership]]
 [[#Invent and simplify]]
-- [ ] **Leaders are right a lot**
-- [ ] **Learn and be curious**
-- [ ] **Hire and develop the best**
-- [ ] **Insist on highest standards**
-- [ ] **Think Big**
-- [ ] **Bias for action**
-- [ ] **Frugality \- More with Less**
-- [ ] **Earn trust**
-- [ ] **Dive deep**
-- [ ] **Have a backbone, disagree and commit**
-- [ ] **Deliver results**
-- [ ] **Be the earth’s best employer**
-- [ ] **Success and Scale Bring Broad Responsibility
-
-"**We** is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only **I**. Amazon is interviewing me, not my team."
-
-Committed to giving a response within 5 business days of the interview.
+[[#Leaders are right a lot]]
+[[#Learn and be curious]]
+[[#Hire and develop the best]]
+[[#Insist on the highest standards]]
+[[#Think Big]]
+[[#Bias for Action]]
+[[#Frugality - More with Less]]
+[[#Earn trust]]
+[[#Dive deep]]
+[[#Have a backbone, disagree and commit]]
+[[#Deliver results]]
+[[#Be the earth’s best employer]]
+[[#Success and Scale Bring Broad Responsibility]]
 
 ## Tell me about yourself / Something Interesting not in CV
 
@@ -69,7 +65,7 @@ This mindset not only broadens my personal perspective but also equips me to bri
 On teams, this superpower often translates into identifying creative solutions, tackling challenges from angles others might not consider, and fostering a culture of open-mindedness. My ability to adapt and provide value in uncharted territory is a strength I consistently leverage to help teams achieve their goals.
 ## Customer Obsession
 
-> Leaders start with the customer and work backward. They strive to earn and keep customer trust and focus on customer needs above all else.
+> Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.
 ###  When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
 
 S: I built a web application for e-sports and co-stream viewers. It became very popular in the Twitch community. The web app was built to be flexible and work with many games, but I was struggling to monetize it.
@@ -122,13 +118,14 @@ R: I got a lot of comments from users, they were very impressed by the site and 
 
 ## Ownership
 
-1. Tell me about a time when you had to make a difficult short term decision to make long term gains.
+> Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job.”
+### Tell me about a time when you had to make a difficult short term decision to make long term gains.
 
 S: I lead a team that was building an app for a government organization, we were on a greenfield project that included using their new enterprise Github infrastructure. We were the first team in their organization to move to this platform. There ended up being strict firewall rules were in place that prevented us from running certain tests in our CI/CD pipeline.
 
 T: Our task was to maintain a strong tested application given the constraints while the infrastructure team figured out how to adjust our firewalls setting to run our tests, which would take months and we only had week to launch this website.
 
-A: We organized our tests in a way were we can maintain max testability in our ci/cd pipeline and created a system that allowed us to run the remaining test in our local envioerment.
+A: We organized our tests in a way were we can maintain max testability in our CI/CD pipeline and created a system that allowed us to run the remaining test in our local environment.
 
 R: We were able to hit our deadlines while maintaining a quality product.
 
@@ -140,7 +137,7 @@ T: I decided to understand the code base and find the pieces that I ambuseded (e
 
 A: I started with the tests, I used the tests as a way to map the features that were implemented in a resilient and effective way. I was surprised to find that none of the front end was tested, so I took it upon my self to make a testing plan for our front end web application.
 
-R: I brought in tools such as play right, and e2e framer work, testing library, react testing library for integration tests and jest for unit tests. I also brought in msw JS to mock end test different UI error states. The team was thrilled and found this work to be beneficial.
+R: I brought in tools such as play right, and e2e framer work, testing library, react testing library for integration tests and jest for unit tests. I also brought in MSW.js to mock and test different UI error states. The team was thrilled and found this work to be beneficial.
 
 ### Tell me about a time when you took it upon yourself to work on a challenging initiative.
 
@@ -188,8 +185,9 @@ R: Ultimately, the project didn’t achieve the success I envisioned, but it bec
 
 Today, I apply these lessons to all my work. I prioritize sustainable effort, embrace collaboration, and allow myself the flexibility to learn and iterate. This approach has made me more effective, resilient, and balanced in my career.
 
-
 ## Invent and simplify
+
+> Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be misunderstood for long periods of time.
 
 ### Tell me about a time when you gave a simple solution to a complex problem.
 
@@ -211,7 +209,9 @@ A: The communication application we used was Discord. I utilized Github's API al
 
 R: My client was very happy with this! She felt comfortable seeing the updates occurring in real-time. This reduced our meeting time significantly, and converted our daily update discussions into a manageable weekly discussion.
 
-## Are right a lot
+## Leaders are right a lot
+
+> Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 
 ### Tell me about a time when you had to work with incomplete data or information.
 
@@ -253,6 +253,8 @@ R: With a learning focus on only Javascript, it became easier to hit deadlines w
 
 ## Learn and be curious
 
+>Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.
+
 ### Tell me about a time when you solved a problem through just superior knowledge or observation.
 
 S:
@@ -265,8 +267,17 @@ R:
 
 ### A time when I disproved something I believed
 
+S:
+
+T:
+
+A:
+
+R:
+
 ## Hire and develop the best
 
+> Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.
 ### Tell me about a time when you mentored someone.
 
 S: My job in China as an outdoor educator had a pay system that depended on your ability to perform certain activities. The road block for many of our Chinese staff to get a promotion was them lacking the ability to swim.
@@ -277,8 +288,29 @@ A: A few friends/coworkers and I decided to hold swimming classes in a river out
 
 R: We leveled up many of our Chinese coworkers so that they were able to pass the swimming at our company had in place. It was a very fun and rewarding experience that has made me some lifelong friends.
 
+### How you help your team members develop their careers
+
+S:
+
+T:
+
+A:
+
+R:
+
+### A time when you provided feedback to develop & leverage the strengths of someone on your team.
+
+S:
+
+T:
+
+A:
+
+R:
+
 ## Insist on the highest standards
 
+> Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
 ### Tell me about a time when a team member didn’t meet your expectations on a project.
 
 *"They are asking about my behavior, not my accomplishment."* 
@@ -306,24 +338,143 @@ A:
 
 R:
 
+## Think Big
+
+> Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
+
+### A time of a radical approach you proposed to solve a big problem
+
+S:
+
+T:
+
+A:
+
+R:
+### A time when you took a big risk and it failed
+
+S:
+
+T:
+
+A:
+
+R:
 
 ## Bias for Action
 
+> Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
+
 ### Time when I had to make a decision without enough data
+
+S:
+
+T:
+
+A:
+
+R:
+
+## Frugality - More with Less
+
+> Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
+
+### A time when you implemented a mechanism that saved money for your business
+
+S:
+
+T:
+
+A:
+
+R:
+###  A time when you spotted something in the business was wasting money
+
+S:
+
+T:
+
+A:
+
+R:
+
+## Earn trust
+
+> Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best.
+
+- A time you significantly contributed to improving morale and productivity on your team
+- 3 things you’re working on to improve overall effectiveness
+### A time you received tough or critical feedback
+
+S: Missing details on tickets
+
+T: No longer wished to miss details
+
+A: Developed a daily journaling habit in Obsidian
+
+R: No longer missed details. Promoted to team lead.
+
+## Dive deep
+
+> Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
+
+- A time you were trying to understand a problem on your team and had to go down several layers to figure it out
+- A time you linked two or more problems together an identified an underlying issue
+- A specific metric you have used to identify a need for a change in your department
+## Have a backbone, disagree and commit
+
+> Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
+
+- A time you strongly disagreed with your manager
+- A time you took an unpopular stance in a meeting with peers/leaders
+- A time you decided to go along with the group decision even if you disagreed
+- A time when you disagreed, spoke your thoughts, but then agreed to commit even if it wasn’t the way you wanted to go
+
+## Deliver results
+
+> Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
+
+- A time you were driving toward a goal and realized more than half way in that it may not be the best goal
+- A goal you set that took a long time to achieve/are still working towards
+- A time you delivered a project under a tight deadline
+
+## Be the earth’s best employer
+
+> Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment. They lead with empathy, have fun at work, and make it easy for others to have fun. Leaders ask themselves: Are my fellow employees growing? Are they empowered? Are they ready for what’s next? Leaders have a vision for and commitment to their employees’ personal success, whether that be at Amazon or elsewhere.
+
+- How you help your team members develop their careers
+- A time when you provided feedback to develop & leverage the strengths of someone on your team.
+
+## Success and Scale Bring Broad Responsibility
+
+> We started in a garage, but we’re not there anymore. We are big, we impact the world, and we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Our local communities, planet, and future generations need us to be better every day. We must begin each day with a determination to make better, do better, and be better for our customers, our employees, our partners, and the world at large. And we must end every day knowing we can do even more tomorrow. Leaders create more than they consume and always leave things better than how they found them.
+
+- Tell me about a time when you made a decision which impacted the team or the company.
+- Tell me about a decision that you made about your work and you regret now.
+- Tell me about a time when you failed to do the right thing.
 
 ## Most successful project?
 
-Costream
+Costream:
+- 282k Users over the course of 24 months
 
 ## Most innovative project?
 
-i18nLocale
+i18nLocale:
+- Transformers.js 
+- Whisper
 
 ## Highest impact project?
 
-NREL
+NREL:
+- Environmentally-focussed web application
 
 ## Most proud of project?
+
+My blog:
+- Actively writing since June, 2021
+- Over 100,000 unique visitors
+- Got me invited to be interviewed on Views on Vue (podcast) which eventually lead to me being a co-host on the show.
 
 ## Interview questions
 
@@ -332,3 +483,9 @@ NREL
   i.e. I'd like to explore Hugging Face Inference Endpoint benchmarks.
 	  - Is it cheaper to run a single, cheap machine for my tasks? Should I spawn a single powerful machine and run my code against that? Should I spawn multiple instances of a cheap machine, expensive machine? I'd love to see which of these solutions is the 1. cheapest, 2. fastest, 3. least complex.
 
+
+## Misc. Tips
+
+"**We** is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only **I**. Amazon is interviewing me, not my team."
+
+Committed to giving a response within 5 business days of the interview.
