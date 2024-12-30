@@ -7,19 +7,72 @@ topics:
 draft: true
 ignore: true
 created_at: 2024-11-12T22:54
-last_modified: 2024-12-25T22:46
+last_modified: 2024-12-28T16:28
 lang: eng
 ---
+## [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
 
-"We is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only I. Amazon is interviewing me, not my team."
+- [ ] **Customer Obsession**
+- [ ] **Ownership**
+- [ ] **Invent and simplify**
+- [ ] **Leaders are right a lot**
+- [ ] **Learn and be curious**
+- [ ] **Hire and develop the best**
+- [ ] **Insist on highest standards**
+- [ ] **Think Big**
+- [ ] **Bias for action**
+- [ ] **Frugality \- More with Less**
+- [ ] **Earn trust**
+- [ ] **Dive deep**
+- [ ] **Have a backbone, disagree and commit**
+- [ ] **Deliver results**
+- [ ] **Be the earth’s best employer**
+- [ ] **Success and Scale Bring Broad Responsibility
+
+"**We** is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only **I**. Amazon is interviewing me, not my team."
 
 Committed to giving a response within 5 business days of the interview.
 
-**Tell me about yourself / Something Interesting not in CV:**
+## Tell me about yourself / Something Interesting not in CV
 
-I'm a strong believer in the "Learning in Public" philosophy. Combining values, practices, and a mindset aimed at fostering transparency, accountability, and collaboration in the learning process.
+I'm a strong believer in the "Learning in Public" philosophy. I love to learn and I love to help others learn what I've learned.
 
-Every time I learn something that requires a decent amount of effort, I make an attempt to share what I learned so that others may be able to find the solution quicker. I believe that sharing my journey creates value both for myself and others. It reflects the idea that learning is a collective, rather than solitary, activity.
+Every time I learn something that requires a decent amount of effort, I make an attempt to share what I learned on my blog, Youtube, or micro-blogging sites. I want others to be able to find the solution to their problem quicker than I did. I believe that sharing my journey creates value both for myself and others. It reflects the idea that learning is a collective, rather than solitary, activity.
+
+## Why Amazon?
+
+*Why this team?*
+- Amazon is SO many different things/businesses within one entity
+
+**Maturity:** Concept of the maturity of the business
+There are 3 states of businesses within Amazon:
+1. **Build** - brand new sector of Amazon with the task to build something from scratch
+2. Scaling - teams and business in place. Business is to scale.
+	1. Invent and simplify
+3. Optimization - mature, well-established in Amazon. Goal is to optimize to the nth degree and get every piece of value out of it.
+
+*"All about am I raising the bar on the leadership principles. Will I have a long term potential career at Amazon due to growth capabilities."*
+
+Amazon, and in particular AWS, consistently produces some of the highest quality content and tooling in the developer space. I resonate deeply with the Amazon Leadership Principles and want to support the growth of the Gen AI sector in becoming a leader in the space.
+
+## What is your favorite Leadership Principle (LP)?
+
+- Learn and be curious - This is a LP that resonates with me deeply. Every action I take and conversation I have strives to accomplish this. I am constantly on the look out for learning opportunities. 
+- Customer Obsession - I hope to someday share everything I know with others so that they may take from me what they want and hopefully better themselves. I want others to be able to learn from my mistakes as well as find inspiration in my achievements.
+
+## What is your superpower?
+
+I live an exotic life. I constantly find myself taking the road less traveled, gaining experience in areas that others may find to be too uncomfortable. I then share this experience with others so that they have more information to base their decisions on.
+
+## Biggest career failure - What have you learned?
+
+I took nearly a year off from work with the intention of building a side project that will generate passive income. It didn't take long before I had burnt myself out building applications that generated no income. I found myself spending tons of time post-burnout finding every reason imaginable to not work on code.
+
+I learned that acts of art and creation cannot be forced. I can't lock myself into a room with a pen and paper and expect a book to suddenly appear.
+
+## A time when I disproved something I believed
+
+## Time when I had to make a decision without enough data
 
 ## Customer Obsession
 
@@ -32,7 +85,6 @@ T: The majority of users used it to watch League of Legend e-sports. So, I decid
 A: I focussed my development on features specific to League of Legends. Building features such as the real-time in game stats panel.
 
 R: User's loved it. But shortly after deploying my release, the official League of Legends Twitch account provided a similar experience directly within the Twitch application as well as removing co-streamer restrictions killing the desire to utilize my site.
-
 
 1. Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
 
@@ -67,7 +119,7 @@ R: Almost always customers would use the properly size boot through out the day 
 
 3. Can you tell me about a time you obsessed over giving very high quality service to a customer?
 
-S: I built a web application using a new tool called transformer JS which allows you to run local AI models in your browser. The goal of the application was to enable developers to translate their i18n files. I was able to create an mvp within a day.
+S: I built a web application using a new tool called Transformer JS which allows you to run local AI models in your browser. The goal of the application was to enable developers to translate their i18n files. I was able to create an mvp within a day.
 
 T:  I intentionally gave myself a month to finish the product to give me time to find tune and polish it.
 
@@ -163,23 +215,31 @@ R: Users found this to be very impressive. They had no idea this data existed an
 
 1. Tell me about a time when you incorporated a diverse set of perspectives into solving a problem.
 
-S:
+S: I was living out of an RV and traveling around the Western states, searching for adventures. I also needed a shower from time to time.
 
-T:
+T: Hot springs were the perfect solution. They were fun, plentiful, and typically included an adventure to get to them. They also had the additional benefit of making me feel clean after swimming in them.
 
-A:
+A: I met a developer at a hot spring in Utah who was a passionate hot springer. He shared some information with me, including an organized spreadsheet of hot springs throughout the country.
 
-R:
+R: This inspired me to research hot spring locations further, where I found a data set provided by [NOAA](https://data.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/Collection/iso/xml/G01139.xml&view=getDataView&header=none). I mapped the data to a web app using Leaflet, providing a nicer way to interface with the hot spring locations. I then used this map to continue traveling around the US and enjoying hot springs every night.
 
 1. Tell me about a time when you had to step up and disagree with a team member’s approach.
 
-S:
+We encountered dependency issues in our build system due to a firewall rule in the companies Enterprise version of Github Actions, breaking a significant number of automated tests. It would take potentially months to get a security audit on the dependency we required.
 
-T:
+My team wanted to move to a purely-manual testing strategy - running our tests manually prior to committing the code. I struggled to feel confident in this and explored other options.
 
-A:
+While I was unable to find a solution to the specific dependency issue, I was able to isolate the tests that were impacted by the issue, allowing the remaining viable tests to be ran in our CI pipeline.
 
-R:
+3. Tell me about a time when you had to step up and disagree with a team member’s approach.
+
+S: I was on a project to build a full-stack web application with another developer. The project was originally scoped to have me on the frontend and the other developer on the backend. My team member wanted to use this project to learn Javascript/Typescript alongside frontend. But, he also decided it was a good time for him to transition to VIM. My team members productivity slowed down dramatically, to a point where we began missing deadlines.
+
+T: I was tasked to have conversations with my team member and find ways to accelerate his productivity while also allowing growth.
+
+A: I originally thought it was okay for him to come into this project with a learning mindset and to soak up as much knowledge as possible. But, given the demands of the client, I reduced his learning scope from Javascript, VIM, and frontend to just Javascript.
+
+R: With a learning focus on only Javascript, it became easier to hit deadlines while also allowing my team member to grow.
 
 ## Learn and be curious
 
@@ -193,12 +253,11 @@ A:
 
 R:
 
-
 ## Hire and develop the best
 
 1. Tell me about a time when you mentored someone.
 
-S: My job in China as an outdoor educator had a pay system that depended on your ability to perform certain activities. The road block for many of our Chinese staff was the ability to swim.
+S: My job in China as an outdoor educator had a pay system that depended on your ability to perform certain activities. The road block for many of our Chinese staff to get a promotion was them lacking the ability to swim.
 
 T: We wanted to help our friends and coworkers progress in their career and learn the incredible skill of swimming. Being from Hawaii, I have swam my entire life and consider myself a strong swimmer.
 
@@ -206,28 +265,24 @@ A: A few friends/coworkers and I decided to hold swimming classes in a river out
 
 R: We leveled up many of our Chinese coworkers so that they were able to pass the swimming at our company had in place. It was a very fun and rewarding experience that has made me some lifelong friends.
 
-
 ## Insist on the highest standards
 
 1. Tell me about a time when a team member didn’t meet your expectations on a project.
 
-S:
+*"They are asking about my behavior, not my accomplishment."* 
+- Philosophy
+- Process
+- Outcome
 
-T:
+I lead a greenfield project that was built by me and another developer. This developer was a mid-senior level developer with little Javascript experience, specializing in C++ and backend development. 
 
-A:
+He came into the project with the goal of learning frontend web development, Typescript, and VIM.
 
-R:
+It quickly became obvious he took on too many learning opportunities at once.
 
-1. Tell me about a time when you couldn’t meet your own expectations on a project.
+I decided it was best to reduce his learning goals a bit, focussing first on Javascript/Typescript on the backend. As his confidence grew with the language, I began passing him frontend tickets and mentoring him as needed.
 
-S:
-
-T:
-
-A:
-
-R:
+Eventually I was able to feel confident in assigning him tickets within any part of the stack. 
 
 1. Tell me a time when you raised the bar
 
@@ -239,6 +294,19 @@ A:
 
 R:
 
+## Most successful project?
+
+Costream
+
+## Most innovative project?
+
+i18nLocale
+
+## Highest impact project?
+
+NREL
+
+## Most proud of project?
 
 ## Interview questions
 
@@ -246,3 +314,4 @@ R:
 
   i.e. I'd like to explore Hugging Face Inference Endpoint benchmarks.
 	  - Is it cheaper to run a single, cheap machine for my tasks? Should I spawn a single powerful machine and run my code against that? Should I spawn multiple instances of a cheap machine, expensive machine? I'd love to see which of these solutions is the 1. cheapest, 2. fastest, 3. least complex.
+

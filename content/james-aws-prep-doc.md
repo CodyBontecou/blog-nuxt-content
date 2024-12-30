@@ -1,7 +1,7 @@
 ---
 date: 2024-12-11T19:10
 created_at: 2024-12-11T19:10
-last_modified: 2024-12-25T22:46
+last_modified: 2024-12-27T10:52
 title: 
 draft: true
 ignore: true
@@ -182,11 +182,11 @@ Action I took, Result I archived
 
 **KMP**
 
-| S | Android Developer Community beginning to fracture with multiplatform capabilities Platform differentiation ability eroding As owner of Kotlin at Google, opportunity to invest in Kotlin-based solutions that enable expansion of Android core technologies to other platforms My manager disagreed with my strategy, but upper-management & engineering was on-board Internal Google apps were already adopting the technology |
-| :---: | :---- |
-| **T** | Find middle-ground solution we could agree on |
-| **A** | Focus on improving KMP for 1P Performance, foundational libraries, ecosystem Validation through 1P, enabling 3P |
-| **R** | Validation on large Google app Work with cross-PA and partner teams on expansion (joint OKRs, roadmaps, co-marketing) Significant growth 1P & 3P |
+|   S   | Android Developer Community beginning to fracture with multiplatform capabilities Platform differentiation ability eroding As owner of Kotlin at Google, opportunity to invest in Kotlin-based solutions that enable expansion of Android core technologies to other platforms My manager disagreed with my strategy, but upper-management & engineering was on-board Internal Google apps were already adopting the technology |
+| :---: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **T** | Find middle-ground solution we could agree on                                                                                                                                                                                                                                                                                                                                                                                   |
+| **A** | Focus on improving KMP for 1P Performance, foundational libraries, ecosystem Validation through 1P, enabling 3P                                                                                                                                                                                                                                                                                                                 |
+| **R** | Validation on large Google app Work with cross-PA and partner teams on expansion (joint OKRs, roadmaps, co-marketing) Significant growth 1P & 3P                                                                                                                                                                                                                                                                                |
 
 **Kotlin Growing 1P & 3P**
 
