@@ -3,9 +3,8 @@ import yaml from 'yaml'
 import fs from 'fs/promises'
 import path from 'path'
 
-const HUGGINGFACE_API_KEY = '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'
-const HUGGING_FACE_INFERENCE_ENDPOINT =
-    'https://vbo45ojjmrr5p7w3.us-east-1.aws.endpoints.huggingface.cloud'
+const HUGGINGFACE_API_KEY = ''
+const HUGGING_FACE_INFERENCE_ENDPOINT = ''
 const MODEL = 'facebook/seamless-m4t-v2-large'
 
 interface Language {
