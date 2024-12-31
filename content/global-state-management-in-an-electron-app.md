@@ -29,7 +29,7 @@ meta:
     content: Global State Management in an Electron Application
 canonicalUrl: https://codybontecou.com/global-state-management-in-an-electron-app.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-25T22:46
+last_modified: 2024-12-31T08:58
 lang: eng
 ---
 

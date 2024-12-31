@@ -28,7 +28,7 @@ meta:
     content: Convert a React Component to VueJS
 canonicalUrl: https://codybontecou.com/convert-reactjs-component-to-vuejs.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-25T22:46
+last_modified: 2024-12-31T08:58
 lang: eng
 ---
 

@@ -29,7 +29,7 @@ meta:
     content: Lets setup Nuxt 3 with Cypress
 canonicalUrl: https://codybontecou.com/lets-setup-nuxt-3-with-cypress.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-25T22:46
+last_modified: 2024-12-31T08:58
 lang: eng
 ---
 

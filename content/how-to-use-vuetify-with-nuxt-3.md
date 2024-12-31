@@ -32,7 +32,7 @@ meta:
 canonicalUrl: https://codybontecou.com/how-to-use-vuetify-with-nuxt-3.html
 newsletter: false
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-25T22:46
+last_modified: 2024-12-31T08:58
 lang: eng
 ---
 
