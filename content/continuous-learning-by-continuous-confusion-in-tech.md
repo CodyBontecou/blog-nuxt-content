@@ -3,8 +3,8 @@ type: post
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2023-03-22
-last_modified_date: 2023-03-22
+date: 2023-03-22T00:00:00.000Z
+last_modified_date: 2023-03-22T00:00:00.000Z
 title: Continuous learning by continuous confusion in tech
 description: A key to becoming a good developer is continuously learning.
 slug: continuous-learning-by-continuous-confusion-in-tech
@@ -25,8 +25,10 @@ topics:
   - Life
   - Learning
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 
 > A key to becoming a good developer is continuously learning.

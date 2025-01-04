@@ -5,7 +5,7 @@ sidebarTitle: Adding Vue Devtools
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2021-12-15
+date: 2021-12-15T00:00:00.000Z
 description: Vue Devtools for an Electron application running VueJS on the frontend.
 category: tutorials
 dropdown: Electron
@@ -31,8 +31,11 @@ meta:
     content: Integrating Vue Devtools into an Electron Application
 canonicalUrl: https://codybontecou.com/electron-app-with-vue-devtools.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: integrating-vue-devtools-into-an-electron-application
+translate: true
+translated_to: 
 ---
 
 > Bringing the VueJS devtools into our Electron application to help debug. This post assumes you have followed along with my previous [post](https://codybontecou.com/global-state-management-in-an-electron-app.html).

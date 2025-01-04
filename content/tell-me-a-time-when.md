@@ -1,33 +1,37 @@
 ---
 title: Tell me a time when...
+slug: tell-me-a-time-when
 topics:
   - interview
   - aws
   - job
-draft: true
-ignore: true
+draft: false
+ignore: false
+date: 2024-11-12T22:54
 created_at: 2024-11-12T22:54
-last_modified: 2024-12-31T10:18
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 ## [Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
 
-[[#Customer Obsession]]
-[[#Ownership]]
-[[#Invent and simplify]]
-[[#Leaders are right a lot]]
-[[#Learn and be curious]]
-[[#Hire and develop the best]]
-[[#Insist on the highest standards]]
-[[#Think Big]]
-[[#Bias for Action]]
-[[#Frugality - More with Less]]
-[[#Earn trust]]
-[[#Dive deep]]
-[[#Have a backbone, disagree and commit]]
-[[#Deliver results]]
-[[#Be the earth’s best employer]]
-[[#Success and Scale Bring Broad Responsibility]]
+- [[#Customer Obsession]]
+- [[#Ownership]]
+- [[#Invent and simplify]]
+- [[#Leaders are right a lot]]
+- [[#Learn and be curious]]
+- [[#Hire and develop the best]]
+- [[#Insist on the highest standards]]
+- [[#Think Big]]
+- [[#Bias for Action]]
+- [[#Frugality - More with Less]]
+- [[#Earn trust]]
+- [[#Dive deep]]
+- [[#Have a backbone, disagree and commit]]
+- [[#Deliver results]]
+- [[#Be the earth’s best employer]]
+- [[#Success and Scale Bring Broad Responsibility]]
 
 ## Tell me about yourself / Something Interesting not in CV
 
@@ -37,23 +41,11 @@ Every time I learn something that requires a decent amount of effort, I make an 
 
 ## Why Amazon?
 
-*Why this team?*
-- Amazon is SO many different things/businesses within one entity
-
-**Maturity:** Concept of the maturity of the business
-There are 3 states of businesses within Amazon:
-1. **Build** - brand new sector of Amazon with the task to build something from scratch
-2. Scaling - teams and business in place. Business is to scale.
-	1. Invent and simplify
-3. Optimization - mature, well-established in Amazon. Goal is to optimize to the nth degree and get every piece of value out of it.
-
-*"All about am I raising the bar on the leadership principles. Will I have a long term potential career at Amazon due to growth capabilities."*
-
 Amazon, and in particular AWS, consistently produces some of the highest quality content and tooling in the developer space. I resonate deeply with the Amazon Leadership Principles and want to collaborate with the best minds, learn from them, and support the growth of the Generative AI sector in becoming a leader in this revolutionary space.
 
 ## What is your favorite Leadership Principle (LP)?
 
-- Learn and be curious - This is a LP that resonates with me deeply. Every action I take and conversation I have strives to accomplish this. I am constantly on the look out for learning opportunities. 
+- Learn and be curious - This is a LP that resonates with me deeply. Every action I take and conversation I have strives to accomplish this. I am constantly on the look out for learning opportunities.
 - Customer Obsession - I hope to someday share everything I know with others so that they may take from me what they want and hopefully better themselves. I want others to be able to learn from my mistakes as well as find inspiration in my achievements.
 
 ## Customer Obsession
@@ -85,7 +77,6 @@ Amazon, and in particular AWS, consistently produces some of the highest quality
 
 > Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job.”
 
-
 - Tell me about a time when you had to make a difficult short term decision to make long term gains.
 
 [[#NREL testing compromise]]
@@ -115,245 +106,142 @@ Amazon, and in particular AWS, consistently produces some of the highest quality
 
 > Leaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here.” As we do new things, we accept that we may be misunderstood for long periods of time.
 
-### Tell me about a time when you gave a simple solution to a complex problem.
+- Tell me about a time when you gave a simple solution to a complex problem.
 
-S: I regularly write and publish my writing on my personal blog. My original blog utilized a documentation library called Vitepress which is what most Vite and Vue-related packages use. It worked well initially, but became increasingly complex as I tried to make it fit my blogging needs.
+[[#Blog re-build]]
 
-T: I decided it was time to re-build my blog using Nuxt.js and their blogging/documentation library Nuxt Content. This let me easily migrate the markdown files I used for my previous blog but gave me a blank canvas that I could build out to perfectly fit my needs.
+- Tell me about a time when you changed a process at work through either an innovative new way or simplification.
 
-A: A key part of this re-build required the use of Obsidian to be the backbone of my writing. It's a markdown editor that has a thriving ecosystem of plugins and tools that make my life easier. I needed my blog to be able to be edited and deployed from Obsidian because it then allowed me to blog from any device, including my cellphone.
-
-R: The original blog that I had used became increasingly complex and difficult to work with. It had many custom build scripts and processes that overtime bogged down my ability to share my thoughts on the web. It took me awhile to commit to a re-build, but it ended up being very simple and simplified my entire blogging process, allowing me to share my thoughts from any device.
-
-### Tell me about a time when you changed a process at work through either an innovative new way or simplification.
-
-S: A client of mine was curious of the state of the project I was building for her. We would have daily meetings, sometimes twice a day, to give a brief status update. I found these meetings to be distracting at times.
-
-T: I discussed it with the client, and we decided it best to automate some of the status updates.
-
-A: The communication application we used was Discord. I utilized Github's API alongside Discord's to build a Discord bot that send commit and release information to a dedicated channel in our Discord server.
-
-R: My client was very happy with this! She felt comfortable seeing the updates occurring in real-time. This reduced our meeting time significantly, and converted our daily update discussions into a manageable weekly discussion.
+[[#Project status automation]]
 
 ## Leaders are right a lot
 
 > Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.
 
-### Tell me about a time when you had to work with incomplete data or information.
+- Tell me about a time when you had to work with incomplete data or information.
 
-S: There's a feature on the League of Legends dedicated e-sports website (Lolesports) that displays match information in real time. Stats such as player gold and build-specializations were viewable there, but no where else.
+[[#Lolesports undocumented API]]
 
-T: I decided I wanted this information on my co-streaming site that specialized in League of Legends content.
+- Tell me about a time when you incorporated a diverse set of perspectives into solving a problem.
 
-A: The network requests were viewable on their site with the provided API key. It turns out this API does not change and is not user-specific. So, I was able to replicate the API requests on my own site and built the same features that they provided on theirs.
+[[#Mapping hot springs]]
 
-R: Users found this to be very impressive. They had no idea this data existed and were excited to see the site they use provide such a fun and insightful feature.
+- Tell me about a time when you had to step up and disagree with a team member’s approach.
 
-### Tell me about a time when you incorporated a diverse set of perspectives into solving a problem.
+[[#NREL testing compromise]]
 
-S: I was living out of an RV and traveling around the Western states, searching for adventures. I also needed a shower from time to time.
+- Tell me about a time when you had to step up and disagree with a team member’s approach.
 
-T: Hot springs were the perfect solution. They were fun, plentiful, and typically included an adventure to get to them. They also had the additional benefit of making me feel clean after swimming in them.
-
-A: I met a developer at a hot spring in Utah who was a passionate hot springer. He shared some information with me, including an organized spreadsheet of hot springs throughout the country.
-
-R: This inspired me to research hot spring locations further, where I found a data set provided by [NOAA](https://data.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/Collection/iso/xml/G01139.xml&view=getDataView&header=none). I mapped the data to a web app using Leaflet, providing a nicer way to interface with the hot spring locations. I then used this map to continue traveling around the US and enjoying hot springs every night.
-
-### Tell me about a time when you had to step up and disagree with a team member’s approach.
-
-We encountered dependency issues in our build system due to a firewall rule in the companies Enterprise version of Github Actions, breaking a significant number of automated tests. It would take potentially months to get a security audit on the dependency we required.
-
-My team wanted to move to a purely-manual testing strategy - running our tests manually prior to committing the code. I struggled to feel confident in this and explored other options.
-
-While I was unable to find a solution to the specific dependency issue, I was able to isolate the tests that were impacted by the issue, allowing the remaining viable tests to be ran in our CI pipeline.
-
-### Tell me about a time when you had to step up and disagree with a team member’s approach.
-
-S: I was on a project to build a full-stack web application with another developer. The project was originally scoped to have me on the frontend and the other developer on the backend. My team member wanted to use this project to learn Javascript/Typescript alongside frontend. But, he also decided it was a good time for him to transition to VIM. My team members productivity slowed down dramatically, to a point where we began missing deadlines.
-
-T: I was tasked to have conversations with my team member and find ways to accelerate his productivity while also allowing growth.
-
-A: I originally thought it was okay for him to come into this project with a learning mindset and to soak up as much knowledge as possible. But, given the demands of the client, I reduced his learning scope from Javascript, VIM, and frontend to just Javascript.
-
-R: With a learning focus on only Javascript, it became easier to hit deadlines while also allowing my team member to grow.
+[[#Reduced learning scope]]
+[[#NREL testing compromise]]
 
 ## Learn and be curious
 
 >Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.
 
-### Tell me about a time when you solved a problem through just superior knowledge or observation.
+- Tell me about a time when you solved a problem through just superior knowledge or observation.
 
-S:
+[[#Mapping hot springs]]
+[[#RV stuck in wilderness with friends]]
 
-T:
+- A time when I disproved something I believed
 
-A:
-
-R:
-
-### A time when I disproved something I believed
-
-S:
-
-T:
-
-A:
-
-R:
+[[#Year off]]
 
 ## Hire and develop the best
 
 > Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.
-### Tell me about a time when you mentored someone.
 
-S: My job in China as an outdoor educator had a pay system that depended on your ability to perform certain activities. The road block for many of our Chinese staff to get a promotion was them lacking the ability to swim.
+- Tell me about a time when you mentored someone.
 
-T: We wanted to help our friends and coworkers progress in their career and learn the incredible skill of swimming. Being from Hawaii, I have swam my entire life and consider myself a strong swimmer.
+[[#China swim teaching]]
 
-A: A few friends/coworkers and I decided to hold swimming classes in a river outside of town once a week for anyone that needed it. It became a very popular activity, with many coworkers coming just to hang out and enjoy the river.
+- How you help your team members develop their careers
 
-R: We leveled up many of our Chinese coworkers so that they were able to pass the swimming at our company had in place. It was a very fun and rewarding experience that has made me some lifelong friends.
+[[#China swim teaching]]
+[[#Reduced learning scope]]
 
-### How you help your team members develop their careers
+- A time when you provided feedback to develop & leverage the strengths of someone on your team.
 
-S:
-
-T:
-
-A:
-
-R:
-
-### A time when you provided feedback to develop & leverage the strengths of someone on your team.
-
-S:
-
-T:
-
-A:
-
-R:
-
+[[#Reduced learning scope]]
 ## Insist on the highest standards
 
 > Leaders have relentlessly high standards — many people may think these standards are unreasonably high. Leaders are continually raising the bar and drive their teams to deliver high quality products, services, and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
-### Tell me about a time when a team member didn’t meet your expectations on a project.
 
-*"They are asking about my behavior, not my accomplishment."* 
-- Philosophy
-- Process
-- Outcome
+- Tell me about a time when a team member didn’t meet your expectations on a project.
 
-I lead a greenfield project that was built by me and another developer. This developer was a mid-senior level developer with little Javascript experience, specializing in C++ and backend development. 
+[[#Reduced learning scope]]
 
-He came into the project with the goal of learning frontend web development, Typescript, and VIM.
+- Tell me a time when you raised the bar
 
-It quickly became obvious he took on too many learning opportunities at once.
-
-I decided it was best to reduce his learning goals a bit, focussing first on Javascript/Typescript on the backend. As his confidence grew with the language, I began passing him frontend tickets and mentoring him as needed.
-
-Eventually I was able to feel confident in assigning him tickets within any part of the stack. 
-
-### Tell me a time when you raised the bar
-
-S:
-
-T:
-
-A:
-
-R:
+[[#FIFA+ testing strategy]]
 
 ## Think Big
 
 > Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.
 
-### A time of a radical approach you proposed to solve a big problem
+- A time of a radical approach you proposed to solve a big problem
 
-S:
+[[#FIFA+ testing strategy]]
 
-T:
+- A time when you took a big risk and it failed
 
-A:
-
-R:
-### A time when you took a big risk and it failed
-
-S:
-
-T:
-
-A:
-
-R:
+[[#Year off]]
 
 ## Bias for Action
 
 > Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking.
 
-### Time when I had to make a decision without enough data
+- Time when I had to make a decision without enough data
 
-S:
-
-T:
-
-A:
-
-R:
-
+[[#Year off]]
 ## Frugality - More with Less
 
 > Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense.
 
-### A time when you implemented a mechanism that saved money for your business
+- A time when you implemented a mechanism that saved money for your business
 
-S:
+[[#FIFA+ testing strategy]]
 
-T:
-
-A:
-
-R:
-###  A time when you spotted something in the business was wasting money
-
-S:
-
-T:
-
-A:
-
-R:
+- A time when you spotted something in the business was wasting money
 
 ## Earn trust
 
 > Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best.
 
 - A time you significantly contributed to improving morale and productivity on your team
+
+Presentation in front of company?
+
 - 3 things you’re working on to improve overall effectiveness
-### A time you received tough or critical feedback
+- A time you received tough or critical feedback
 
-S: Missing details on tickets
-
-T: No longer wished to miss details
-
-A: Developed a daily journaling habit in Obsidian
-
-R: No longer missed details. Promoted to team lead.
+[[#Critique → Obsidian]]
 
 ## Dive deep
 
 > Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ. No task is beneath them.
 
 - A time you were trying to understand a problem on your team and had to go down several layers to figure it out
-- A time you linked two or more problems together an identified an underlying issue
+
+[[#NREL testing compromise]]
+
+- A time you linked two or more problems together and identified an underlying issue
 - A specific metric you have used to identify a need for a change in your department
 ## Have a backbone, disagree and commit
 
 > Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.
 
 - A time you strongly disagreed with your manager
+
+[[#NREL testing compromise]]
+
 - A time you took an unpopular stance in a meeting with peers/leaders
+
+[[#NREL testing compromise]]
+
 - A time you decided to go along with the group decision even if you disagreed
+
 - A time when you disagreed, spoke your thoughts, but then agreed to commit even if it wasn’t the way you wanted to go
 
 ## Deliver results
@@ -361,24 +249,43 @@ R: No longer missed details. Promoted to team lead.
 > Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.
 
 - A time you were driving toward a goal and realized more than half way in that it may not be the best goal
+
+[[#Year off]]
+
 - A goal you set that took a long time to achieve/are still working towards
+
+[[#Year off]]
+
 - A time you delivered a project under a tight deadline
 
+[[#NREL testing compromise]]
 ## Be the earth’s best employer
 
 > Leaders work every day to create a safer, more productive, higher performing, more diverse, and more just work environment. They lead with empathy, have fun at work, and make it easy for others to have fun. Leaders ask themselves: Are my fellow employees growing? Are they empowered? Are they ready for what’s next? Leaders have a vision for and commitment to their employees’ personal success, whether that be at Amazon or elsewhere.
 
 - How you help your team members develop their careers
+
+[[#China swim teaching]]
+
 - A time when you provided feedback to develop & leverage the strengths of someone on your team.
+
+[[#Reduced learning scope]]
 
 ## Success and Scale Bring Broad Responsibility
 
 > We started in a garage, but we’re not there anymore. We are big, we impact the world, and we are far from perfect. We must be humble and thoughtful about even the secondary effects of our actions. Our local communities, planet, and future generations need us to be better every day. We must begin each day with a determination to make better, do better, and be better for our customers, our employees, our partners, and the world at large. And we must end every day knowing we can do even more tomorrow. Leaders create more than they consume and always leave things better than how they found them.
 
 - Tell me about a time when you made a decision which impacted the team or the company.
+
+[[#FIFA+ testing strategy]]
+
 - Tell me about a decision that you made about your work and you regret now.
+
+[[#Year off]]
+
 - Tell me about a time when you failed to do the right thing.
 
+[[#Reduced learning scope]]
 ## Most successful project?
 
 Costream:
@@ -387,13 +294,13 @@ Costream:
 ## Most innovative project?
 
 i18nLocale:
-- Transformers.js 
+- Transformers.js
 - Whisper
 
 ## Highest impact project?
 
 NREL:
-- Environmentally-focussed web application
+- Government + Environmentally-focussed web application
 
 ## Most proud of project?
 
@@ -401,21 +308,6 @@ My blog:
 - Actively writing since June, 2021
 - Over 100,000 unique visitors
 - Got me invited to be interviewed on Views on Vue (podcast) which eventually lead to me being a co-host on the show.
-
-## Interview questions
-
-- Do developer advocates get a monthly budget to use on AI-related research?
-
-  i.e. I'd like to explore Hugging Face Inference Endpoint benchmarks.
-	  - Is it cheaper to run a single, cheap machine for my tasks? Should I spawn a single powerful machine and run my code against that? Should I spawn multiple instances of a cheap machine, expensive machine? I'd love to see which of these solutions is the 1. cheapest, 2. fastest, 3. least complex.
-
-
-## Misc. Tips
-
-"**We** is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only **I**. Amazon is interviewing me, not my team."
-
-Committed to giving a response within 5 business days of the interview.
-
 
 ## Stories
 
@@ -519,7 +411,6 @@ R: We were able to hit our deadlines while maintaining a quality product.
 
 **R:** This effort resulted in hiring several exceptional developers, two of whom became key contributors to our TypeScript projects and were recognized as top performers within the company. Feedback from candidates highlighted the interview process as one of the reasons they chose to join our team, reinforcing the importance of the high-quality service I provided.
 
-
 ### Year off
 
 S: I decided to take a year off work to pursue a personal side project aimed at generating passive income. My goal was to build a series of applications that could provide long-term financial returns.
@@ -535,3 +426,90 @@ R: Ultimately, the project didn’t achieve the success I envisioned, but it bec
 3. Collaboration and seeking feedback are essential. Isolating myself meant missing out on valuable insights and motivation from others.
 
 Today, I apply these lessons to all my work. I prioritize sustainable effort, embrace collaboration, and allow myself the flexibility to learn and iterate. This approach has made me more effective, resilient, and balanced in my career.
+
+### Blog re-build
+
+S: I manage a personal blog where I regularly publish my writing. Initially, I used Vitepress, a documentation library often used for Vite and Vue-related projects. While it worked well at first, it became increasingly complex as I customized it to suit my blogging needs.
+
+T: I needed a simpler, more flexible solution that would streamline my blogging process, reduce complexity, and allow me to write and publish from any device.
+
+A: After researching alternatives, I decided to rebuild my blog using Nuxt.js and Nuxt Content. This framework allowed me to easily migrate my existing markdown files while providing a flexible platform for customization. To further simplify my workflow, I integrated Obsidian, a markdown editor with a robust ecosystem of plugins, as the backbone of my writing process. By setting up a system where I could edit and deploy blog posts directly from Obsidian, I enabled seamless blogging from devices like my phone.
+
+R: The rebuild transformed my blogging experience. What was once a cumbersome process requiring custom scripts and manual intervention became a streamlined and intuitive workflow. Now, I can easily write, edit, and publish from anywhere, which has significantly increased my productivity and made sharing my thoughts much simpler.
+
+### Project status automation
+
+S: A client of mine was curious of the state of the project I was building for her. We would have daily meetings, sometimes twice a day, to give a brief status update. I found these meetings to be distracting at times.
+
+T: I discussed it with the client, and we decided it best to automate some of the status updates.
+
+A: The communication application we used was Discord. I utilized Github's API alongside Discord's to build a Discord bot that send commit and release information to a dedicated channel in our Discord server.
+
+R: My client was very happy with this! She felt comfortable seeing the updates occurring in real-time. This reduced our meeting time significantly, and converted our daily update discussions into a manageable weekly discussion.
+
+### Lolesports undocumented API
+
+S: There's a feature on the League of Legends dedicated e-sports website (Lolesports) that displays match information in real time. Stats such as player gold and build-specializations were viewable there, but no where else.
+
+T: I decided I wanted this information on my co-streaming site that specialized in League of Legends content.
+
+A: The network requests were viewable on their site with the provided API key. It turns out this API does not change and is not user-specific. So, I was able to replicate the API requests on my own site and built the same features that they provided on theirs.
+
+R: Users found this to be very impressive. They had no idea this data existed and were excited to see the site they use provide such a fun and insightful feature.
+
+### Mapping hot springs
+
+S: I was living out of an RV and traveling around the Western states, searching for adventures. I also needed a shower from time to time.
+
+T: Hot springs were the perfect solution. They were fun, plentiful, and typically included an adventure to get to them. They also had the additional benefit of making me feel clean after swimming in them.
+
+A: I met a developer at a hot spring in Utah who was a passionate hot springer. He shared some information with me, including an organized spreadsheet of hot springs throughout the country.
+
+R: This inspired me to research hot spring locations further, where I found a data set provided by [NOAA](https://data.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/Collection/iso/xml/G01139.xml&view=getDataView&header=none). I mapped the data to a web app using Leaflet, providing a nicer way to interface with the hot spring locations. I then used this map to continue traveling around the US and enjoying hot springs every night.
+
+### Reduced learning scope
+
+*I think I can expand on this or branch it off into a separate story where I took on more work than I probably should have in an attempt to allow my team member to have to space to learn what he needed. I tried to protect him, but in the end probably hurt him further do to missed deadlines and eventual burnout from my. I see this as a failure.*
+
+S: I was on a project to build a full-stack web application with another developer. The project was originally scoped to have me on the frontend and the other developer on the backend. My team member wanted to use this project to learn Javascript/Typescript alongside frontend. But, he also decided it was a good time for him to transition to VIM. My team members productivity slowed down dramatically, to a point where we began missing deadlines.
+
+T: I was tasked to have conversations with my team member and find ways to accelerate his productivity while also allowing growth.
+
+A: I originally thought it was okay for him to come into this project with a learning mindset and to soak up as much knowledge as possible. But, given the demands of the client, I reduced his learning scope from Javascript, VIM, and frontend to just Javascript.
+
+R: With a learning focus on only Javascript, it became easier to hit deadlines while also allowing my team member to grow.
+
+### China swim teaching
+
+S: My job in China as an outdoor educator had a pay system that depended on your ability to perform certain activities. The road block for many of our Chinese staff to get a promotion was them lacking the ability to swim.
+
+T: We wanted to help our friends and coworkers progress in their career and learn the incredible skill of swimming. Being from Hawaii, I have swam my entire life and consider myself a strong swimmer.
+
+A: A few friends/coworkers and I decided to hold swimming classes in a river outside of town once a week for anyone that needed it. It became a very popular activity, with many coworkers coming just to hang out and enjoy the river.
+
+R: We leveled up many of our Chinese coworkers so that they were able to pass the swimming at our company had in place. It was a very fun and rewarding experience that has made me some lifelong friends.
+
+### Critique → Obsidian
+
+S: Missing details on tickets
+
+T: No longer wished to miss details
+
+A: Developed a daily journaling habit in Obsidian
+
+R: No longer missed details. Promoted to team lead.
+
+
+## Interview questions
+
+- Do developer advocates get a monthly budget to use on AI-related research?
+
+  i.e. I'd like to explore Hugging Face Inference Endpoint benchmarks.
+	  - Is it cheaper to run a single, cheap machine for my tasks? Should I spawn a single powerful machine and run my code against that? Should I spawn multiple instances of a cheap machine, expensive machine? I'd love to see which of these solutions is the 1. cheapest, 2. fastest, 3. least complex.
+
+
+## Misc. Tips
+
+"**We** is absolutely appropriate within the S of the STAR method - painting the picture - but afterwards, make sure it's only **I**. Amazon is interviewing me, not my team."
+
+Committed to giving a response within 5 business days of the interview.

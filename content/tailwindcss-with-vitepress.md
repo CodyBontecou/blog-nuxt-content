@@ -2,13 +2,16 @@
 type: post
 title: Configuring TailwindCSS to work with Vitepress
 dropdown: Vitepress
-date: 2021-06-30
+date: 2021-06-30T00:00:00.000Z
 topics:
   - tailwind
   - vitepress
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: configuring-tailwindcss-to-work-with-vitepress
+translate: true
+translated_to: 
 ---
 # Configuring TailwindCSS to work with Vitepress
 

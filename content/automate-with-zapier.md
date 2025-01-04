@@ -3,7 +3,7 @@ title: Automate your social media posts with Zapier
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-06-28
+date: 2020-06-28T00:00:00.000Z
 description: This is the page description that will be used
 category: tutorials
 dropdown: Marketing
@@ -15,8 +15,11 @@ topics:
   - zapier
 canonicalUrl: https://codybontecou.com/automate-with-zapier.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: automate-your-social-media-posts-with-zapier
+translate: true
+translated_to: 
 ---
 
 <h1 class="text-4xl font-semibold">Automate Social Media Content With Zapier</h1>

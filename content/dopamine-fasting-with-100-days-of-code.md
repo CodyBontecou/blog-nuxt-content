@@ -4,7 +4,7 @@ title: Dopamine Fasting with 100DaysOfCode
 author:
   name: Cody Bontecou
   image: https://codybontecou.comhttps://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-07-16
+date: 2020-07-16T00:00:00.000Z
 description: I'm going to spend the next 100 days taking a dopamine fast while spending the saved time writing code and sharing it with the community.
 dropdown: Misc
 meta:
@@ -22,8 +22,11 @@ canonicalUrl: https://codybontecou.com/dopamine-fasting-with-100-days-of-code
 topics:
   - Life
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: dopamine-fasting-with-100daysofcode
+translate: true
+translated_to: 
 ---
 
 > I'm stuck in a loop of consuming different means of entertainment and I want to alter this behavior, spending this time pursuing fulfilling goals.

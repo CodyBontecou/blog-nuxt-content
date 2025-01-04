@@ -4,7 +4,7 @@ title: Conferences I have spoken at
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-09-07
+date: 2020-09-07T00:00:00.000Z
 description: A list of conferences Cody Bontecou has spoken at.
 category: conferences
 dropdown: Misc
@@ -32,8 +32,11 @@ canonicalUrl: https://codybontecou.com/talks.html
 topics:
   - talks
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: conferences-i-have-spoken-at
+translate: true
+translated_to: 
 ---
 
 > A list of conferences I've talked at

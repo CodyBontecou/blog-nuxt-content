@@ -1,5 +1,6 @@
 ---
 title: Building a Persistent, Multilingual Toast Component A Step-by-Step Guide to i18n and LocalStorage in Nuxt
+slug: building-a-persistent-multilingual-toast-component-in-nuxt
 ignore: false
 draft: false
 topics:
@@ -7,10 +8,12 @@ topics:
   - i18n
 date: 2024-12-14T10:02
 created_at: 2024-12-14T10:02
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
 translations:
   - es
+translate: true
+translated_to: 
 ---
 
 Picture this: You've just rolled out an exciting new feature on your application. You want to announce it to your users, but you don't want to bombard them with the same message every time they visit. Oh, and your app serves users across multiple languages. Sound familiar?

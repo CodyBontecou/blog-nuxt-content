@@ -3,8 +3,8 @@ type: post
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2023-01-29
-last_modified_date: 2023-01-29
+date: 2023-01-29T00:00:00.000Z
+last_modified_date: 2023-01-29T00:00:00.000Z
 title: Reusable YAML Variables
 description: Reusing YAML variables within grey matter to conveniently generate meta tags.
 slug: reusable-yaml-variables
@@ -30,8 +30,10 @@ topics:
   - yaml
   - frontmatter
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 
 Did you know you can reuse YAML code?

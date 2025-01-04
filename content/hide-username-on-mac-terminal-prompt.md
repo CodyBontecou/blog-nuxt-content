@@ -3,8 +3,8 @@ type: post
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2023-08-06
-last_modified_date: 2023-08-06
+date: 2023-08-06T00:00:00.000Z
+last_modified_date: 2023-08-06T00:00:00.000Z
 title: Hide username on Mac terminal prompt
 description: Describing the steps needed to show or hide your username on your Mac's terminal.
 slug: hide-username-on-mac-terminal-prompt
@@ -29,8 +29,10 @@ topics:
   - CLI
   - Minimalism
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 Minimal setups are great when trying to focus. The standard terminal window can get cluttered. In this tutorial, I will show you how to configure your terminal window to go from this:
 

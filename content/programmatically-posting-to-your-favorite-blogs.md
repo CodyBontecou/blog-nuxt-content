@@ -4,7 +4,7 @@ title: Post to Dev, Hashnode, and Medium using their APIs
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-07-13
+date: 2020-07-13T00:00:00.000Z
 description: Generate posts on Dev, Hashnode, and Medium using the same markdown source file to simultaneously post on all three platforms using their REST and Graphql APIs.
 dropdown: NodeJS
 tags:
@@ -35,8 +35,11 @@ topics:
   - blogging
   - automation
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: post-to-dev-hashnode-and-medium-using-their-apis
+translate: true
+translated_to: 
 ---
 
 > The goal of this article is to help you connect to each of these site's APIs in order to programmatically post, update, and enjoy with these services.

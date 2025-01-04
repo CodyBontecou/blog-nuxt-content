@@ -3,8 +3,8 @@ type: post
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-09-28
-last_modified_date: 2022-09-28
+date: 2022-09-28T00:00:00.000Z
+last_modified_date: 2022-09-28T00:00:00.000Z
 title: Import Pinia Store Into Other Store
 description: Learn how to access other stores within a store using Pinia.
 slug: import-pinia-store-into-other-store
@@ -28,8 +28,10 @@ topics:
   - State
   - Pinia
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 
 > Pinia makes state management within Vue apps a breeze to work with.

@@ -4,7 +4,7 @@ title: Building a VueJS component to estimate the expected reading time of an ar
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-07-05
+date: 2020-07-05T00:00:00.000Z
 description: The estimated reading time has become prevalent in most major spaces that provides articles and reading materials. Build this functionality into your site using a VueJS component.
 category: tutorials
 dropdown: VueJS
@@ -33,8 +33,11 @@ topics:
   - css
   - components
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: building-a-vuejs-component-to-estimate-the-expected-reading-time-of-an-article
+translate: true
+translated_to: 
 ---
 
 <h1 class="text-4xl font-semibold">VueJS component to estimate the reading time of an article.</h1>

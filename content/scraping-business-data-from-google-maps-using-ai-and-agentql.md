@@ -8,8 +8,11 @@ topics:
   - agentql
 date: 2024-12-05T16:04
 created_at: 2024-12-05T16:04
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: scraping-business-data-from-google-maps-using-ai-and-agentql
+translate: true
+translated_to: 
 ---
 
 Writing web scraping scripts by hand typically follows a development pattern like:

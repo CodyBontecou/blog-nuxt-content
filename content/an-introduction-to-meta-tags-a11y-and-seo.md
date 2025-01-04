@@ -4,7 +4,7 @@ title: An Introduction to Meta Tags, A11y, and SEO
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-08-11
+date: 2022-08-11T00:00:00.000Z
 description: A quick and digestable introduction to meta tags, a11y, and SEO for a better, quick, and accesible web.
 category: tutorials
 dropdown: Marketing
@@ -26,8 +26,11 @@ topics:
   - A11y
   - SEO
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: an-introduction-to-meta-tags-a11y-and-seo
+translate: true
+translated_to: 
 ---
 
 Last night I started working on the meta tags for my app Costream, which allows Twitch streamers to co-stream (also known as LiveView) alongside any Youtube stream.

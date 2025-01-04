@@ -5,7 +5,10 @@ ignore: true
 topics:
   - lectures
 created_at: 2024-12-29T10:17
-last_modified: 2024-12-30T09:29
+last_modified: 2025-01-04T09:31
+slug: watched-lectures
+translate: true
+translated_to: 
 ---
 
 ## 2024
@@ -17,4 +20,3 @@ Exciting story of white-hack hackers finding the reason for locked trains was du
 [BioTerrorism Will Save Your Life with the 4 Thieves Vinegar Collective](https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective)
 
 "Pirating" the creation of home-made pharmaceuticals.
-

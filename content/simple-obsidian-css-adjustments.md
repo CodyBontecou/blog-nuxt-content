@@ -7,8 +7,11 @@ topics:
 draft: false
 ignore: false
 created_at: 2024-11-10T22:06
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: simple-obsidian-css-adjustments
+translate: true
+translated_to: 
 ---
 
 ## Problem

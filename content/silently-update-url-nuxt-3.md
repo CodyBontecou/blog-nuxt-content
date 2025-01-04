@@ -4,7 +4,7 @@ title: Silently Update URL in Nuxt 3
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-02-14
+date: 2022-02-14T00:00:00.000Z
 description: Update your URL using vue-router within Nuxt 3 so that your page does not refresh on variable change.
 category: tutorials
 dropdown: NuxtJS
@@ -33,8 +33,11 @@ topics:
   - nuxt
   - vue-router
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: silently-update-url-in-nuxt-3
+translate: true
+translated_to: 
 ---
 
 > We often need to update a query parameter like `?search=hello` within our URL without refreshing the page. I'll quickly show you how to do that using Nuxt 3.

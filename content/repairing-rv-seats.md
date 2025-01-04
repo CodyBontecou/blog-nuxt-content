@@ -1,6 +1,6 @@
 ---
 title: Repairing rv seats
-date: 2024-10-27
+date: 2024-10-27T00:00:00.000Z
 topics:
   - repair
   - DIY
@@ -8,8 +8,11 @@ topics:
 readingTime: 1
 draft: false
 created_at: 2024-10-27T17:14
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: repairing-rv-seats
+translate: true
+translated_to: 
 ---
 
 The seats used for the table and guest-bed area are falling apart. The inside cushion is fine, so I'm going to take measurements of the cushion components and replace the outside shells.

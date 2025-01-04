@@ -8,8 +8,11 @@ readingTime: 1
 draft: false
 backgroundColor: 
 created_at: 2024-10-31T13:54
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: innovation-in-broadcasting
+translate: true
+translated_to: 
 ---
 
 Those with the greatest ability to communicate their intentions tend to get the greatest number of followers.

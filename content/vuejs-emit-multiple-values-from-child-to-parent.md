@@ -4,7 +4,7 @@ title: VueJS Custom Event - Emit Multiple Values
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-09-07
+date: 2020-09-07T00:00:00.000Z
 description: Use a VueJS's custom event to emit multiple parameters between components.
 category: tutorials
 dropdown: VueJS
@@ -36,8 +36,11 @@ topics:
   - components
   - composition
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: vuejs-custom-event-emit-multiple-values
+translate: true
+translated_to: 
 ---
 
 > VueJS custom events are a great way to communicate between child and parent components.

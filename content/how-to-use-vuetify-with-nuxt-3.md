@@ -5,7 +5,7 @@ slug: vue/nuxtjs/how-to-use-vuetify-with-nuxt-3
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-05-04
+date: 2022-05-04T00:00:00.000Z
 description: Get Vuetify to work with Nuxt 3 with this quick tutorial.
 category: tutorials
 dropdown: NuxtJS
@@ -32,8 +32,10 @@ meta:
 canonicalUrl: https://codybontecou.com/how-to-use-vuetify-with-nuxt-3.html
 newsletter: false
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 
 > Utilize the latest versions of Vuetify and Nuxt together.

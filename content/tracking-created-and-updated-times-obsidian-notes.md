@@ -1,6 +1,6 @@
 ---
 title: Tracking created and updated times in Obsidian notes
-date: 2024-06-28
+date: 2024-06-28T00:00:00.000Z
 description: A brief excerpt of your post...
 topics:
   - Obsidian
@@ -9,8 +9,11 @@ topics:
 readingTime: 1
 draft: false
 created_at: 2024-10-26T21:18
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: tracking-created-and-updated-times-in-obsidian-notes
+translate: true
+translated_to: 
 ---
 
 

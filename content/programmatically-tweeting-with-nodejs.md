@@ -4,7 +4,7 @@ title: Programmatically Tweeting with NodeJS
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2020-07-16
+date: 2020-07-16T00:00:00.000Z
 description: Interacting with Twitter through their API. In this post I discuss how to use twitter-lite to create and post a tweet.
 dropdown: NodeJS
 meta:
@@ -24,8 +24,11 @@ topics:
   - twitter
   - automation
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: programmatically-tweeting-with-nodejs
+translate: true
+translated_to: 
 ---
 
 > This post is for **day 1** of my [#100DaysOfCode](https://twitter.com/hashtag/100DaysOfCode?src=hashtag_click). In this post I'll be discussing how to programmatically tweet to Twitter using NodeJS.

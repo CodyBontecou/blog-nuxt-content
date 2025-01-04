@@ -8,8 +8,11 @@ topics:
   - consistency
 date: 2024-11-14T22:15
 created_at: 2024-11-14T22:15
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: the-coffee-consistency-trap
+translate: true
+translated_to: 
 ---
 
 Having a cup of coffee is like flicking the flow switch to the on position. One sip and I'm in. My fingers feel lighter and every problem that comes to my mind is quickly solved and the solution typed out.

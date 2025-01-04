@@ -4,7 +4,7 @@ title: Global State Management in an Electron Application
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2021-11-30
+date: 2021-11-30T00:00:00.000Z
 description: Learn to utilize Pinia alongside VueJS within an Electron app to easily manage UI state.
 category: tutorials
 dropdown: Electron
@@ -29,8 +29,11 @@ meta:
     content: Global State Management in an Electron Application
 canonicalUrl: https://codybontecou.com/global-state-management-in-an-electron-app.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: global-state-management-in-an-electron-application
+translate: true
+translated_to: 
 ---
 
 > Bringing the VueJS tool [Pinia](https://pinia.esm.dev/) into our Electron application to manage its internal state. This post assumes you have followed along with my previous [post](https://codybontecou.com/electron-app-with-vuejs-and-vite.html).

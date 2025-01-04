@@ -3,8 +3,8 @@ type: post
 author:
   name: Cody Bontecou
   image: /assets/img/cody.64b57256.jpg
-date: 2023-08-13
-last_modified_date: 2023-08-13
+date: 2023-08-13T00:00:00.000Z
+last_modified_date: 2023-08-13T00:00:00.000Z
 title: Mocking HTTP Responses in Elixir and Phoenix
 description: A quick walkthrough of the configuration needed to support mocks and modules only used within your Elixir tests
 slug: mocking-http-responses-in-elixir-and-phoenix
@@ -28,8 +28,10 @@ topics:
   - testing
   - mocking
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 I just came across this error while attempting to mock the response of a 3rd party api:
 

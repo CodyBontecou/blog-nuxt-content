@@ -4,7 +4,7 @@ title: Integrating Nuxt Bridge into a Nuxt 2 Project
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-05-04
+date: 2022-05-04T00:00:00.000Z
 description: 
 category: tutorials
 dropdown: NuxtJS
@@ -29,8 +29,11 @@ meta:
     content: Integrating Nuxt Bridge into a Nuxt 2 Project
 canonicalUrl: https://codybontecou.com/integrating-nuxt-bridge-with-nuxt2.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: integrating-nuxt-bridge-into-a-nuxt-2-project
+translate: true
+translated_to: 
 ---
 
 ## Motivation

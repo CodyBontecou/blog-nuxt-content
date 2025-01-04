@@ -3,8 +3,8 @@ type: post
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2023-02-05
-last_modified_date: 2023-02-05
+date: 2023-02-05T00:00:00.000Z
+last_modified_date: 2023-02-05T00:00:00.000Z
 title: Set up Google Analytics with Vitepress
 description: Just add the script provided by Google to your HTML head, and it should work.
 slug: set-up-google-analytics-with-vitepress
@@ -28,8 +28,10 @@ meta:
     content: Set up Google Analytics with Vitepress
 canonicalUrl: https://codybontecou.com/set-up-google-analytics-with-vitepress.html
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 
 ## Code Snippet

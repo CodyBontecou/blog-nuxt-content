@@ -7,8 +7,11 @@ topics:
   - organization
 draft: false
 created_at: 2024-11-02T14:23
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: 1977-toyota-rvs-new-garage
+translate: true
+translated_to: 
 ---
 
 I have many projects I want to work on, but knowing how difficult it will be to find the tools needed to do it almost always keeps me from actually doing the project.

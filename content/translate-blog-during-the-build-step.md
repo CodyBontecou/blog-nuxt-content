@@ -8,8 +8,11 @@ topics:
 draft: true
 ignore: false
 created_at: 2024-11-09T23:39
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: translating-my-blog-to-226-languages-during-the-build-step
+translate: true
+translated_to: 
 ---
 
 I should be able to utilize the same tooling for [i18nlocale](https://i18nlocale.com) to iterate over my blogposts and translate them.

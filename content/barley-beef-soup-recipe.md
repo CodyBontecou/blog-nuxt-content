@@ -5,8 +5,11 @@ ignore: true
 topics:
   - recipe
 created_at: 2024-12-02T17:47
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: tinas-barley-beef-soup-recipe
+translate: true
+translated_to: 
 ---
 - Better than bouillon beef broth
 - Mirepoix (onion, carrot, celery) No curry

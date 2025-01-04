@@ -9,8 +9,11 @@ topics:
 draft: false
 ignore: false
 created_at: 2024-11-09T10:02
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: obsidian-git-on-ios
+translate: true
+translated_to: 
 ---
 
 A step-by-step guide on how to connect your obsidian vault that is stored on Github to your iOS device.

@@ -3,7 +3,7 @@ type: post
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2023-01-29
+date: 2023-01-29T00:00:00.000Z
 last_modified_date: 2023-01-29 19:14
 title: Getting Youtube Channel ID Using Their API
 description: Getting a youtube channel's Channel Id using the Youtube v3 API.
@@ -26,8 +26,10 @@ meta:
 topics:
   - youtube
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+translate: true
+translated_to: 
 ---
 
 This is for people wanting to programmatically get the Channel ID of a Youtube Channel using Youtube's API and a Youtube Channel name.

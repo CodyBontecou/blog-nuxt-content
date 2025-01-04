@@ -4,7 +4,7 @@ title: Nuxt 3 and Pinia
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-02-15
+date: 2022-02-15T00:00:00.000Z
 description: Integrate Pinia as your state management library for your Nuxt 3 application.
 category: tutorials
 dropdown: NuxtJS
@@ -36,8 +36,11 @@ topics:
   - State
   - Vue
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: nuxt-3-and-pinia
+translate: true
+translated_to: 
 ---
 
 > Integrate Pinia as your state management library for your Nuxt 3 application.

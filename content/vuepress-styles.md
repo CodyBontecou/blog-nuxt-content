@@ -5,7 +5,7 @@ author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
 description: This is the page description that will be used
-date: 2020-07-02
+date: 2020-07-02T00:00:00.000Z
 category: tutorials
 dropdown: Vuepress
 tags:
@@ -21,8 +21,11 @@ topics:
   - css
   - stylus
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: overriding-vuepress-css-styles
+translate: true
+translated_to: 
 ---
 
 <span class="text-4xl font-semibold">Overriding VuePress CSS Styles</span>

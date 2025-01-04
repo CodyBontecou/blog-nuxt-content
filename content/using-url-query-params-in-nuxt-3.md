@@ -4,7 +4,7 @@ title: Using URL Query Params in Nuxt 3
 author:
   name: Cody Bontecou
   image: https://codybontecou.com/images/cody-abstract.jpeg
-date: 2022-02-15
+date: 2022-02-15T00:00:00.000Z
 description: Use Nuxt3's useRoute function to use URL parameters to determine state.
 category: tutorials
 dropdown: NuxtJS
@@ -34,8 +34,11 @@ topics:
   - vue-router
   - composition
 created_at: 2024-10-31T14:26
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: using-url-query-params-in-nuxt-3
+translate: true
+translated_to: 
 ---
 
 > This is a continuation of my previous [post](https://codybontecou.com/silently-update-url-nuxt-3.html) on how to set query parameters in Nuxt 3. We'll be continuing with the code written there so make sure you check it out.

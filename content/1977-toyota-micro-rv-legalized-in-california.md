@@ -7,6 +7,9 @@ topics:
   - repair
 date: 2024-11-15T22:14
 created_at: 2024-11-15T22:14
-last_modified: 2024-12-31T08:58
+last_modified: 2025-01-04T09:31
 lang: eng
+slug: out-1977-toyota-micro-rv-legalized-in-california
+translate: true
+translated_to: 
 ---
