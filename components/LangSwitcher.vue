@@ -1,12 +1,18 @@
 <script setup lang="ts">
+import { useRoute, useRouter } from 'vue-router'
+const route = useRoute()
+const router = useRouter()
+
 const { locales, locale, setLocale } = useI18n()
 const localePath = useLocalePath()
 
 const language = computed({
     get: () => locale.value,
-    set: value => {
-        setLocale(value)
-        navigateTo(localePath('/', value))
+    set: newLang => {
+        setLocale(newLang)
+        const currentPath = route.path
+        const newPath = localePath(currentPath, newLang)
+        router.push(newPath)
     },
 })
 </script>
