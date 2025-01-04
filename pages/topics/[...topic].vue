@@ -56,12 +56,12 @@ useHead({
     <main>
         <div class="mb-12">
             <h1 class="text-4xl font-normal mb-8">
-                <span class="text-gray-500">Topics / </span>
+                <span class="text-gray-500">{{ $t('topics.topics') }} / </span>
                 <span>{{ capitalizeFirstLetter(topic) }}</span>
             </h1>
 
             <p class="text-gray-600 text-lg">
-                {{ articleCount }} entries about this topic
+                {{ articleCount }} {{ $t('topics.entries') }}
             </p>
         </div>
 
