@@ -1,9 +1,13 @@
 export function sluggify(input: string): string {
     return input
-        .toLowerCase() // Convert to lowercase
-        .trim() // Trim whitespace from both ends
-        .replace(/\s+/g, '-') // Replace one or more whitespace characters with a hyphen
-        .replace(/[^\w\-]+/g, '') // Remove all non-word characters (except hyphens)
-        .replace(/--+/g, '-') // Replace multiple hyphens with a single hyphen
-        .replace(/^-+|-+$/g, '') // Remove leading and trailing hyphens
+        .toString()
+        .toLowerCase()
+        .normalize('NFKD') // Normalize unicode characters
+        .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+        .trim()
+        .replace(/\s+/g, '-') // Replace spaces with -
+        .replace(/[^\w-]+/g, '') // Remove all non-word chars
+        .replace(/--+/g, '-') // Replace multiple - with single -
+        .replace(/^-+/, '') // Trim - from start
+        .replace(/-+$/, '') // Trim - from end
 }
