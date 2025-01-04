@@ -104,7 +104,12 @@ definePageMeta({
                         <article>
                             <h3 class="text-xl font-medium mb-2">
                                 <NuxtLink
-                                    :to="latestArticle._path"
+                                    :to="
+                                        '/' +
+                                        latestArticle.lang +
+                                        '/' +
+                                        latestArticle.slug
+                                    "
                                     class="hover:opacity-75"
                                 >
                                     {{ latestArticle.title }}
@@ -115,12 +120,17 @@ definePageMeta({
                             </div>
                             <p class="text-gray-600">
                                 {{ getFirstParagraphText(latestArticle.body) }}
-                                <NuxtLinkLocale
-                                    :to="latestArticle._path"
+                                <NuxtLink
+                                    :to="
+                                        '/' +
+                                        latestArticle.lang +
+                                        '/' +
+                                        latestArticle.slug
+                                    "
                                     class="text-gray-900 hover:opacity-75"
                                 >
                                     {{ $t('latest.keepReading') }}
-                                </NuxtLinkLocale>
+                                </NuxtLink>
                             </p>
                         </article>
                     </section>
