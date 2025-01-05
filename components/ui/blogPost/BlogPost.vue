@@ -16,12 +16,19 @@ const postTopics = computed(() => {
     return post.topics
 })
 
-const { data: allArticles } = await useAsyncData('allArticles', () =>
-    queryContent('/')
-        .sort({ date: -1 })
-        .where({ draft: { $ne: true }, ignore: { $ne: true } })
-        .find()
+const { data: allArticles, error: articlesError } = await useAsyncData(
+    'allArticles',
+    () =>
+        queryContent('/')
+            .sort({ date: -1 })
+            .where({ draft: { $ne: true }, ignore: { $ne: true } })
+            .find(),
+    {
+        default: () => [],
+    }
 )
+
+if (articlesError.value) throw articlesError.value
 
 const similarArticles = computed(() => {
     return allArticles.value
@@ -83,7 +90,10 @@ const suggestedArticles = computed<ParsedContent[]>(() => {
     return similarArticles.value.concat(shuffledArray)
 })
 
-const postBody = computed(() => getPostBody(post.body))
+const postBody = computed(() => {
+    if (!post?.body) return ''
+    return getPostBody(post.body)
+})
 
 // TableOfContents
 const isMobileMenuOpen = ref(false)
@@ -93,7 +103,7 @@ const tocLinks = ref<string[]>([])
 
 // Get all headings from the article
 const headings = computed(() => {
-    if (!post.body?.toc?.links) return []
+    if (!post?.body?.toc?.links) return []
     return post.body.toc.links
 })
 
@@ -284,7 +294,10 @@ watch(isMobileMenuOpen, newValue => {
         <Suspense>
             <!-- Main content -->
             <template #default>
-                <main class="flex flex-col justify-center max-w-3xl mx-auto">
+                <main
+                    v-if="post"
+                    class="flex flex-col justify-center max-w-3xl mx-auto"
+                >
                     <ContentDoc :path="post._stem">
                         <article class="prose lg:prose-lg">
                             <h1 class="text-4xl font-normal mb-4">

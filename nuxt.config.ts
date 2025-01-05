@@ -1,5 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-import { languages } from './lib/constants/languages'
+import { languages } from './locales/languages'
 
 export default defineNuxtConfig({
     devtools: {
@@ -60,6 +59,8 @@ export default defineNuxtConfig({
     nitro: {
         prerender: {
             routes: ['/sitemap.xml', '/rss.xml'],
+            crawlLinks: true,
+            failOnError: false,
         },
     },
     runtimeConfig: {

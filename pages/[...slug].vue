@@ -8,24 +8,26 @@ const { path, params } = useRoute()
 const slug = params.slug
 const urlSlug = Array.isArray(slug) ? slug[slug.length - 1] : slug
 
-const { data: post } = await useAsyncData(`post-${path}`, async () => {
-    const p = await queryContent()
-        .where({
-            draft: { $ne: true },
-            ignore: { $ne: true },
-            slug: { $eq: urlSlug },
-        })
-        .findOne()
+const { data: post, error } = await useAsyncData(
+    `post-${path}`,
+    async () => {
+        const p = await queryContent()
+            .where({
+                draft: { $ne: true },
+                ignore: { $ne: true },
+                slug: { $eq: urlSlug },
+            })
+            .findOne()
 
-    if (!p) {
-        throw createError({
-            statusCode: 404,
-            message: 'Post not found',
-        })
+        if (!p) throw createError({ statusCode: 404 })
+        return p
+    },
+    {
+        default: () => null, // Provide default value
     }
+)
 
-    return p
-})
+if (error.value) throw error.value
 
 defineOgImageComponent('BlogPost', {
     title: post.value?.title ?? '',
