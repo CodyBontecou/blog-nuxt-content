@@ -6,6 +6,7 @@ import { HfInference } from '@huggingface/inference'
 import yaml from 'yaml'
 import fs from 'fs/promises'
 import { sluggify } from '../utils/sluggify'
+import type { Language } from '~/locales/languages'
 
 export class ASTMarkdownTranslator {
     private hf: HfInference
@@ -87,7 +88,7 @@ export class ASTMarkdownTranslator {
         return translatedFrontmatter
     }
 
-    private extractFrontmatter(content: string): {
+    extractFrontmatter(content: string): {
         frontmatter: Record<string, any> | null
         content: string
     } {
@@ -155,12 +156,7 @@ export class ASTMarkdownTranslator {
     public async translateMarkdownFile(
         content: string,
         sourceLang: string = 'eng',
-        targetLang: {
-            code: string
-            language: string
-            name: string
-            file: string
-        }
+        targetLang: Language
     ): Promise<{ content: string; frontmatter: Record<string, any> | null }> {
         try {
             const { frontmatter, content: markdownContent } =
