@@ -1,5 +1,5 @@
 ---
-title: Toyota RV se nuwe motorhuis
+title: 1977 Toyota RV New Garage
 date: 2024-10-24T00:00:00.000Z
 topics:
   - vanlife
@@ -7,13 +7,13 @@ topics:
   - organization
 draft: false
 created_at: 2024-11-02T14:23
-last_modified: 2025-01-07T13:58
-lang: Afrikaans
-slug: 1977-toyota-rvs-new-garage
+last_modified: 2025-01-10T17:45
+lang: afr
+slug: 1977-toyota-rv-new-garage
 translate: false
-translated_to: 
+translated_to: null
 ---
-Hierdie artikel is vertaal deur Kunsmatige Intelligensie. [Sien die oorspronklike artikel wat in Engels geskryf is hier](/1977-toyota-rvs-new-garage)
+Hierdie artikel is vertaal deur Kunsmatige Intelligensie. [Sien die oorspronklike artikel wat in Engels geskryf is hier](/1977-toyota-rv-new-garage)
 
 Ek het baie projekte waaraan ek wil werk, maar om te weet hoe moeilik dit sal wees om die gereedskap te vind wat nodig is om dit te doen, hou my byna altyd daarvan om die projek te doen.
 

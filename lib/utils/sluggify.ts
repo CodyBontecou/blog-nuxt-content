@@ -1,13 +1,17 @@
-export function sluggify(input: string): string {
-    return input
-        .toString()
-        .toLowerCase()
-        .normalize('NFKD') // Normalize unicode characters
-        .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
-        .trim()
-        .replace(/\s+/g, '-') // Replace spaces with -
-        .replace(/[^\w-]+/g, '') // Remove all non-word chars
-        .replace(/--+/g, '-') // Replace multiple - with single -
-        .replace(/^-+/, '') // Trim - from start
-        .replace(/-+$/, '') // Trim - from end
+export function sluggify(text: string) {
+    return (
+        text
+            // Normalize Unicode characters
+            .normalize('NFKD')
+            // Replace non-alphanumeric characters with hyphens
+            .replace(/[^\w\s-]/g, '')
+            // Convert spaces to hyphens
+            .replace(/[\s_]+/g, '-')
+            // Remove consecutive hyphens
+            .replace(/-+/g, '-')
+            // Convert to lowercase
+            .toLowerCase()
+            // Trim hyphens from start and end
+            .replace(/^-+|-+$/g, '')
+    )
 }

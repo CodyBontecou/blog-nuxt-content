@@ -26,11 +26,24 @@ topics:
   - A11y
   - SEO
 created_at: 2024-10-31T14:26
-last_modified: 2025-01-04T09:31
+last_modified: 2025-01-11T13:11
 lang: eng
 slug: an-introduction-to-meta-tags-a11y-and-seo
 translate: true
-translated_to: 
+translated_to:
+  - afr
+  - amh
+  - arb
+  - ary
+  - arz
+  - asm
+  - azj
+  - bel
+  - ben
+  - bos
+  - bul
+  - cat
+  - cmn
 ---
 
 Last night I started working on the meta tags for my app Costream, which allows Twitch streamers to co-stream (also known as LiveView) alongside any Youtube stream.

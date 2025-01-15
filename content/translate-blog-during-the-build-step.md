@@ -6,9 +6,9 @@ topics:
   - blogging
   - llm
 draft: true
-ignore: false
+ignore: true
 created_at: 2024-11-09T23:39
-last_modified: 2025-01-04T09:31
+last_modified: 2025-01-14T18:25
 lang: eng
 slug: translating-my-blog-to-226-languages-during-the-build-step
 translate: true

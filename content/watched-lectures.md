@@ -5,7 +5,7 @@ ignore: true
 topics:
   - lectures
 created_at: 2024-12-29T10:17
-last_modified: 2025-01-04T09:31
+last_modified: 2025-01-10T10:14
 slug: watched-lectures
 translate: true
 translated_to: 

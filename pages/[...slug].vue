@@ -2,7 +2,7 @@
 import { BlogPost } from '@/components/ui/blogPost'
 import { getFirstParagraphText } from '~/lib/utils/getFirstParagraphText'
 
-// Get the current route params
+const { locale } = useI18n()
 const { path, params } = useRoute()
 
 const slug = params.slug
@@ -16,6 +16,7 @@ const { data: post, error } = await useAsyncData(
                 draft: { $ne: true },
                 ignore: { $ne: true },
                 slug: { $eq: urlSlug },
+                lang: { $eq: locale.value },
             })
             .findOne()
 

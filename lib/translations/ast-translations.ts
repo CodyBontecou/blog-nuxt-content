@@ -6,13 +6,13 @@ import { HfInference } from '@huggingface/inference'
 import yaml from 'yaml'
 import fs from 'fs/promises'
 import { sluggify } from '../utils/sluggify'
-import type { Language } from '~/locales/languages'
+import { languages, type Language } from '~/locales/languages'
 
 export class ASTMarkdownTranslator {
     private hf: HfInference
     private model: string
     private endpoint: string
-    private translatableFrontmatterFields = ['title', 'description']
+    private translatableFrontmatterFields = []
 
     constructor(
         apiKey: string,
@@ -84,6 +84,8 @@ export class ASTMarkdownTranslator {
                 )
             }
         }
+
+        translatedFrontmatter['slug'] = sluggify(translatedFrontmatter['title'])
 
         return translatedFrontmatter
     }
@@ -171,12 +173,12 @@ export class ASTMarkdownTranslator {
                           targetLang.code
                       )),
                       translate: false,
-                      lang: targetLang.language,
+                      lang: targetLang.code,
                   }
                 : null
 
             // Add translation notice
-            const originalSlug = sluggify(frontmatter?.title ?? 'error')
+            const originalSlug = frontmatter?.slug ?? ''
             const translationNotice = `This article has been translated by Artificial Intelligence. [View the original article written in English here](/${originalSlug})\n\n`
             const contentWithNotice = translationNotice + markdownContent
 
@@ -203,7 +205,7 @@ export class ASTMarkdownTranslator {
                 : translatedContent
 
             // Create target directory if it doesn't exist
-            const targetDir = `content/${targetLang.language}`
+            const targetDir = `content/${targetLang.code}`
             try {
                 await fs.mkdir(targetDir, { recursive: true })
             } catch (error) {
@@ -235,10 +237,14 @@ export class ASTMarkdownTranslator {
 
                 const updatedOriginalFrontmatter = {
                     ...currentFrontmatter,
-                    translate: false,
+                    translate:
+                        // Set translate to false on the original file once we're translating the final language in the languages array.
+                        languages[languages.length - 1] === targetLang
+                            ? false
+                            : true,
                     last_modified: new Date().toISOString(),
                     translated_to: Array.from(
-                        new Set([...updatedTranslations, targetLang.language])
+                        new Set([...updatedTranslations, targetLang.code])
                     ),
                 }
                 const updatedOriginalContent = `---\n${yaml.stringify(updatedOriginalFrontmatter)}---\n${markdownContent}`

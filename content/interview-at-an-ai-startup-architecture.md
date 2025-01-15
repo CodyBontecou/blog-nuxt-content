@@ -3,16 +3,16 @@ title: Interviewing at an AI startup | Architecture
 slug: interviewing-at-an-ai-startup-architecture
 draft: false
 ignore: false
+lang: eng
+translate: true
+translated_to: 
+created_at: 2025-01-06T19:58
+last_modified: 2025-01-10T12:46
 topics:
   - ai
   - interview
   - architecture
   - llm
-created_at: 2025-01-06T19:58
-last_modified: 2025-01-08T16:26
-lang: eng
-translate: false
-translated_to: 
 ---
 
 I've just finished up the second round of interviewing at an AI startup and figured it was worth sharing the (abbreviated) question and my approach.
@@ -23,7 +23,7 @@ I had no idea what to expect going into it. I just knew it would be one-hour "ar
 
 **The interviewers played a scenario:**
 
-"Imagine a client comes by with 1000 documents and drops them on your desk, asking you to categorize them. They give you the number of categories they want alongside one-word that categorizes the documents." 
+"Imagine a client comes by with 1000 documents and drops them on your desk, asking you to categorize them. They give you the number of categories they want alongside one-word that categorizes the documents."
 
 In our case, we used Amazon Products as our document list (1000 Amazon products) and the category we were interested in as Department Type.
 

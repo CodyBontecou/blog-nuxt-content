@@ -1,15 +1,16 @@
 ---
-title: 1977 Toyota RV's New Garage
+title: 1977 Toyota RV New Garage
 date: 2024-10-24T00:00:00.000Z
 topics:
   - vanlife
   - construction
   - organization
 draft: false
+ignore: false
 created_at: 2024-11-02T14:23
-last_modified: 2025-01-08T11:07
+last_modified: 2025-01-11T09:09
 lang: eng
-slug: 1977-toyota-rvs-new-garage
+slug: 1977-toyota-rv-new-garage
 translate: true
 translated_to: 
 ---

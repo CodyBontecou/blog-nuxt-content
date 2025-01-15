@@ -15,11 +15,13 @@ topics:
   - zapier
 canonicalUrl: https://codybontecou.com/automate-with-zapier.html
 created_at: 2024-10-31T14:26
-last_modified: 2025-01-04T09:31
+last_modified: 2025-01-11T09:10
 lang: eng
 slug: automate-your-social-media-posts-with-zapier
 translate: true
-translated_to: 
+translated_to:
+  - afr
+  - amh
 ---
 
 <h1 class="text-4xl font-semibold">Automate Social Media Content With Zapier</h1>

@@ -2,17 +2,11 @@ import { HfInference } from '@huggingface/inference'
 import yaml from 'yaml'
 import fs from 'fs/promises'
 import path from 'path'
+import { languages } from '~/locales/languages'
 
 const HUGGINGFACE_API_KEY = ''
 const HUGGING_FACE_INFERENCE_ENDPOINT = ''
 const MODEL = 'facebook/seamless-m4t-v2-large'
-
-interface Language {
-    code: string
-    language: string
-    name: string
-    file: string
-}
 
 async function translateYamlFile() {
     if (!HUGGINGFACE_API_KEY) {
@@ -27,13 +21,6 @@ async function translateYamlFile() {
         'utf-8'
     )
     const engYaml = yaml.parse(engYamlContent)
-
-    // Read the languages configuration
-    const langsContent = await fs.readFile(
-        path.join(process.cwd(), 'lib/constants/unity_nllb-200.yml'),
-        'utf-8'
-    )
-    const langs = yaml.parse(langsContent).langs as Language[]
 
     // Function to translate text
     async function translateText(
@@ -80,9 +67,9 @@ async function translateYamlFile() {
     }
 
     // Translate for each language
-    for (const lang of langs) {
+    for (const lang of languages) {
         try {
-            console.log(`Translating to ${lang.name} (${lang.code})...`)
+            console.log(`Translating to ${lang.language} (${lang.code})...`)
 
             const translatedYaml = await translateObject(engYaml, lang.code)
             const outputPath = path.join(process.cwd(), 'locales', lang.file)

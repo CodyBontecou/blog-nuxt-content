@@ -7,7 +7,7 @@ topics:
   - warcraft
 date: 2024-11-21T20:17
 created_at: 2024-11-21T20:17
-last_modified: 2025-01-04T09:31
+last_modified: 2025-01-10T12:46
 lang: eng
 slug: fresh-vanilla-is-the-best-flavor-of-wow
 translate: true
