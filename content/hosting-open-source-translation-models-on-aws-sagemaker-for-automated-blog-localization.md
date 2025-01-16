@@ -14,7 +14,7 @@ topics:
   - i18n
   - huggingface
 created_at: 2025-01-14T17:43
-last_modified: 2025-01-15T17:31
+last_modified: 2025-01-15T17:37
 ---
 
 ## Introduction
@@ -36,7 +36,7 @@ AWS SageMaker is a leading solution for all-things ML models:
 - Developer Experience: Well-documented and easy to use SDK's.
 
 ## Setting up the translation model
-%% TODO: Re-word this to use nllb-200 and nllb-200-related information %%
+
 We'll be using the pre-trained model SeamlessM4T-v2 for our translations. It is a multimodal and multilingual AI translation model built and released by Meta.
 
 SeamlessM4T-v2 supports:
@@ -380,6 +380,24 @@ Make sure to run the following command once you are done to avoid unnecessary ch
 aws sagemaker delete-endpoint --endpoint-name <ENDPOINT_NAME>
 ```
 
-
 ## Conclusion
 
+We've walked through the complete process of automating multilingual content generation for your Nuxt Content blog using AWS SageMaker. By leveraging the power of Meta's SeamlessM4T-v2 model, AWS's scalable infrastructure, and Nuxt's flexible content system, we've created a workflow that automatically translates your content into nearly 100 languages during the build process.
+
+This automation brings several key benefits:
+
+- Eliminates the manual effort of managing translations
+- Significantly reduces localization costs
+- Expands your blog's reach to a global audience
+- Maintains content consistency across all languages
+- Scales effortlessly as your content grows
+
+The best part? Once set up, this system requires minimal maintenance. Your content creators can focus on writing great content in their primary language, while the automation handles the rest.
+
+You can find all the code from this tutorial in our [GitHub repository](#), complete with a working demo and additional documentation. Feel free to fork it, customize it, and make it your own.
+
+I'm curious to hear how you might adapt this workflow for your needs. Could this automate documentation translation for your open-source project? Perhaps help with internationalizing your marketing materials? Or maybe you're thinking about using it for something entirely different?
+
+Remember to clean up your AWS resources when you're done experimenting by deleting your endpoint, as shown in the cleanup section above.
+
+What language will your next blog post speak? With this setup, the answer might just be "all of them."
