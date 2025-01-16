@@ -14,7 +14,7 @@ topics:
   - i18n
   - huggingface
 created_at: 2025-01-14T17:43
-last_modified: 2025-01-15T15:57
+last_modified: 2025-01-15T17:31
 ---
 
 ## Introduction
@@ -159,7 +159,7 @@ npm install @aws-sdk/client-sagemaker-runtime
 
 ### Nuxt config and .env variables
 
-If you didn't get the endpoint name from the print statement, run this command in your terminal and it should output the endpoint name:
+If you didn't get the endpoint name when running the deploy script, run this command in your terminal and it should output the endpoint name:
 
 ```zsh
 aws sagemaker list-endpoints --query "Endpoints[].EndpointName" --output table
@@ -268,9 +268,9 @@ In this simple example. I am taking the text and passing it directly to the `inv
 
 > **Note:** Model language codes may be different. i.e. [nllb-200](https://huggingface.co/facebook/nllb-200-distilled-600M/raw/main/README.md) requires `eng_Latn` for English, but SeamlessM4T-v2 uses `eng`. 
 
-In my case, I only have a single markdown file with the content:
+In my case, I only have a single markdown file located at `content/index.md` with the content:
 
-```
+```md
 # Hello world
 ```
 
@@ -282,14 +282,99 @@ If you log the response return by `invokeSageMakerEndpoint`, you will see that i
 
 ### Saving the translations into localized files
 
-Now that we're getting translations back, let's write the content to it's own file.
+Now that we're getting translations back, we can write the content to it's own file.
 
 ## Deployment
 
 Taking the steps towards automating this entire process through Github Actions.
 
+I'm just passing the translated text that was returned by our `invokeSageMakerEndpoint` function to another utility function that manages the post-processing of the text:
+
+```ts
+import { invokeSageMakerEndpoint } from '../utils/invokeSageMakerEndpoint'
+import { handleFileCreation } from '../utils/handleFileCreation'
+
+export default defineNitroPlugin(async nitroApp => {
+    const { AWS_ENDPOINT_NAME, AWS_REGION } = useRuntimeConfig()
+    const lang = {
+        src: 'eng',
+        tgt: 'spa',
+    }
+
+    nitroApp.hooks.hook('content:file:beforeParse', async file => {
+        const response: [{ translation_text: string }] =
+            await invokeSageMakerEndpoint(
+                AWS_ENDPOINT_NAME,
+                AWS_REGION,
+                file.body,
+                lang.src,
+                lang.tgt
+            )
+
+        handleFileCreation(file, response[0].translation_text, lang.tgt)
+    })
+})
+```
+
+
+The key here is that we are taking the translated content and writing it into the appropriate file. For example, the `content/about.md` file will be translated to Spanish and it's content will be written to `content/spa/about.md`.
+
+```ts
+import { promises as fs } from 'fs'
+import path from 'path'
+
+interface ContentObject {
+    _id: string
+    body: string
+}
+
+interface ProcessResult {
+    originalId: string
+    writtenTo: string
+}
+
+export async function handleFileCreation(
+    contentObj: ContentObject,
+    translatedText: string,
+    languageDirectory: string
+): Promise<ProcessResult> {
+    // Remove 'content:' prefix
+    if (!contentObj._id.startsWith('content:')) {
+        throw new Error('Content object ID must start with "content:"')
+    }
+
+    // Split remaining path and remove empty parts
+    const parts = contentObj._id.slice(8).split(':').filter(Boolean)
+
+    if (parts.length === 0) {
+        throw new Error('Invalid content object ID format')
+    }
+
+    // Construct the full file path by joining all parts
+    const filePath = path.join('content', languageDirectory, ...parts)
+    console.log(filePath)
+
+    // Create directory if it doesn't exist
+    const dirPath = path.dirname(filePath)
+    await fs.mkdir(dirPath, { recursive: true })
+
+    // Write the content to the file
+    await fs.writeFile(filePath, translatedText, 'utf-8')
+
+    return {
+        originalId: contentObj._id,
+        writtenTo: filePath,
+    }
+}
+```
+
+For the sake of keeping this tutorial focussed, I decided to opt-out of going to in-depth on the post-processing of our markdown content. 
+
+This could be expanded to include frontmatter and handle edge cases that the AI-model may introduce such as linking, images, alt-text, etc.
 
 ## Scaling down resources to avoid costs
+
+Make sure to run the following command once you are done to avoid unnecessary charges from Amazon:
 
 ```zsh
 aws sagemaker delete-endpoint --endpoint-name <ENDPOINT_NAME>
