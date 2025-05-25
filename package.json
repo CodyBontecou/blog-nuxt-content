@@ -5,7 +5,9 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "validate:frontmatter": "tsx scripts/validate-frontmatter.ts",
+    "lint:frontmatter": "npm run validate:frontmatter"
   },
   "dependencies": {
     "@nuxt/content": "^2.13.4",
@@ -35,6 +37,7 @@
     "shadcn-nuxt": "^0.11.2",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "yaml": "^2.6.0"
   }
